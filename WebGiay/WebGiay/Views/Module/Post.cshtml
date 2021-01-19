@@ -1,0 +1,173 @@
+﻿@model IEnumerable<MyClass.Model.BaiViet>
+@foreach (var item in Model)
+{
+
+    <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12 my-3">
+        <div class="card my-card" style="width:100%;">
+            <a href="~/@item.slug">
+                <img class="card-img-top" style="height:140px;" src="~/public/images/new/@item.image" alt="Card image cap">
+            </a>
+            <div class="card-body my-card-body">
+                <a href="~/XacDinhSize" class="card-title my-card-title">@item.tenCD</a>
+                <p class="card-text">
+                   @item.noiDung
+                </p>
+
+            </div>
+        </div>
+    </div>
+}
+@*<div class="col-xl-3 col-lg-4 col-md-6 col-sm-12 my-3">
+        <div class="card my-card" style="width:100%;">
+            <a href="~/XacDinhSize">
+                <img class="card-img-top" src="~/public/images/new/new_pic_1.jpg" alt="Card image cap">
+            </a>
+            <div class="card-body my-card-body">
+                <a href="~/XacDinhSize" class="card-title my-card-title">XU HƯỚNG GIÀY HIỆN NAY</a>
+                <p class="card-text">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec dictum tincidunt libero quis venenatis....
+                </p>
+
+            </div>
+        </div>
+    </div>
+    <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12 my-3">
+        <div class="card my-card" style="width:100%;">
+            <a href="~/XacDinhSize">
+                <img class="card-img-top" src="~/public/images/new/new_pic_1.jpg" alt="Card image cap">
+            </a>
+            <div class="card-body my-card-body">
+                <a href="~/XacDinhSize" class="card-title my-card-title">XU HƯỚNG GIÀY HIỆN NAY</a>
+                <p class="card-text">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec dictum tincidunt libero quis venenatis....
+                </p>
+
+            </div>
+        </div>
+    </div>
+    <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12 my-3">
+        <div class="card my-card" style="width:100%;">
+            <a href="~/XacDinhSize">
+                <img class="card-img-top" src="~/public/images/new/new_pic_1.jpg" alt="Card image cap">
+            </a>
+            <div class="card-body my-card-body">
+                <a href="~/XacDinhSize" class="card-title my-card-title">XU HƯỚNG GIÀY HIỆN NAY</a>
+                <p class="card-text">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec dictum tincidunt libero quis venenatis....
+                </p>
+
+            </div>
+        </div>
+    </div>
+    <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12 my-3">
+        <div class="card my-card" style="width:100%;">
+            <a href="~/XacDinhSize">
+                <img class="card-img-top" src="~/public/images/new/new_pic_1.jpg" alt="Card image cap">
+            </a>
+            <div class="card-body my-card-body">
+                <a href="~/XacDinhSize" class="card-title my-card-title">XU HƯỚNG GIÀY HIỆN NAY</a>
+                <p class="card-text">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec dictum tincidunt libero quis venenatis....
+                </p>
+
+            </div>
+        </div>
+    </div>
+    <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12 my-3">
+        <div class="card my-card" style="width:100%;">
+            <a href="~/XacDinhSize">
+                <img class="card-img-top" src="~/public/images/new/new_pic_1.jpg" alt="Card image cap">
+            </a>
+            <div class="card-body my-card-body">
+                <a href="~/XacDinhSize" class="card-title my-card-title">XU HƯỚNG GIÀY HIỆN NAY</a>
+                <p class="card-text">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec dictum tincidunt libero quis venenatis....
+                </p>
+
+            </div>
+        </div>
+    </div>
+    <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12 my-3">
+        <div class="card my-card" style="width:100%;">
+            <a href="~/XacDinhSize">
+                <img class="card-img-top" src="~/public/images/new/new_pic_1.jpg" alt="Card image cap">
+            </a>
+            <div class="card-body my-card-body">
+                <a href="~/XacDinhSize" class="card-title my-card-title">XU HƯỚNG GIÀY HIỆN NAY</a>
+                <p class="card-text">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec dictum tincidunt libero quis venenatis....
+                </p>
+
+            </div>
+        </div>
+    </div>
+    <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12 my-3">
+        <div class="card my-card" style="width:100%;">
+            <a href="~/XacDinhSize">
+                <img class="card-img-top" src="~/public/images/new/new_pic_1.jpg" alt="Card image cap">
+            </a>
+            <div class="card-body my-card-body">
+                <a href="~/XacDinhSize" class="card-title my-card-title">XU HƯỚNG GIÀY HIỆN NAY</a>
+                <p class="card-text">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec dictum tincidunt libero quis venenatis....
+                </p>
+
+            </div>
+        </div>
+    </div>
+    <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12 my-3">
+        <div class="card my-card" style="width:100%;">
+            <a href="~/XacDinhSize">
+                <img class="card-img-top" src="~/public/images/new/new_pic_1.jpg" alt="Card image cap">
+            </a>
+            <div class="card-body my-card-body">
+                <a href="~/XacDinhSize" class="card-title my-card-title">XU HƯỚNG GIÀY HIỆN NAY</a>
+                <p class="card-text">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec dictum tincidunt libero quis venenatis....
+                </p>
+
+            </div>
+        </div>
+    </div>
+    <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12 my-3">
+        <div class="card my-card" style="width:100%;">
+            <a href="~/XacDinhSize">
+                <img class="card-img-top" src="~/public/images/new/new_pic_1.jpg" alt="Card image cap">
+            </a>
+            <div class="card-body my-card-body">
+                <a href="~/XacDinhSize" class="card-title my-card-title">XU HƯỚNG GIÀY HIỆN NAY</a>
+                <p class="card-text">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec dictum tincidunt libero quis venenatis....
+                </p>
+
+            </div>
+        </div>
+    </div>
+    <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12 my-3">
+        <div class="card my-card" style="width:100%;">
+            <a href="~/XacDinhSize">
+                <img class="card-img-top" src="~/public/images/new/new_pic_1.jpg" alt="Card image cap">
+            </a>
+            <div class="card-body my-card-body">
+                <a href="~/XacDinhSize" class="card-title my-card-title">XU HƯỚNG GIÀY HIỆN NAY</a>
+                <p class="card-text">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec dictum tincidunt libero quis venenatis....
+                </p>
+
+            </div>
+        </div>
+    </div>
+    <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12 my-3">
+        <div class="card my-card" style="width:100%;">
+            <a href="~/XacDinhSize">
+                <img class="card-img-top" src="~/public/images/new/new_pic_1.jpg" alt="Card image cap">
+            </a>
+            <div class="card-body my-card-body">
+                <a href="~/XacDinhSize" class="card-title my-card-title">XU HƯỚNG GIÀY HIỆN NAY</a>
+                <p class="card-text">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec dictum tincidunt libero quis venenatis....
+                </p>
+
+            </div>
+        </div>
+    </div>*@

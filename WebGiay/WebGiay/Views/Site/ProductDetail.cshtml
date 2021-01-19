@@ -1,0 +1,304 @@
+﻿@model MyClass.Model.Giay
+@{
+    ViewBag.Title = "ProductDetail";
+    Layout = "~/Views/Shared/_LayoutSite.cshtml";
+}
+
+<div class="container">
+    <div class="row my-4 product_detail">
+
+
+        <div class="col-xl-5 col-lg-4 col-md-4 col-sm-12">
+            <div class="img_wrap">
+                <div class="img" style="background-image: url('../../public/images/product/@Model.image');"></div>
+            </div>
+        </div>
+        <div class="col-xl-7 col-lg-8 col-md-8 col-sm-12 ">
+            <div class="rating">
+                <input type="radio" name="rating" value="5" id="1">
+                <label for="1">☆</label>
+                <input type="radio" name="rating" value="4" id="2">
+                <label for="2">☆</label>
+                <input type="radio" name="rating" value="3" id="3">
+                <label for="3">☆</label>
+                <input type="radio" name="rating" value="2" id="4">
+                <label for="4">☆</label>
+                <input type="radio" name="rating" value="1" id="5">
+                <label for="5">☆</label>
+            </div>
+            <h3>@Model.tenGiay</h3>
+            <p>Mã SP: <span>@Model.maGiay</span></p>
+            <p class="price">@Model.giaBan VNĐ</p>
+            <input type="number" name="name" value="1" min="1" style="padding:10px 0;text-align:center;font-size:20px;
+            font-weight:700;border:1px solid rgba(0,0,0,.3);width:200px;" />
+            <a href="#" class="btn btn-danger mt-4" style="display:block;max-width:150px;border-radius:20px;padding:8px 0;">Mua</a>
+            <p class="mt-2">Hoặc đặt mua: <span style="color:red;">090xxxxxxxx</span> ( Tư vấn Miễn phí )</p>
+            <p class="free_ship"><b>Free Ship</b> tại khu vực Hồ Chí Minh</p>
+
+        </div>
+        <!--comment-->
+
+        <div id="fb-root"></div>
+        <script async defer crossorigin="anonymous" src="https://connect.facebook.net/vi_VN/sdk.js#xfbml=1&version=v9.0" nonce="Lc0lITfh"></script>
+        <div class="fb-comments mt-2 bg-grey" data-href="https://localhost:44375/@Model.slug .html" data-width="100%" data-numposts="5"></div>
+        <!--comment-->
+        <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 bg-grey px-4 py-4 my-4 contact-left text-center">
+            <h3 class="contact-title">TRANG CHÍNH THỨC CỦA THỨ 6 NGÀY 13</h3>
+            <h6>Thông tin liên hệ</h6>
+            <p class="mt-2">
+                ⛪ <b>Địa chỉ: Hutech Hiệp Phú, Quận 9, Thành phố Hồ Chí Minh</b>
+            </p>
+            <p>
+                <b>Email : hutech@hutech.edu.vn</b>
+            </p>
+            <p>
+                <a href="https://localhost:44375/" class="text-danger">
+                    <b>https://thu6ngay13.vn</b>
+                </a>
+            </p>
+            <p>
+                <a href="https://www.facebook.com/613-Shoes-105373734807001" class="text-danger">
+                    <b>https://www.facebook.com/thu6ngay13</b>
+                </a>
+            </p>
+            <p>
+                <a href="https://goo.gl/maps/zH6WFurr8hWRJFQW9" class="text-danger">
+                    <b>https://goo.gl/maps/thu6ngay13</b>
+                </a>
+            </p>
+            <p>
+                <a href="https://www.youtube.com/watch?v=C8Srjo3Gw-E" class="text-danger">
+                    <b>https://www.youtube.com/thu6ngay13</b>
+                </a>
+            </p>
+            <p>
+                ☎️ <b> Hotline Bán Hàng: 0909.xxx.xxx - 0909.xx.xxxx</b>
+            </p>
+            <p>
+                ☎️ <b> Hotline CSKH: 0902.xxx.xxx</b>
+            </p>
+            <img src="~/public/images/map.jpg" class="mx-auto" style="width:50%;" alt="Alternate Text" />
+        </div>
+        <div class="col-12 my-4">
+            <h3 class="my-title" data-mask="PRODUCT">- SẢN PHẨM LIÊN QUAN</h3>
+        </div>
+        @*test*@
+        
+    <div id="multi-item-example2" class="carousel slide carousel-multi-item container" data-ride="carousel">
+
+        <!--Controls-->
+        <div class="controls-top" style="float:right">
+            <a class="btn-floating" href="#multi-item-example2" data-slide="prev"><i class="fas fa-chevron-left"></i></a>
+            <a class="btn-floating" href="#multi-item-example2" data-slide="next">
+                <i class="fas fa-chevron-right"></i>
+            </a>
+        </div>
+
+        <div class="carousel-inner" role="listbox">
+
+
+            <div class="carousel-item active">
+                @foreach (var product in ViewBag.ListOrder)
+                {
+                    <div class="col-xl-3 col-lg-3 col-md-4 col-sm-6 my-3" style="float:left">
+                        <div class="card my-card" style="width:100%;">
+                            <a href="~/@product.slug">
+                                <img class="card-img-top" src="~/public/images/product/@product.image" alt="Card image cap">
+                            </a>
+                            <div class="card-body my-card-body">
+                                <a href="~/@product.slug" class="card-title my-card-title">@product.tenGiay</a>
+                                <p class="card-text">Giá: @product.giaBan đ</p>
+                                <a href="#" class="btn btn-danger" style="float:right;">Mua</a>
+                            </div>
+                        </div>
+                    </div>
+                }
+            </div>
+            <div class="carousel-item">
+                @foreach (var product in ViewBag.ListOrder)
+                {
+                    <div class="col-xl-3 col-lg-3 col-md-4 col-sm-6 my-3" style="float:left">
+                        <div class="card my-card" style="width:100%;">
+                            <a href="~/@product.slug">
+                                <img class="card-img-top" src="~/public/images/product/@product.image" alt="Card image cap">
+                            </a>
+                            <div class="card-body my-card-body">
+                                <a href="~/@product.slug" class="card-title my-card-title">@product.tenGiay</a>
+                                <p class="card-text">Giá: @product.giaBan đ</p>
+                                <a href="#" class="btn btn-danger" style="float:right;">Mua</a>
+                            </div>
+                        </div>
+                    </div>
+                }
+            </div>
+
+        </div>
+    </div>
+                
+
+        @*
+                <!--Carousel Wrapper-->
+                <div id="multi-item-example2" class="carousel slide carousel-multi-item container" data-ride="carousel">
+
+                    <!--Controls-->
+                    <div class="controls-top" style="float:right">
+                        <a class="btn-floating" href="#multi-item-example2" data-slide="prev"><i class="fas fa-chevron-left"></i></a>
+                        <a class="btn-floating" href="#multi-item-example2" data-slide="next">
+                            <i class="fas fa-chevron-right"></i>
+                        </a>
+                    </div>
+                    <!--/.Controls-->
+                    <!--Slides-->
+                    <div class="carousel-inner" role="listbox">
+
+                        <!--First slide-->
+                        <div class="carousel-item active">
+
+                            <div class="col-xl-3 col-lg-3 col-md-4 col-sm-6 my-3" style="float:left">
+                                <div class="card my-card" style="width:100%;">
+                                    <a href="~/ChiTietSanPham1">
+                                        <img class="card-img-top" src="~/public/images/product/product_pic_2.jpg" alt="Card image cap">
+                                    </a>
+                                    <div class="card-body my-card-body">
+                                        <a href="~/ChiTietSanPham1" class="card-title my-card-title">JORDAN 1 LOW GREY CAMO</a>
+                                        <p class="card-text">Giá: 4.500.000đ</p>
+                                        <a href="#" class="btn btn-danger" style="float:right;">Mua</a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-xl-3 col-lg-3 col-md-4 col-sm-6 my-3" style="float:left">
+                                <div class="card my-card" style="width:100%;">
+                                    <a href="~/ChiTietSanPham1">
+                                        <img class="card-img-top" src="~/public/images/product/product_pic_3.jpg" alt="Card image cap">
+                                    </a>
+                                    <div class="card-body my-card-body">
+                                        <a href="~/ChiTietSanPham1" class="card-title my-card-title">JORDAN 1 LOW GREY CAMO</a>
+                                        <p class="card-text">Giá: 4.500.000đ</p>
+                                        <a href="#" class="btn btn-danger" style="float:right;">Mua</a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-xl-3 col-lg-3 col-md-4 col-sm-6 my-3" style="float:left">
+                                <div class="card my-card" style="width:100%;">
+                                    <a href="~/ChiTietSanPham1">
+                                        <img class="card-img-top" src="~/public/images/product/product_pic_4.jpg" alt="Card image cap">
+                                    </a>
+                                    <div class="card-body my-card-body">
+                                        <a href="~/ChiTietSanPham1" class="card-title my-card-title">JORDAN 1 LOW GREY CAMO</a>
+                                        <p class="card-text">Giá: 4.500.000đ</p>
+                                        <a href="#" class="btn btn-danger" style="float:right;">Mua</a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-xl-3 col-lg-3 col-md-4 col-sm-6 my-3" style="float:left">
+                                <div class="card my-card" style="width:100%;">
+                                    <a href="~/ChiTietSanPham1">
+                                        <img class="card-img-top" src="~/public/images/product/product_pic_5.jpg" alt="Card image cap">
+                                    </a>
+                                    <div class="card-body my-card-body">
+                                        <a href="~/ChiTietSanPham1" class="card-title my-card-title">JORDAN 1 LOW GREY CAMO</a>
+                                        <p class="card-text">Giá: 4.500.000đ</p>
+                                        <a href="#" class="btn btn-danger" style="float:right;">Mua</a>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                        <!--/.First slide-->
+                        <!--Second slide-->
+                        <div class="carousel-item">
+
+                            <div class="col-xl-3 col-lg-3 col-md-4 col-sm-6 my-3" style="float:left">
+                                <div class="card my-card" style="width:100%;">
+                                    <a href="~/ChiTietSanPham1">
+                                        <img class="card-img-top" src="~/public/images/product/product_pic_1.jpg" alt="Card image cap">
+                                    </a>
+                                    <div class="card-body my-card-body">
+                                        <a href="~/ChiTietSanPham1" class="card-title my-card-title">JORDAN 1 LOW GREY CAMO</a>
+                                        <p class="card-text">Giá: 4.500.000đ</p>
+                                        <a href="#" class="btn btn-danger" style="float:right;">Mua</a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-xl-3 col-lg-3 col-md-4 col-sm-6 my-3" style="float:left">
+                                <div class="card my-card" style="width:100%;">
+                                    <a href="~/ChiTietSanPham1">
+                                        <img class="card-img-top" src="~/public/images/product/product_pic_6.jpg" alt="Card image cap">
+                                    </a>
+                                    <div class="card-body my-card-body">
+                                        <a href="~/ChiTietSanPham1" class="card-title my-card-title">JORDAN 1 LOW GREY CAMO</a>
+                                        <p class="card-text">Giá: 4.500.000đ</p>
+                                        <a href="#" class="btn btn-danger" style="float:right;">Mua</a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-xl-3 col-lg-3 col-md-4 col-sm-6 my-3" style="float:left">
+                                <div class="card my-card" style="width:100%;">
+                                    <a href="~/ChiTietSanPham1">
+                                        <img class="card-img-top" src="~/public/images/product/product_pic_7.jpg" alt="Card image cap">
+                                    </a>
+                                    <div class="card-body my-card-body">
+                                        <a href="~/ChiTietSanPham1" class="card-title my-card-title">JORDAN 1 LOW GREY CAMO</a>
+                                        <p class="card-text">Giá: 4.500.000đ</p>
+                                        <a href="#" class="btn btn-danger" style="float:right;">Mua</a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-xl-3 col-lg-3 col-md-4 col-sm-6 my-3" style="float:left">
+                                <div class="card my-card" style="width:100%;">
+                                    <a href="~/ChiTietSanPham1">
+                                        <img class="card-img-top" src="~/public/images/product/product_pic_8.jpg" alt="Card image cap">
+                                    </a>
+                                    <div class="card-body my-card-body">
+                                        <a href="~/ChiTietSanPham1" class="card-title my-card-title">JORDAN 1 LOW GREY CAMO</a>
+                                        <p class="card-text">Giá: 4.500.000đ</p>
+                                        <a href="#" class="btn btn-danger" style="float:right;">Mua</a>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                        <!--/.Second slide-->
+
+
+
+                    </div>
+                    <!--/.Slides-->
+
+                </div>
+                <!--/.Carousel Wrapper-->
+                *@
+            </div>
+        </div>
+<!-- Load Facebook SDK for JavaScript -->
+<div id="fb-root"></div>
+<script>
+    window.fbAsyncInit = function () {
+        FB.init({
+            xfbml: true,
+            version: 'v9.0'
+        });
+    };
+
+    (function (d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s); js.id = id;
+        js.src = 'https://connect.facebook.net/vi_VN/sdk/xfbml.customerchat.js';
+        fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));</script>
+
+<!-- Your Chat Plugin code -->
+<div class="fb-customerchat"
+     attribution=setup_tool
+     page_id="105373734807001"
+     theme_color="#0A7CFF">
+</div>
+
+

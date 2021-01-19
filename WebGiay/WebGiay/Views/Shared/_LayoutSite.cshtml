@@ -1,0 +1,186 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>@Page.Title</title>
+    <link href="~/public/css/all.min.css" rel="stylesheet" />
+    <link href="~/Content/bootstrap.min.css" rel="stylesheet" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link href="~/public/css/LayoutSite.css" rel="stylesheet" />
+    <link href="~/public/css/LayouSiteReponsive.css" rel="stylesheet" />
+    @RenderSection("header", required: false)
+</head>
+<body>
+    <section id="header" class="bg-primary-color">
+        <div class="my__header-top py-1">
+             <div class="container">
+                        <ul>
+                            <li class="mr-3">
+                                <a href="~/lien-he">
+                                    <i class="far fa-question-circle"></i>
+                                Trợ giúp</a>
+                            </li>
+                            <li class="mr-3">
+                                <a href="~/lien-he">
+                                    <i class="fas fa-phone-alt"></i>
+                                Hotline: 099999999</a>
+                            </li>
+
+                            <li class="mr-3">
+                                <a href="~/dang-ky">Đăng ký</a>
+                               </li>
+                            <li class="mr-3">
+                                <a href="~/dang-nhap">Đăng nhập</a>
+                            </li>
+                        </ul>
+             </div> 
+        </div>            
+        <div class="container">
+           
+            <div class="row">
+
+                <nav class="navbar navbar-expand-lg navbar-light bg-primary-color my-nav">
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav mr-auto my-navbar-lish">
+                            <li class="nav-item @*active*@ mx-2">
+                                <a class="nav-link" href="https://localhost:44375/">Trang Chủ <span class="sr-only">(current)</span></a>
+                            </li>
+                            <li class="nav-item  mx-2">
+                                <a class="nav-link" href="~/gioi-thieu">Giới Thiệu</a>
+                            </li>
+                            <a class="navbar-brand  mx-4" href="https://localhost:44375/">
+                                <img src="~/public/images/logo.png" alt="Alternate Text" />
+                            </a>
+
+                            <li class="nav-item  mx-2">
+                                <a class="nav-link" href="~/tin-tuc">Tin Tức</a>
+                            </li>
+                            <li class="nav-item  mx-2">
+                                <a class="nav-link" href="~/lien-he">Liên Hệ</a>
+                            </li>
+                        </ul>
+
+                    </div>
+                    <div class="my-form">
+                        <form class="form-inline my-2 my-lg-0">
+                            <input class="form-control mr-sm-2" type="search" placeholder="Tìm kiếm" aria-label="Search">
+                            <button class="btn btn-outline-light my-2 my-sm-0 my-form-btn" type="submit"><i class="fas fa-search"></i></button>
+                        </form>
+                        <a href="~/gio-hang"><i class="fas fa-shopping-cart"></i></a>
+                        
+                    </div>
+                </nav>
+         
+           
+        </div>
+         
+
+
+        </div>
+        
+        <!--end navbar-->
+    </section>
+    <section id="mainmenu" style="height:32px;">
+        @Html.Action("MainMenu", "Module");
+    </section>
+    <section id="maincontent">@RenderBody()</section>
+    <section id="support" class="bg-support py-4 mt-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 col-xl-4 col-md-4 col-sm-6 my-support">
+                    <i class="fas fa-wallet"></i>
+                    <h3>Cam kết chính hãng</h3>
+                    <p><b>100% Authentic</b></p>
+                    <p>Cam kết chính hãng từ Châu Âu, Châu Mỹ</p>
+                </div>
+                <div class="col-lg-4 col-xl-4 col-md-4 col-sm-6 my-support">
+                    <i class="fas fa-truck"></i>
+                    <h3>Giao hàng hỏa tốc</h3>
+                    <p><b>Express delivery</b></p>
+                    <p>SHIP hỏa tốc 1h nhận hàng trong nội thành HCM</p>
+                </div>
+                <div class="col-lg-4 col-xl-4 col-md-4 col-sm-12 my-support">
+                    <i class="fas fa-headset"></i>
+                    <h3>HỖ TRỢ 24/24</h3>
+                    <p><b>Supporting 24/24</b></p>
+                    <p>Gọi ngay 0909300xxx</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="footer" class="footer bg-primary-color py-5">
+        <div class="container text-white">
+            <div class="row">
+                <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12 text-center">
+                    <h3>Chăm sóc khách hàng</h3>
+                    <ul>
+                        <li><a href="#">Trang chủ</a></li>
+                        <li><a href="#">Sản phẩm</a></li>
+                        <li><a href="#">Giày thể thao</a></li>
+                        <li><a href="#">Liên hệ</a></li>
+                        <li><a href="#">Giới thiệu</a></li>
+                        <li><a href="#">Tin tức</a></li>
+
+                    </ul>
+                </div>
+                <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12 text-center">
+                    <h3>Chăm sóc khách hàng</h3>
+                    <ul>
+                        <li><a href="#">Trang chủ</a></li>
+                        <li><a href="#">Sản phẩm</a></li>
+                        <li><a href="#">Giày thể thao</a></li>
+                        <li><a href="#">Liên hệ</a></li>
+                        <li><a href="#">Giới thiệu</a></li>
+                        <li><a href="#">Tin tức</a></li>
+
+                    </ul>
+                </div>
+                <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12 text-center">
+                    <h3>Chăm sóc khách hàng</h3>
+                    <ul>
+                        <li><a href="#">Trang chủ</a></li>
+                        <li><a href="#">Sản phẩm</a></li>
+                        <li><a href="#">Giày thể thao</a></li>
+                        <li><a href="#">Liên hệ</a></li>
+                        <li><a href="#">Giới thiệu</a></li>
+                        <li><a href="#">Tin tức</a></li>
+
+                    </ul>
+                </div>
+                <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12 text-center">
+                    <h3>Chăm sóc khách hàng</h3>
+                    <ul>
+                        <li><a href="#">Trang chủ</a></li>
+                        <li><a href="#">Sản phẩm</a></li>
+                        <li><a href="#">Giày thể thao</a></li>
+                        <li><a href="#">Liên hệ</a></li>
+                        <li><a href="#">Giới thiệu</a></li>
+                        <li><a href="#">Tin tức</a></li>
+
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="backtop">
+            <i class="fas fa-angle-right"></i>
+        </a>
+    </section>
+    <section id="copyright" class="copyright py-1">
+        <p class="text-center">Copyright ©2021 All rights 6.13</p>
+    </section>
+
+    <script src="~/Scripts/jquery-3.0.0.min.js"></script>
+    <script src="~/Scripts/popper.min.js"></script>
+    <script src="~/Scripts/bootstrap.min.js"></script>
+    <script src="~/public/js/myjs.js"></script>
+    @RenderSection("footer", required: false)
+</body>
+</html>
+

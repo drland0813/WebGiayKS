@@ -1,0 +1,68 @@
+﻿@model IEnumerable<MyClass.Model.LoaiGiay>
+
+
+<div class="category bg-danger hide-on-mobile-tablet" style="height:32px;">
+    <div class="container">
+        <div class="row py-1">
+            @foreach(var item in Model)
+            {
+                <div class="col-lg-2 col-md-2 col-sm-2 text-center">
+                    <a href="~/@item.slug">
+                        @item.tenLoai
+                    </a>
+                </div>
+            }
+            @*<div class="col-lg-2 col-md-2 col-sm-2 text-center">
+                <a href="~/DanhMucSanPham">
+                    Adidas
+
+                </a>
+            </div>
+            <div class="col-lg-2 col-md-2 col-sm-2 text-center">
+                <a href="~/DanhMucSanPham">
+                    Nike
+                    <ul>
+                        <li>Nam</li>
+                        <li>Nữ</li>
+                    </ul>
+                </a>
+            </div>
+            <div class="col-lg-2 col-md-2 col-sm-2 text-center">
+                <a href="~/DanhMucSanPham">
+                    Yeezy
+                    <ul>
+                        <li>Nam</li>
+                        <li>Nữ</li>
+                    </ul>
+                </a>
+            </div>
+            <div class="col-lg-2 col-md-2 col-sm-2 text-center">
+                <a href="~/DanhMucSanPham">
+                    Jordan
+                    <ul>
+                        <li>Nam</li>
+                        <li>Nữ</li>
+                    </ul>
+                </a>
+            </div>
+            <div class="col-lg-2 col-md-2 col-sm-2 text-center">
+                <a href="~/DanhMucSanPham">
+                    Vanz
+                    <ul>
+                        <li>Nam</li>
+                        <li>Nữ</li>
+                    </ul>
+                </a>
+            </div>
+            <div class="col-lg-2 col-md-2 col-sm-2 text-center">
+                <a href="~/DanhMucSanPham">
+                    Converse
+                    <ul>
+                        <li>Nam</li>
+                        <li>Nữ</li>
+                    </ul>
+                </a>
+            </div>*@
+        </div>
+    </div>
+</div>

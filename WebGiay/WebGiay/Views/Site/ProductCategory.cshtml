@@ -1,0 +1,100 @@
+﻿@model IEnumerable<MyClass.Model.LoaiGiay>
+@{
+    ViewBag.Title = "ProductCategory";
+    Layout = "~/Views/Shared/_LayoutSite.cshtml";
+}
+
+
+<div class="selec" style="background-color:#F1F1F1;padding:10px 0;">
+    <div class="container">
+        <div class="row">
+
+            <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12">
+                <div class="row mb-3">
+                    <div class="col-3">
+                        <p>Chọn Size</p>
+                        @Html.Action("ProductSize", "Module")
+                    </div>
+                    <div class="col-3">
+                        <p>Khoảng Giá</p>
+                        <select class="form-select form-control" aria-label="Default select example">
+                            <option selected>Tất cả</option>
+                            <option value="1">Dưới 3 Triệu</option>
+                            <option value="2">Từ 3 đến 5 Triệu</option>
+                            <option value="3">Từ 5 đến 10 Triệu</option>
+                            <option value="4">Từ 10 đến 15 Triệu</option>
+                            <option value="5">Trên 15 Triệu</option>
+                        </select>
+                    </div>
+                    <div class="col-3">
+                        <p>Sắp Xếp Theo</p>
+                        <select class="form-select form-control" aria-label="Default select example">
+                            <option selected>Giá thấp đến cao</option>
+                            <option value="1">Giá cao đến thấp</option>
+                            <option value="2">Tên A-Z</option>
+                            <option value="3">Tên Z-A</option>
+                        </select>
+                    </div>
+                    <div class="col-3">
+                        <p style="visibility:hidden;">sdad</p>
+                        <a href="#" class="btn btn-danger form-control" style="padding:5px 0;color:white">
+                            Tìm Giày Ngay
+                            <i class="fas fa-search"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="container">
+
+    <div class="row py-4">
+        @foreach (var item in Model)
+        {
+
+        <div class="col-12 my-4">
+                <h3 class="my-title" data-mask="@item.tenLoai">- @item.tenLoai</h3>
+        </div>
+        <div class="col-lg-8 col-xl-8 col-md-8 col-sm-12">
+            <div class="row">
+                @Html.Action("DeitalProductCategory", "Site", new { maloai = item.maLoai })
+
+                @*pagination start*@
+                
+                @*<div class="col-4"></div>
+        <div class="col-4" style="display:flex;justify-content:center;margin-top:15px;">
+
+            <nav aria-label="Page navigation example">
+                <ul class="pagination">
+                    <li class="page-item disabled">
+                        <a class="page-link" href="#" aria-label="Previous">
+                            <span aria-hidden="true">&laquo;</span>
+                            <span class="sr-only">Previous</span>
+                        </a>
+                    </li>
+                    <li class="page-item active"><a class="page-link" href="#">1 <span class="sr-only">(current)</span></a></li>
+                    <li class="page-item"><a class="page-link" href="#">2</a></li>
+                    <li class="page-item"><a class="page-link" href="#">3</a></li>
+                    <li class="page-item">
+                        <a class="page-link" href="#" aria-label="Next">
+                            <span aria-hidden="true">&raquo;</span>
+                            <span class="sr-only">Next</span>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>*@
+                @*pagination*@
+            </div>
+        </div>
+        }
+        <div class="col-lg-4 col-xl-4 col-md-4 col-sm-12 right-bar">
+            @Html.Action("NewSide", "Module")
+            @Html.Action("ProductSide", "Module")
+        </div>
+    </div>
+</div>
+
+
+

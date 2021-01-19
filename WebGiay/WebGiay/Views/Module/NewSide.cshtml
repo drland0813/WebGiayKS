@@ -1,0 +1,82 @@
+﻿@model IEnumerable<MyClass.Model.BaiViet>
+
+<a href="~/sanpham">
+    <img src="~/public/images/about_us/aboutus_pic5.jpg" class="img-fluid" alt="Alternate Text" />
+</a>
+<h3 class="my-3">TIN TỨC</h3>
+@foreach (var item in Model)
+{
+
+<div class="hold my-3">
+    <a href="~/@item.slug" class="right-bar-pic" style="width:20%; padding-top:20%;display:inline-block;position:relative;">
+        <img src="~/public/images/new/@item.image" style="position:absolute;top:0;
+                left:0; width:100%;height:100%;" alt="Alternate Text" />
+    </a>
+    <div class="right-bar-content" style="width:70%;display:inline-block;">
+        <a href="~/@item.slug">@item.tenCD</a>
+        <p class="">
+            @item.noiDung
+        </p>
+    </div>
+</div>
+}
+@*<div class="hold my-3">
+    <a href="~/XacDinhSize" class="right-bar-pic" style="width:20%; padding-top:20%;display:inline-block;position:relative;">
+        <img src="~/public/images/new/new_pic_8.jpg" style="position:absolute;top:0;
+                left:0; width:100%;height:100%;" alt="Alternate Text" />
+    </a>
+    <div class="right-bar-content" style="width:70%;display:inline-block;">
+        <a href="~/XacDinhSize">XU HƯỚNG GIÀY HIỆN NAY</a>
+        <p class="">Lorem ipsum dolor sit amet,Lorem ipsum dolor sit ametLorem ipsum dolor sit amet,Lorem ipsum dolor sit ametLorem ipsum dolor sit amet,Lorem ipsum dolor sit amet</p>
+    </div>
+</div>
+<div class="hold my-3">
+    <a href="~/XacDinhSize" class="right-bar-pic" style="width:20%; padding-top:20%;display:inline-block;position:relative;">
+        <img src="~/public/images/new/new_pic_9.jpg" style="position:absolute;top:0;
+                left:0; width:100%;height:100%;" alt="Alternate Text" />
+    </a>
+    <div class="right-bar-content" style="width:70%;display:inline-block;">
+        <a href="~/XacDinhSize">XU HƯỚNG GIÀY HIỆN NAY</a>
+        <p class="">Lorem ipsum dolor sit amet,Lorem ipsum dolor sit ametLorem ipsum dolor sit amet,Lorem ipsum dolor sit ametLorem ipsum dolor sit amet,Lorem ipsum dolor sit amet</p>
+    </div>
+</div>
+<div class="hold my-3">
+    <a href="~/XacDinhSize" class="right-bar-pic" style="width:20%; padding-top:20%;display:inline-block;position:relative;">
+        <img src="~/public/images/new/new_pic_1.jpg" style="position:absolute;top:0;
+                left:0; width:100%;height:100%;" alt="Alternate Text" />
+    </a>
+    <div class="right-bar-content" style="width:70%;display:inline-block;">
+        <a href="~/XacDinhSize">XU HƯỚNG GIÀY HIỆN NAY</a>
+        <p class="">Lorem ipsum dolor sit amet,Lorem ipsum dolor sit ametLorem ipsum dolor sit amet,Lorem ipsum dolor sit ametLorem ipsum dolor sit amet,Lorem ipsum dolor sit amet</p>
+    </div>
+</div>
+<div class="hold my-3">
+    <a href="~/XacDinhSize" class="right-bar-pic" style="width:20%; padding-top:20%;display:inline-block;position:relative;">
+        <img src="~/public/images/new/new_pic_8.jpg" style="position:absolute;top:0;
+                left:0; width:100%;height:100%;" alt="Alternate Text" />
+    </a>
+    <div class="right-bar-content" style="width:70%;display:inline-block;">
+        <a href="~/XacDinhSize">XU HƯỚNG GIÀY HIỆN NAY</a>
+        <p class="">Lorem ipsum dolor sit amet,Lorem ipsum dolor sit ametLorem ipsum dolor sit amet,Lorem ipsum dolor sit ametLorem ipsum dolor sit amet,Lorem ipsum dolor sit amet</p>
+    </div>
+</div>
+<div class="hold my-3">
+    <a href="~/XacDinhSize" class="right-bar-pic" style="width:20%; padding-top:20%;display:inline-block;position:relative;">
+        <img src="~/public/images/new/new_pic_9.jpg" style="position:absolute;top:0;
+                left:0; width:100%;height:100%;" alt="Alternate Text" />
+    </a>
+    <div class="right-bar-content" style="width:70%;display:inline-block;">
+        <a href="~/XacDinhSize">XU HƯỚNG GIÀY HIỆN NAY</a>
+        <p class="">Lorem ipsum dolor sit amet,Lorem ipsum dolor sit ametLorem ipsum dolor sit amet,Lorem ipsum dolor sit ametLorem ipsum dolor sit amet,Lorem ipsum dolor sit amet</p>
+    </div>
+</div>
+<div class="hold my-3">
+    <a href="~/XacDinhSize" class="right-bar-pic" style="width:20%; padding-top:20%;display:inline-block;position:relative;">
+        <img src="~/public/images/new/new_pic_1.jpg" style="position:absolute;top:0;
+                left:0; width:100%;height:100%;" alt="Alternate Text" />
+    </a>
+    <div class="right-bar-content" style="width:70%;display:inline-block;">
+        <a href="~/XacDinhSize">XU HƯỚNG GIÀY HIỆN NAY</a>
+        <p class="">Lorem ipsum dolor sit amet,Lorem ipsum dolor sit ametLorem ipsum dolor sit amet,Lorem ipsum dolor sit ametLorem ipsum dolor sit amet,Lorem ipsum dolor sit amet</p>
+    </div>
+</div>*@

@@ -1,0 +1,91 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_LayoutSite.cshtml";
+}
+
+<div class="container mb-4 bg-grey py-4">
+    <div class="row">
+        <div class="col-12">
+            <div class="table-responsive">
+                <table class="table table-striped">
+                    <thead>
+                        <tr>
+                            <th scope="col">STT</th>
+                            <th scope="col">Hình </th>
+                            <th scope="col">Sản phẩm</th>
+                            <th scope="col" class="text-center">Số lượng</th>
+                            <th scope="col" class="text-right">Giá</th>
+                            <th> </th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>01</td>
+                            <td style="width:20px;"><img src="~/public/images/product/product_pic_1.jpg" class="img-fluid" /> </td>
+                            <td>JORDAN 1 LOW GREY CAMO</td>
+                            <td><input class="form-control" type="number" value="1" /></td>
+                            <td class="text-right">4.500.000đ</td>
+                            <td class="text-right"><button class="btn btn-sm btn-danger"><i class="fa fa-trash"></i> </button> </td>
+                        </tr>
+                        <tr>
+                            <td>02</td>
+                            <td style="width:20px;"><img src="~/public/images/product/product_pic_2.jpg" class="img-fluid" /> </td>
+                            <td>JORDAN 1 LOW GREY CAMO</td>
+                            <td><input class="form-control" type="number" value="1" /></td>
+                            <td class="text-right">4.500.000đ</td>
+                            <td class="text-right"><button class="btn btn-sm btn-danger"><i class="fa fa-trash"></i> </button> </td>
+                        </tr>
+                        <tr>
+                            <td>03</td>
+                            <td style="width:20px;"><img src="~/public/images/product/product_pic_3.jpg" class="img-fluid" /> </td>
+                            <td>JORDAN 1 LOW GREY CAMO</td>
+                            <td><input class="form-control" type="number" value="1" /></td>
+                            <td class="text-right">4.500.000đ</td>
+                            <td class="text-right"><button class="btn btn-sm btn-danger"><i class="fa fa-trash"></i> </button> </td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td>Tổng Giá Sản Phẩm</td>
+                            <td class="text-right">13.500.000đ</td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td>Phí Vận Chuyển</td>
+                            <td class="text-right">80.000đ</td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td><strong>Tổng Tiền</strong></td>
+                            <td class="text-right"><strong>13.580.000đ</strong></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <div class="col mb-2">
+            <div class="row">
+                <div class="col-sm-12  col-md-6">
+                    <a href="~/loai-san-pham" class="btn btn-block btn-light">Mua Thêm</a>
+                </div>
+                <div class="col-sm-12 col-md-6 text-right">
+                    <button class="btn btn-lg btn-block btn-success text-uppercase">Thanh toán</button>
+                </div>
+                <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 mt-2">
+                    <button class="btn btn-lg btn-block btn-danger text-uppercase">Xóa Giỏ Hàng</button>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+

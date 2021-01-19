@@ -1,0 +1,84 @@
+﻿@model IEnumerable<MyClass.Model.Giay>
+<h3 class="my-3">SẢN PHẨM MỚI</h3>
+@foreach (var item in Model)
+{
+
+<div class="hold my-3">
+    <a href="~/@item.slug" class="right-bar-pic" style="width:20%; padding-top:20%;display:inline-block;position:relative;">
+        <img src="~/public/images/product/@item.image" style="position:absolute;top:0;
+                left:0; width:100%;height:100%;" alt="Alternate Text" />
+    </a>
+    <div class="right-bar-content" style="width:75%;display:inline-block;">
+        <a href="~/@item.slug">@item.tenGiay</a>
+        <p class="">Giá: @item.giaBan đ</p>
+    </div>
+</div>
+}
+@*<div class="hold my-3">
+    <a href="~/ChiTietSanPham1" class="right-bar-pic" style="width:20%; padding-top:20%;display:inline-block;position:relative;">
+        <img src="~/public/images/product/product_pic_2.jpg" style="position:absolute;top:0;
+                left:0; width:100%;height:100%;" alt="Alternate Text" />
+    </a>
+    <div class="right-bar-content" style="width:75%;display:inline-block;">
+        <a href="~/ChiTietSanPham1">JORDAN 1 LOW PINK QUARTZ</a>
+        <p class="">Giá: 4.500.000đ</p>
+    </div>
+</div>
+<div class="hold my-3">
+    <a href="~/ChiTietSanPham1" class="right-bar-pic" style="width:20%; padding-top:20%;display:inline-block;position:relative;">
+        <img src="~/public/images/product/product_pic_3.jpg" style="position:absolute;top:0;
+                left:0; width:100%;height:100%;" alt="Alternate Text" />
+    </a>
+    <div class="right-bar-content" style="width:75%;display:inline-block;">
+        <a href="~/ChiTietSanPham1">JORDAN 1 LOW PINK QUARTZ</a>
+        <p class="">Giá: 4.500.000đ</p>
+    </div>
+</div>
+<div class="hold my-3">
+    <a href="~/ChiTietSanPham1" class="right-bar-pic" style="width:20%; padding-top:20%;display:inline-block;position:relative;">
+        <img src="~/public/images/product/product_pic_4.jpg" style="position:absolute;top:0;
+                left:0; width:100%;height:100%;" alt="Alternate Text" />
+    </a>
+    <div class="right-bar-content" style="width:75%;display:inline-block;">
+        <a href="~/ChiTietSanPham1">JORDAN 1 LOW PINK QUARTZ</a>
+        <p class="">Giá: 4.500.000đ</p>
+    </div>
+</div>
+<div class="hold my-3">
+    <a href="~/ChiTietSanPham1" class="right-bar-pic" style="width:20%; padding-top:20%;display:inline-block;position:relative;">
+        <img src="~/public/images/product/product_pic_5.jpg" style="position:absolute;top:0;
+                left:0; width:100%;height:100%;" alt="Alternate Text" />
+    </a>
+    <div class="right-bar-content" style="width:75%;display:inline-block;">
+        <a href="~/ChiTietSanPham1">JORDAN 1 LOW PINK QUARTZ</a>
+        <p class="">Giá: 4.500.000đ</p>
+    </div>
+</div>
+<div class="hold my-3">
+    <a href="~/ChiTietSanPham1" class="right-bar-pic" style="width:20%; padding-top:20%;display:inline-block;position:relative;">
+        <img src="~/public/images/product/product_pic_6.jpg" style="position:absolute;top:0;
+                left:0; width:100%;height:100%;" alt="Alternate Text" />
+    </a>
+    <div class="right-bar-content" style="width:75%;display:inline-block;">
+        <a href="~/ChiTietSanPham1">JORDAN 1 LOW PINK QUARTZ</a>
+        <p class="">Giá: 4.500.000đ</p>
+    </div>
+</div>
+<div class="hold my-3">
+    <a href="~/ChiTietSanPham1" class="right-bar-pic" style="width:20%; padding-top:20%;display:inline-block;position:relative;">
+        <img src="~/public/images/product/product_pic_7.jpg" style="position:absolute;top:0;
+                left:0; width:100%;height:100%;" alt="Alternate Text" />
+    </a>
+    <div class="right-bar-content" style="width:75%;display:inline-block;">
+        <a href="~/ChiTietSanPham1">JORDAN 1 LOW PINK QUARTZ</a>
+        <p class="">Giá: 4.500.000đ</p>
+    </div>
+</div>*@
+<h3 class="my-3">DANH MỤC</h3>
+<div class="row my-3">
+    <a href="#" class="col-3 cate">Adidas</a>
+    <a href="#" class="col-3 cate">Nike</a>
+    <a href="#" class="col-3 cate">Yeezy</a>
+    <a href="#" class="col-3 cate">Jordan</a>
+
+</div>

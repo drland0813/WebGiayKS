@@ -1,0 +1,221 @@
+﻿@model IEnumerable<MyClass.Model.Giay>
+@foreach (var item in Model)
+{
+
+<div class="col-xl-4 col-lg-4 col-md-4 col-sm-6 my-3">
+    <div class="card my-card" style="width:100%;">
+        <a href="~/@item.slug">
+            <img class="card-img-top" src="~/public/images/product/@item.image" alt="Card image cap">
+        </a>
+        <div class="card-body my-card-body">
+            <a href="~/@item.slug" class="card-title my-card-title">@item.tenGiay</a>
+            <p class="card-text">Giá: @item.giaBan đ</p>
+            <a href="#" class="btn btn-danger" style="float:right;">Mua</a>
+        </div>
+    </div>
+</div>
+}
+@*<div class="col-xl-4 col-lg-4 col-md-4 col-sm-6 my-3">
+    <div class="card my-card" style="width:100%;">
+        <a href="~/ChiTietSanPham1">
+            <img class="card-img-top" src="~/public/images/product/product_pic_2.jpg" alt="Card image cap">
+        </a>
+        <div class="card-body my-card-body">
+            <a href="~/ChiTietSanPham1" class="card-title my-card-title">JORDAN 1 LOW GREY CAMO</a>
+            <p class="card-text">Giá: 4.500.000đ</p>
+            <a href="#" class="btn btn-danger" style="float:right;">Mua</a>
+        </div>
+    </div>
+</div>
+<div class="col-xl-4 col-lg-4 col-md-4 col-sm-6 my-3">
+    <div class="card my-card" style="width:100%;">
+        <a href="~/ChiTietSanPham1">
+            <img class="card-img-top" src="~/public/images/product/product_pic_4.jpg" alt="Card image cap">
+        </a>
+        <div class="card-body my-card-body">
+            <a href="~/ChiTietSanPham1" class="card-title my-card-title">JORDAN 1 LOW GREY CAMO</a>
+            <p class="card-text">Giá: 4.500.000đ</p>
+            <a href="#" class="btn btn-danger" style="float:right;">Mua</a>
+        </div>
+    </div>
+</div>
+<div class="col-xl-4 col-lg-4 col-md-4 col-sm-6 my-3">
+    <div class="card my-card" style="width:100%;">
+        <a href="~/ChiTietSanPham1">
+            <img class="card-img-top" src="~/public/images/product/product_pic_5.jpg" alt="Card image cap">
+        </a>
+        <div class="card-body my-card-body">
+            <a href="~/ChiTietSanPham1" class="card-title my-card-title">JORDAN 1 LOW GREY CAMO</a>
+            <p class="card-text">Giá: 4.500.000đ</p>
+            <a href="#" class="btn btn-danger" style="float:right;">Mua</a>
+        </div>
+    </div>
+</div>
+<div class="col-xl-4 col-lg-4 col-md-4 col-sm-6 my-3">
+    <div class="card my-card" style="width:100%;">
+        <a href="~/ChiTietSanPham1">
+            <img class="card-img-top" src="~/public/images/product/product_pic_6.jpg" alt="Card image cap">
+        </a>
+        <div class="card-body my-card-body">
+            <a href="~/ChiTietSanPham1" class="card-title my-card-title">JORDAN 1 LOW GREY CAMO</a>
+            <p class="card-text">Giá: 4.500.000đ</p>
+            <a href="#" class="btn btn-danger" style="float:right;">Mua</a>
+        </div>
+    </div>
+</div>
+<div class="col-xl-4 col-lg-4 col-md-4 col-sm-6 my-3">
+    <div class="card my-card" style="width:100%;">
+        <a href="~/ChiTietSanPham1">
+            <img class="card-img-top" src="~/public/images/product/product_pic_7.jpg" alt="Card image cap">
+        </a>
+        <div class="card-body my-card-body">
+            <a href="~/ChiTietSanPham1" class="card-title my-card-title">JORDAN 1 LOW GREY CAMO</a>
+            <p class="card-text">Giá: 4.500.000đ</p>
+            <a href="#" class="btn btn-danger" style="float:right;">Mua</a>
+        </div>
+    </div>
+</div>
+<div class="col-xl-4 col-lg-4 col-md-4 col-sm-6 my-3">
+    <div class="card my-card" style="width:100%;">
+        <a href="~/ChiTietSanPham1">
+            <img class="card-img-top" src="~/public/images/product/product_pic_8.jpg" alt="Card image cap">
+        </a>
+        <div class="card-body my-card-body">
+            <a href="~/ChiTietSanPham1" class="card-title my-card-title">JORDAN 1 LOW GREY CAMO</a>
+            <p class="card-text">Giá: 4.500.000đ</p>
+            <a href="#" class="btn btn-danger" style="float:right;">Mua</a>
+        </div>
+    </div>
+</div>
+<div class="col-xl-4 col-lg-4 col-md-4 col-sm-6 my-3">
+    <div class="card my-card" style="width:100%;">
+        <a href="~/ChiTietSanPham1">
+            <img class="card-img-top" src="~/public/images/product/product_pic_9.jpg" alt="Card image cap">
+        </a>
+        <div class="card-body my-card-body">
+            <a href="~/ChiTietSanPham1" class="card-title my-card-title">JORDAN 1 LOW GREY CAMO</a>
+            <p class="card-text">Giá: 4.500.000đ</p>
+            <a href="#" class="btn btn-danger" style="float:right;">Mua</a>
+        </div>
+    </div>
+</div>
+<div class="col-xl-4 col-lg-4 col-md-4 col-sm-6 my-3">
+    <div class="card my-card" style="width:100%;">
+        <a href="~/ChiTietSanPham1">
+            <img class="card-img-top" src="~/public/images/product/product_pic_10.jpg" alt="Card image cap">
+        </a>
+        <div class="card-body my-card-body">
+            <a href="~/ChiTietSanPham1" class="card-title my-card-title">JORDAN 1 LOW GREY CAMO</a>
+            <p class="card-text">Giá: 4.500.000đ</p>
+            <a href="#" class="btn btn-danger" style="float:right;">Mua</a>
+        </div>
+    </div>
+</div>
+<div class="col-xl-4 col-lg-4 col-md-4 col-sm-6 my-3">
+    <div class="card my-card" style="width:100%;">
+        <a href="~/ChiTietSanPham1">
+            <img class="card-img-top" src="~/public/images/product/product_pic_11.jpg" alt="Card image cap">
+        </a>
+        <div class="card-body my-card-body">
+            <a href="~/ChiTietSanPham1" class="card-title my-card-title">JORDAN 1 LOW GREY CAMO</a>
+            <p class="card-text">Giá: 4.500.000đ</p>
+            <a href="#" class="btn btn-danger" style="float:right;">Mua</a>
+        </div>
+    </div>
+</div>
+<div class="col-xl-4 col-lg-4 col-md-4 col-sm-6 my-3">
+    <div class="card my-card" style="width:100%;">
+        <a href="~/ChiTietSanPham1">
+            <img class="card-img-top" src="~/public/images/product/product_pic_12.jpg" alt="Card image cap">
+        </a>
+        <div class="card-body my-card-body">
+            <a href="~/ChiTietSanPham1" class="card-title my-card-title">JORDAN 1 LOW GREY CAMO</a>
+            <p class="card-text">Giá: 4.500.000đ</p>
+            <a href="#" class="btn btn-danger" style="float:right;">Mua</a>
+        </div>
+    </div>
+</div>
+<div class="col-xl-4 col-lg-4 col-md-4 col-sm-6 my-3">
+    <div class="card my-card" style="width:100%;">
+        <a href="~/ChiTietSanPham1">
+            <img class="card-img-top" src="~/public/images/product/product_pic_13.jpg" alt="Card image cap">
+        </a>
+        <div class="card-body my-card-body">
+            <a href="~/ChiTietSanPham1" class="card-title my-card-title">JORDAN 1 LOW GREY CAMO</a>
+            <p class="card-text">Giá: 4.500.000đ</p>
+            <a href="#" class="btn btn-danger" style="float:right;">Mua</a>
+        </div>
+    </div>
+</div>
+<div class="col-xl-4 col-lg-4 col-md-4 col-sm-6 my-3">
+    <div class="card my-card" style="width:100%;">
+        <a href="~/ChiTietSanPham1">
+            <img class="card-img-top" src="~/public/images/product/product_pic_14.jpg" alt="Card image cap">
+        </a>
+        <div class="card-body my-card-body">
+            <a href="~/ChiTietSanPham1" class="card-title my-card-title">JORDAN 1 LOW GREY CAMO</a>
+            <p class="card-text">Giá: 4.500.000đ</p>
+            <a href="#" class="btn btn-danger" style="float:right;">Mua</a>
+        </div>
+    </div>
+</div>
+<div class="col-xl-4 col-lg-4 col-md-4 col-sm-6 my-3">
+    <div class="card my-card" style="width:100%;">
+        <a href="~/ChiTietSanPham1">
+            <img class="card-img-top" src="~/public/images/product/product_pic_15.jpg" alt="Card image cap">
+        </a>
+        <div class="card-body my-card-body">
+            <a href="~/ChiTietSanPham1" class="card-title my-card-title">JORDAN 1 LOW GREY CAMO</a>
+            <p class="card-text">Giá: 4.500.000đ</p>
+            <a href="#" class="btn btn-danger" style="float:right;">Mua</a>
+        </div>
+    </div>
+</div>
+<div class="col-xl-4 col-lg-4 col-md-4 col-sm-6 my-3">
+    <div class="card my-card" style="width:100%;">
+        <a href="~/ChiTietSanPham1">
+            <img class="card-img-top" src="~/public/images/product/product_pic_16.jpg" alt="Card image cap">
+        </a>
+        <div class="card-body my-card-body">
+            <a href="~/ChiTietSanPham1" class="card-title my-card-title">JORDAN 1 LOW GREY CAMO</a>
+            <p class="card-text">Giá: 4.500.000đ</p>
+            <a href="#" class="btn btn-danger" style="float:right;">Mua</a>
+        </div>
+    </div>
+</div>
+<div class="col-xl-4 col-lg-4 col-md-4 col-sm-6 my-3">
+    <div class="card my-card" style="width:100%;">
+        <a href="~/ChiTietSanPham1">
+            <img class="card-img-top" src="~/public/images/product/product_pic_1.jpg" alt="Card image cap">
+        </a>
+        <div class="card-body my-card-body">
+            <a href="~/ChiTietSanPham1" class="card-title my-card-title">JORDAN 1 LOW GREY CAMO</a>
+            <p class="card-text">Giá: 4.500.000đ</p>
+            <a href="#" class="btn btn-danger" style="float:right;">Mua</a>
+        </div>
+    </div>
+</div>
+<div class="col-xl-4 col-lg-4 col-md-4 col-sm-6 my-3">
+    <div class="card my-card" style="width:100%;">
+        <a href="~/ChiTietSanPham1">
+            <img class="card-img-top" src="~/public/images/product/product_pic_2.jpg" alt="Card image cap">
+        </a>
+        <div class="card-body my-card-body">
+            <a href="~/ChiTietSanPham1" class="card-title my-card-title">JORDAN 1 LOW GREY CAMO</a>
+            <p class="card-text">Giá: 4.500.000đ</p>
+            <a href="#" class="btn btn-danger" style="float:right;">Mua</a>
+        </div>
+    </div>
+</div>
+<div class="col-xl-4 col-lg-4 col-md-4 col-sm-6 my-3">
+    <div class="card my-card" style="width:100%;">
+        <a href="~/ChiTietSanPham1">
+            <img class="card-img-top" src="~/public/images/product/product_pic_3.jpg" alt="Card image cap">
+        </a>
+        <div class="card-body my-card-body">
+            <a href="~/ChiTietSanPham1" class="card-title my-card-title">JORDAN 1 LOW GREY CAMO</a>
+            <p class="card-text">Giá: 4.500.000đ</p>
+            <a href="#" class="btn btn-danger" style="float:right;">Mua</a>
+        </div>
+    </div>
+</div>*@
