@@ -102,8 +102,15 @@ namespace WebGiay.Controllers
         public ActionResult Home()
         {
             ProductDAO productyDAO = new ProductDAO();
-            List<Giay> list = productyDAO.getList(16);
-            return View("Home",list);
+            List<Giay> listsp = productyDAO.getList(16);
+            List<Giay> sphot = productDAO.getGiayHot();
+            List<Giay> giayKM = productDAO.getGiayKM();
+            ViewBag.Message = "Hello My first Web";
+            ViewData["ListSP"] = listsp;
+            ViewData["ListSPHot"] = sphot;
+            ViewData["GiayKM"] = giayKM;
+
+            return View("Home", listsp);
         }
     }
 }
