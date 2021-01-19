@@ -15,6 +15,7 @@ namespace MyClass.Model
         }
 
         [Key]
+        [DatabaseGenerated(DatabaseGeneratedOption.None)]
         public int id_KH { get; set; }
 
         public int diem { get; set; }

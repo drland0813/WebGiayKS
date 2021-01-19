@@ -25,7 +25,7 @@ namespace MyClass.Model
         public DateTime? ngayGiaoHang { get; set; }
 
         [Column(TypeName = "money")]
-        public decimal tongTien { get; set; }
+        public decimal? tongTien { get; set; }
 
         public int tinhTrang { get; set; }
 

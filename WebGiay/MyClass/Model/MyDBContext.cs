@@ -8,7 +8,7 @@ namespace MyClass.Model
     public partial class MyDBContext : DbContext
     {
         public MyDBContext()
-            : base("name=ChuoiKN")
+            : base("name=MyDBContext")
         {
         }
 
@@ -16,11 +16,12 @@ namespace MyClass.Model
         public virtual DbSet<BaiViet> BaiViets { get; set; }
         public virtual DbSet<ChiTietDH> ChiTietDHs { get; set; }
         public virtual DbSet<ChiTietGiay> ChiTietGiays { get; set; }
-        public virtual DbSet<id_KM> ChiTietQuyens { get; set; }
+        public virtual DbSet<ChiTietQuyen> ChiTietQuyens { get; set; }
         public virtual DbSet<ChuDeBV> ChuDeBVs { get; set; }
         public virtual DbSet<DonHang> DonHangs { get; set; }
         public virtual DbSet<Giay> Giays { get; set; }
         public virtual DbSet<KhuyenMai> KhuyenMais { get; set; }
+        public virtual DbSet<LienHe> LienHes { get; set; }
         public virtual DbSet<Link> Links { get; set; }
         public virtual DbSet<LoaiGiay> LoaiGiays { get; set; }
         public virtual DbSet<LoaiNV> LoaiNVs { get; set; }
@@ -29,7 +30,6 @@ namespace MyClass.Model
         public virtual DbSet<Slider> Sliders { get; set; }
         public virtual DbSet<User_KH> User_KH { get; set; }
         public virtual DbSet<User_NV> User_NV { get; set; }
-
 
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
         {
@@ -62,13 +62,21 @@ namespace MyClass.Model
                 .Property(e => e.noiDung)
                 .IsUnicode(false);
 
+            modelBuilder.Entity<BaiViet>()
+                .Property(e => e.image)
+                .IsUnicode(false);
+
+            modelBuilder.Entity<BaiViet>()
+                .Property(e => e.tenCD)
+                .IsUnicode(false);
+
             modelBuilder.Entity<ChiTietGiay>()
                 .HasMany(e => e.ChiTietDHs)
                 .WithRequired(e => e.ChiTietGiay)
                 .HasForeignKey(e => new { e.size, e.maGiay })
                 .WillCascadeOnDelete(false);
 
-            modelBuilder.Entity<id_KM>()
+            modelBuilder.Entity<ChiTietQuyen>()
                 .HasMany(e => e.Accounts)
                 .WithRequired(e => e.ChiTietQuyen)
                 .WillCascadeOnDelete(false);
@@ -120,6 +128,14 @@ namespace MyClass.Model
                 .HasMany(e => e.Giays)
                 .WithMany(e => e.KhuyenMais)
                 .Map(m => m.ToTable("ChiTietKhuyenMai").MapLeftKey("id_KM").MapRightKey("maGiay"));
+
+            modelBuilder.Entity<LienHe>()
+                .Property(e => e.sdt)
+                .IsUnicode(false);
+
+            modelBuilder.Entity<LienHe>()
+                .Property(e => e.noidung)
+                .IsUnicode(false);
 
             modelBuilder.Entity<Link>()
                 .Property(e => e.slug)

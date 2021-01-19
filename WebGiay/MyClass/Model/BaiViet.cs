@@ -30,14 +30,14 @@ namespace MyClass.Model
 
         public DateTime? ngayDang { get; set; }
 
+        [StringLength(100)]
+        public string image { get; set; }
+
+        [StringLength(100)]
+        public string tenCD { get; set; }
+
         public virtual User_NV User_NV { get; set; }
 
         public virtual ChuDeBV ChuDeBV { get; set; }
-
-        public string image { get; set; }
-
-        public string tenCD { get; set; }
-
-
     }
 }

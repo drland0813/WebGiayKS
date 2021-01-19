@@ -66,6 +66,7 @@
     <Compile Include="Model\DonHang.cs" />
     <Compile Include="Model\Giay.cs" />
     <Compile Include="Model\KhuyenMai.cs" />
+    <Compile Include="Model\LienHe.cs" />
     <Compile Include="Model\Link.cs" />
     <Compile Include="Model\LoaiGiay.cs" />
     <Compile Include="Model\LoaiNV.cs" />
