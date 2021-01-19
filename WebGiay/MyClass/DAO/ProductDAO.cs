@@ -12,8 +12,6 @@ namespace MyClass.DAO
     {
         MyDBContext db = new MyDBContext();
 
-     
-
         public Giay getRow(String slug)
         {
             Giay row = db.Giays.Where(m => m.slug == slug).FirstOrDefault();
@@ -47,6 +45,34 @@ namespace MyClass.DAO
                 .Where(m=>m.maGiay!=id && listcatid.Contains(m.maLoai))
             .Take(num).ToList();
             return list;
+        }
+
+        public List<Giay> getGiayHot()
+        {
+      
+            List<int> hotSP = db.ChiTietDHs.GroupBy(d => d.maGiay)
+                .Select(d => new { maGiay = d.Key, TongSL = d.Sum(s => s.soLuongMua) })
+                .OrderByDescending(d => d.TongSL)
+                .Select(d => d.maGiay)
+                .Take(8)
+                .ToList();
+
+            List<Giay> rs = db.Giays.Where(g => hotSP.Contains(g.maGiay)).ToList();
+            return rs;
+        }
+
+        public List<Giay> getGiayKM()
+        {
+            List<KhuyenMai> KMs = db.KhuyenMais.ToList();
+            List<Giay> rs = new List<Giay>();
+            foreach(var km in KMs)
+            {
+                foreach(var item in km.Giays)
+                {
+                    rs.Add(item);
+                }
+            }
+            return rs;
         }
     }
 }

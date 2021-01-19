@@ -1,7 +1,17 @@
-﻿@model IEnumerable<MyClass.Model.Giay>
+﻿@using MyClass.Model
+
+
+
 @{
     ViewBag.Title = "Home";
     Layout = "~/Views/Shared/_LayoutSite.cshtml";
+}
+
+@{
+
+    IEnumerable<Giay> Model = ViewData["ListSP"] as IEnumerable<Giay>;
+    IEnumerable<Giay> ListSPHot = ViewData["ListSPHot"] as IEnumerable<Giay>;
+    IEnumerable<Giay> giayKM = ViewData["GiayKM"] as IEnumerable<Giay>;
 }
 
 @Html.Action("SlideShow", "Module");
@@ -31,138 +41,8 @@
                 </div>
             }
 
-            @*<div class="col-xl-3 col-lg-3 col-md-4 col-sm-6 my-3">
-            <div class="card my-card" style="width:100%;">
-                <a href="~/ChiTietSanPham1">
-                    <img class="card-img-top" src="~/public/images/product/product_pic_2.jpg" alt="Card image cap">
-                </a>
-                <div class="card-body my-card-body">
-                    <a href="~/ChiTietSanPham1" class="card-title my-card-title">JORDAN 1 LOW GREY CAMO</a>
-                    <p class="card-text">Giá: 4.500.000đ</p>
-                    <a href="#" class="btn btn-danger" style="float:right;">Mua</a>
-                </div>
-            </div>
-        </div>
-        <div class="col-xl-3 col-lg-3 col-md-4 col-sm-6 my-3">
-            <div class="card my-card" style="width:100%;">
-                <a href="~/ChiTietSanPham1">
-                    <img class="card-img-top" src="~/public/images/product/product_pic_3.jpg" alt="Card image cap">
-                </a>
-                <div class="card-body my-card-body">
-                    <a href="~/ChiTietSanPham1" class="card-title my-card-title">JORDAN 1 LOW GREY CAMO</a>
-                    <p class="card-text">Giá: 4.500.000đ</p>
-                    <a href="#" class="btn btn-danger" style="float:right;">Mua</a>
-                </div>
-            </div>
-        </div>
-        <div class="col-xl-3 col-lg-3 col-md-4 col-sm-6 my-3">
-            <div class="card my-card" style="width:100%;">
-                <a href="~/ChiTietSanPham1">
-                    <img class="card-img-top" src="~/public/images/product/product_pic_4.jpg" alt="Card image cap">
-                </a>
-                <div class="card-body my-card-body">
-                    <a href="~/ChiTietSanPham1" class="card-title my-card-title">JORDAN 1 LOW GREY CAMO</a>
-                    <p class="card-text">Giá: 4.500.000đ</p>
-                    <a href="#" class="btn btn-danger" style="float:right;">Mua</a>
-                </div>
-            </div>
-        </div>
-        <div class="col-xl-3 col-lg-3 col-md-4 col-sm-6 my-3">
-            <div class="card my-card" style="width:100%;">
-                <a href="~/ChiTietSanPham1">
-                    <img class="card-img-top" src="~/public/images/product/product_pic_5.jpg" alt="Card image cap">
-                </a>
-                <div class="card-body my-card-body">
-                    <a href="~/ChiTietSanPham1" class="card-title my-card-title">JORDAN 1 LOW GREY CAMO</a>
-                    <p class="card-text">Giá: 4.500.000đ</p>
-                    <a href="#" class="btn btn-danger" style="float:right;">Mua</a>
-                </div>
-            </div>
-        </div>
-        <div class="col-xl-3 col-lg-3 col-md-4 col-sm-6 my-3">
-            <div class="card my-card" style="width:100%;">
-                <a href="~/ChiTietSanPham1">
-                    <img class="card-img-top" src="~/public/images/product/product_pic_6.jpg" alt="Card image cap">
-                </a>
-                <div class="card-body my-card-body">
-                    <a href="~/ChiTietSanPham1" class="card-title my-card-title">JORDAN 1 LOW GREY CAMO</a>
-                    <p class="card-text">Giá: 4.500.000đ</p>
-                    <a href="#" class="btn btn-danger" style="float:right;">Mua</a>
-                </div>
-            </div>
-        </div>
-        <div class="col-xl-3 col-lg-3 col-md-4 col-sm-6 my-3">
-            <div class="card my-card" style="width:100%;">
-                <a href="~/ChiTietSanPham1">
-                    <img class="card-img-top" src="~/public/images/product/product_pic_7.jpg" alt="Card image cap">
-                </a>
-                <div class="card-body my-card-body">
-                    <a href="~/ChiTietSanPham1" class="card-title my-card-title">JORDAN 1 LOW GREY CAMO</a>
-                    <p class="card-text">Giá: 4.500.000đ</p>
-                    <a href="#" class="btn btn-danger" style="float:right;">Mua</a>
-                </div>
-            </div>
-        </div>
-        <div class="col-xl-3 col-lg-3 col-md-4 col-sm-6 my-3">
-            <div class="card my-card" style="width:100%;">
-                <a href="~/ChiTietSanPham1">
-                    <img class="card-img-top" src="~/public/images/product/product_pic_8.jpg" alt="Card image cap">
-                </a>
-                <div class="card-body my-card-body">
-                    <a href="~/ChiTietSanPham1" class="card-title my-card-title">JORDAN 1 LOW GREY CAMO</a>
-                    <p class="card-text">Giá: 4.500.000đ</p>
-                    <a href="#" class="btn btn-danger" style="float:right;">Mua</a>
-                </div>
-            </div>
-        </div>
-        <div class="col-xl-3 col-lg-3 col-md-4 col-sm-6 my-3">
-            <div class="card my-card" style="width:100%;">
-                <a href="~/ChiTietSanPham1">
-                    <img class="card-img-top" src="~/public/images/product/product_pic_9.jpg" alt="Card image cap">
-                </a>
-                <div class="card-body my-card-body">
-                    <a href="~/ChiTietSanPham1" class="card-title my-card-title">JORDAN 1 LOW GREY CAMO</a>
-                    <p class="card-text">Giá: 4.500.000đ</p>
-                    <a href="#" class="btn btn-danger" style="float:right;">Mua</a>
-                </div>
-            </div>
-        </div>
-        <div class="col-xl-3 col-lg-3 col-md-4 col-sm-6 my-3">
-            <div class="card my-card" style="width:100%;">
-                <a href="~/ChiTietSanPham1">
-                    <img class="card-img-top" src="~/public/images/product/product_pic_10.jpg" alt="Card image cap">
-                </a>
-                <div class="card-body my-card-body">
-                    <a href="~/ChiTietSanPham1" class="card-title my-card-title">JORDAN 1 LOW GREY CAMO</a>
-                    <p class="card-text">Giá: 4.500.000đ</p>
-                    <a href="#" class="btn btn-danger" style="float:right;">Mua</a>
-                </div>
-            </div>
-        </div>
-        <div class="col-xl-3 col-lg-3 col-md-4 col-sm-6 my-3">
-            <div class="card my-card" style="width:100%;">
-                <a href="~/ChiTietSanPham1">
-                    <img class="card-img-top" src="~/public/images/product/product_pic_11.jpg" alt="Card image cap">
-                </a>
-                <div class="card-body my-card-body">
-                    <a href="~/ChiTietSanPham1" class="card-title my-card-title">JORDAN 1 LOW GREY CAMO</a>
-                    <p class="card-text">Giá: 4.500.000đ</p>
-                    <a href="#" class="btn btn-danger" style="float:right;">Mua</a>
-                </div>
-            </div>
-        </div>
-        <div class="col-xl-3 col-lg-3 col-md-4 col-sm-6 my-3">
-            <div class="card my-card" style="width:100%;">
-                <a href="~/ChiTietSanPham1">
-                    <img class="card-img-top" src="~/public/images/product/product_pic_12.jpg" alt="Card image cap">
-                </a>
-                <div class="card-body my-card-body">
-                    <a href="~/ChiTietSanPham1" class="card-title my-card-title">JORDAN 1 LOW GREY CAMO</a>
-                    <p class="card-text">Giá: 4.500.000đ</p>
-                    <a href="#" class="btn btn-danger" style="float:right;">Mua</a>
-                </div>
-            </div>
-        </div>*@
+
+
             @*pagination start*@
             <div class="col-4"></div>
             <div class="col-4" style="display:flex;justify-content:center;margin-top:15px;">
@@ -187,6 +67,7 @@
                     </ul>
                 </nav>
             </div>
+
             @*pagination*@
             <div class="col-12 mt-4">
                 <h3 data-mask="HOT">- SẢN PHẨM HOT</h3>
@@ -197,126 +78,123 @@
                 <!--Controls-->
                 <div class="controls-top" style="float:right">
                     <a class="btn-floating" href="#multi-item-example" data-slide="prev"><i class="fas fa-chevron-left"></i></a>
-                    <a class="btn-floating" href="#multi-item-example" data-slide="next">
-                        <i class="fas fa-chevron-right"></i>
-                    </a>
+                    <a class="btn-floating" href="#multi-item-example" data-slide="next"><i class="fas fa-chevron-right"></i></a>
                 </div>
                 <!--/.Controls-->
                 <!--Indicators-->
                 <!--/.Indicators-->
                 <!--Slides-->
                 <div class="carousel-inner" role="listbox">
+                    <div class="carousel-item active">
+                        <!--First slide-->
+                        <div class="row">
+                            @foreach (var item in ListSPHot.Take(4))
+                            {
+
+
+                                <div class="col-xl-3 col-lg-3 col-md-4 col-sm-6 my-3">
+                                    <div class="card my-card" style="width:100%;">
+                                        <a href="~/@item.slug">
+                                            <img class="card-img-top" src="~/public/images/product/@item.image" alt="Card image cap">
+                                        </a>
+                                        <div class="card-body my-card-body">
+                                            <a href="~/@item.slug" class="card-title my-card-title">@item.tenGiay</a>
+                                            <p class="card-text">Giá: @item.giaBan đ</p>
+                                            <a href="#" class="btn btn-danger" style="float:right;">Mua</a>
+                                        </div>
+                                    </div>
+                                </div>
+
+
+                            }
+                        </div>
+                    </div>
+                    <!--Second slide-->
+                    <div class="carousel-item">
+                        <div class="row">
+                            @foreach (var item in ListSPHot.Skip(4))
+                            {
+                                <div class="col-xl-3 col-lg-3 col-md-4 col-sm-6 my-3">
+                                    <div class="card my-card" style="width:100%;">
+                                        <a href="~/@item.slug">
+                                            <img class="card-img-top" src="~/public/images/product/@item.image" alt="Card image cap">
+                                        </a>
+                                        <div class="card-body my-card-body">
+                                            <a href="~/@item.slug" class="card-title my-card-title">@item.tenGiay</a>
+                                            <p class="card-text">Giá: @item.giaBan đ</p>
+                                            <a href="#" class="btn btn-danger" style="float:right;">Mua</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            }
+                        </div>
+                    </div>
+                </div>
+
+                <!--/.Slides-->
+
+
+            </div>
+            <!--/.Carousel Wrapper-->
+
+
+           <!--San pham Khuyen mai-->
+            <div class="col-12 mt-5">
+                <h3 data-mask="DISCOUNT">- SẢN PHẨM KHUYẾN MÃI</h3>
+            </div>
+            <!--Carousel Wrapper-->
+            <div id="multi-item-example2" class="carousel slide carousel-multi-item container" data-ride="carousel">
+
+                <!--Controls-->
+                <div class="controls-top" style="float:right">
+                    <a class="btn-floating" href="#multi-item-example2" data-slide="prev"><i class="fas fa-chevron-left"></i></a>
+                    <a class="btn-floating" href="#multi-item-example2" data-slide="next">
+                        <i class="fas fa-chevron-right"></i>
+                    </a>
+                </div>
+                <!--/.Controls-->
+                <!--Slides-->
+                <div class="carousel-inner" role="listbox">
 
                     <!--First slide-->
                     <div class="carousel-item active">
-                        <div class="col-xl-3 col-lg-3 col-md-4 col-sm-6 my-3" style="float:left">
-                            <div class="card my-card" style="width:100%;">
-                                <a href="~/ChiTietSanPham1">
-                                    <img class="card-img-top" src="~/public/images/product/product_pic_13.jpg" alt="Card image cap">
-                                </a>
-                                <div class="card-body my-card-body">
-                                    <a href="~/ChiTietSanPham1" class="card-title my-card-title">JORDAN 1 LOW GREY CAMO</a>
-                                    <p class="card-text">Giá: 4.500.000đ</p>
-                                    <a href="#" class="btn btn-danger" style="float:right;">Mua</a>
+                        <div class="row">
+                            @foreach (var item in giayKM.Take(giayKM.Count()/2) )
+                            {
+                                <div class="col-xl-3 col-lg-3 col-md-4 col-sm-6 my-3">
+                                    <div class="card my-card" style="width:100%;">
+                                        <a href="~/@item.slug">
+                                            <img class="card-img-top" src="~/public/images/product/@item.image" alt="Card image cap">
+                                        </a>
+                                        <div class="card-body my-card-body">
+                                            <a href="~/@item.slug" class="card-title my-card-title">@item.tenGiay</a>
+                                            <p class="card-text">Giá: @item.giaBan đ</p>
+                                            <a href="#" class="btn btn-danger" style="float:right;">Mua</a>
+                                        </div>
+                                    </div>
                                 </div>
-                            </div>
+                            }
                         </div>
-
-
-                        <div class="col-xl-3 col-lg-3 col-md-4 col-sm-6 my-3" style="float:left">
-                            <div class="card my-card" style="width:100%;">
-                                <a href="~/ChiTietSanPham1">
-                                    <img class="card-img-top" src="~/public/images/product/product_pic_14.jpg" alt="Card image cap">
-                                </a>
-                                <div class="card-body my-card-body">
-                                    <a href="~/ChiTietSanPham1" class="card-title my-card-title">JORDAN 1 LOW GREY CAMO</a>
-                                    <p class="card-text">Giá: 4.500.000đ</p>
-                                    <a href="#" class="btn btn-danger" style="float:right;">Mua</a>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="col-xl-3 col-lg-3 col-md-4 col-sm-6 my-3" style="float:left">
-                            <div class="card my-card" style="width:100%;">
-                                <a href="~/ChiTietSanPham1">
-                                    <img class="card-img-top" src="~/public/images/product/product_pic_15.jpg" alt="Card image cap">
-                                </a>
-                                <div class="card-body my-card-body">
-                                    <a href="~/ChiTietSanPham1" class="card-title my-card-title">JORDAN 1 LOW GREY CAMO</a>
-                                    <p class="card-text">Giá: 4.500.000đ</p>
-                                    <a href="#" class="btn btn-danger" style="float:right;">Mua</a>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="col-xl-3 col-lg-3 col-md-4 col-sm-6 my-3" style="float:left">
-                            <div class="card my-card" style="width:100%;">
-                                <a href="~/ChiTietSanPham1">
-                                    <img class="card-img-top" src="~/public/images/product/product_pic_16.jpg" alt="Card image cap">
-                                </a>
-                                <div class="card-body my-card-body">
-                                    <a href="~/ChiTietSanPham1" class="card-title my-card-title">JORDAN 1 LOW GREY CAMO</a>
-                                    <p class="card-text">Giá: 4.500.000đ</p>
-                                    <a href="#" class="btn btn-danger" style="float:right;">Mua</a>
-                                </div>
-                            </div>
-                        </div>
-
                     </div>
                     <!--/.First slide-->
                     <!--Second slide-->
                     <div class="carousel-item">
-
-                        <div class="col-xl-3 col-lg-3 col-md-4 col-sm-6 my-3" style="float:left">
-                            <div class="card my-card" style="width:100%;">
-                                <a href="~/ChiTietSanPham1">
-                                    <img class="card-img-top" src="~/public/images/product/product_pic_1.jpg" alt="Card image cap">
-                                </a>
-                                <div class="card-body my-card-body">
-                                    <a href="~/ChiTietSanPham1" class="card-title my-card-title">JORDAN 1 LOW GREY CAMO</a>
-                                    <p class="card-text">Giá: 4.500.000đ</p>
-                                    <a href="#" class="btn btn-danger" style="float:right;">Mua</a>
+                        <div class="row">
+                            @foreach (var item in giayKM.Skip(giayKM.Count()/2))
+                            {
+                                <div class="col-xl-3 col-lg-3 col-md-4 col-sm-6 my-3">
+                                    <div class="card my-card" style="width:100%;">
+                                        <a href="~/@item.slug">
+                                            <img class="card-img-top" src="~/public/images/product/@item.image" alt="Card image cap">
+                                        </a>
+                                        <div class="card-body my-card-body">
+                                            <a href="~/@item.slug" class="card-title my-card-title">@item.tenGiay</a>
+                                            <p class="card-text">Giá: @item.giaBan đ</p>
+                                            <a href="#" class="btn btn-danger" style="float:right;">Mua</a>
+                                        </div>
+                                    </div>
                                 </div>
-                            </div>
-                        </div>
-
-                        <div class="col-xl-3 col-lg-3 col-md-4 col-sm-6 my-3" style="float:left">
-                            <div class="card my-card" style="width:100%;">
-                                <a href="~/ChiTietSanPham1">
-                                    <img class="card-img-top" src="~/public/images/product/product_pic_2.jpg" alt="Card image cap">
-                                </a>
-                                <div class="card-body my-card-body">
-                                    <a href="~/ChiTietSanPham1" class="card-title my-card-title">JORDAN 1 LOW GREY CAMO</a>
-                                    <p class="card-text">Giá: 4.500.000đ</p>
-                                    <a href="#" class="btn btn-danger" style="float:right;">Mua</a>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="col-xl-3 col-lg-3 col-md-4 col-sm-6 my-3" style="float:left">
-                            <div class="card my-card" style="width:100%;">
-                                <a href="~/ChiTietSanPham1">
-                                    <img class="card-img-top" src="~/public/images/product/product_pic_3.jpg" alt="Card image cap">
-                                </a>
-                                <div class="card-body my-card-body">
-                                    <a href="~/ChiTietSanPham1" class="card-title my-card-title">JORDAN 1 LOW GREY CAMO</a>
-                                    <p class="card-text">Giá: 4.500.000đ</p>
-                                    <a href="#" class="btn btn-danger" style="float:right;">Mua</a>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="col-xl-3 col-lg-3 col-md-4 col-sm-6 my-3" style="float:left">
-                            <div class="card my-card" style="width:100%;">
-                                <a href="~/ChiTietSanPham1">
-                                    <img class="card-img-top" src="~/public/images/product/product_pic_4.jpg" alt="Card image cap">
-                                </a>
-                                <div class="card-body my-card-body">
-                                    <a href="~/ChiTietSanPham1" class="card-title my-card-title">JORDAN 1 LOW GREY CAMO</a>
-                                    <p class="card-text">Giá: 4.500.000đ</p>
-                                    <a href="#" class="btn btn-danger" style="float:right;">Mua</a>
-                                </div>
-                            </div>
+                            }
                         </div>
 
                     </div>
@@ -330,16 +208,10 @@
             </div>
             <!--/.Carousel Wrapper-->
 
-
-
-
-            @Html.Action("SaleSite", "Module");
-
-
-
             @Html.Action("HomePost", "Module")
         </div>
     </div>
-</div>
+ </div>
+
 
 
