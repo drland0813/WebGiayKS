@@ -2,6 +2,9 @@
 @{
     ViewBag.Title = "ProductDetail";
     Layout = "~/Views/Shared/_LayoutSite.cshtml";
+} 
+@{ 
+    IEnumerable<MyClass.Model.Giay> GiayLienQuan = ViewData["GiayLienQuan"] as IEnumerable<MyClass.Model.Giay>;
 }
 
 <div class="container">
@@ -98,7 +101,7 @@
 
 
             <div class="carousel-item active">
-                @foreach (var product in ViewBag.ListOrder)
+                @foreach (var product in GiayLienQuan.Take(4))
                 {
                     <div class="col-xl-3 col-lg-3 col-md-4 col-sm-6 my-3" style="float:left">
                         <div class="card my-card" style="width:100%;">
@@ -115,7 +118,7 @@
                 }
             </div>
             <div class="carousel-item">
-                @foreach (var product in ViewBag.ListOrder)
+                @foreach (var product in GiayLienQuan.Skip(4))
                 {
                     <div class="col-xl-3 col-lg-3 col-md-4 col-sm-6 my-3" style="float:left">
                         <div class="card my-card" style="width:100%;">

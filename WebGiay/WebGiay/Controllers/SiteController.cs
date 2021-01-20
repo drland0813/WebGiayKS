@@ -78,6 +78,7 @@ namespace WebGiay.Controllers
             //List<Giay> list = productDAO.getList(slug);
             Giay row = productDAO.getRow(slug);
             int catid = row.maLoai;
+
             List<LoaiGiay> listcat = categoryDAO.getList2(catid);
             List<int> listcatid = new List<int>();
             foreach (LoaiGiay rowcat in listcat)
@@ -89,8 +90,9 @@ namespace WebGiay.Controllers
                 }
             }
             listcatid.Add(catid);
-            List<Giay> listorder = productDAO.getList(listcatid, 4,row.maGiay);
-            ViewBag.ListOrder = listorder;
+            List<Giay> listorder = productDAO.getList(listcatid, 8,row.maGiay);
+
+            ViewData["GiayLienQuan"] = listorder;
             return View("ProductDetail", row);
         }
         public ActionResult ProductCategory(String slug)

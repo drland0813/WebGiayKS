@@ -30,12 +30,12 @@ namespace MyClass.DAO
         }
         public List<Giay> getList(int num)
         {
-            List<Giay> list = db.Giays.Take(num).OrderByDescending(m=>m.ngayTao).ToList();
+            List<Giay> list = db.Giays.Take(num).OrderByDescending(m => m.ngayTao).ToList();
             return list;
         }
         public List<Giay> getList2(int maloai)
         {
-            List<Giay> list = db.Giays.Where(m=>m.maLoai==maloai).ToList();
+            List<Giay> list = db.Giays.Where(m => m.maLoai == maloai).ToList();
             return list;
         }
         //ko hieu lam :))))
