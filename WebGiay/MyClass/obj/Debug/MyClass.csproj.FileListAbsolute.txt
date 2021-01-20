@@ -34,3 +34,14 @@ D:\Documentss\CNPM\WEB\WebGiay\MyClass\obj\Debug\MyClass.csproj.CoreCompileInput
 D:\Documentss\CNPM\WEB\WebGiay\MyClass\obj\Debug\MyClass.csproj.CopyComplete
 D:\Documentss\CNPM\WEB\WebGiay\MyClass\obj\Debug\MyClass.dll
 D:\Documentss\CNPM\WEB\WebGiay\MyClass\obj\Debug\MyClass.pdb
+D:\sourse\WebGiayKS\WebGiay\MyClass\bin\Debug\MyClass.dll.config
+D:\sourse\WebGiayKS\WebGiay\MyClass\bin\Debug\MyClass.dll
+D:\sourse\WebGiayKS\WebGiay\MyClass\bin\Debug\MyClass.pdb
+D:\sourse\WebGiayKS\WebGiay\MyClass\bin\Debug\EntityFramework.dll
+D:\sourse\WebGiayKS\WebGiay\MyClass\bin\Debug\EntityFramework.SqlServer.dll
+D:\sourse\WebGiayKS\WebGiay\MyClass\bin\Debug\EntityFramework.xml
+D:\sourse\WebGiayKS\WebGiay\MyClass\bin\Debug\EntityFramework.SqlServer.xml
+D:\sourse\WebGiayKS\WebGiay\MyClass\obj\Debug\MyClass.csproj.CoreCompileInputs.cache
+D:\sourse\WebGiayKS\WebGiay\MyClass\obj\Debug\MyClass.csproj.CopyComplete
+D:\sourse\WebGiayKS\WebGiay\MyClass\obj\Debug\MyClass.dll
+D:\sourse\WebGiayKS\WebGiay\MyClass\obj\Debug\MyClass.pdb
