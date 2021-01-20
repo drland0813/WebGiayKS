@@ -22,3 +22,15 @@ F:\LapTrinhPhanMem\WebGiay - Copy (4)\MyClass\obj\Debug\MyClass.csproj.CoreCompi
 F:\LapTrinhPhanMem\WebGiay - Copy (4)\MyClass\obj\Debug\MyClass.csproj.CopyComplete
 F:\LapTrinhPhanMem\WebGiay - Copy (4)\MyClass\obj\Debug\MyClass.dll
 F:\LapTrinhPhanMem\WebGiay - Copy (4)\MyClass\obj\Debug\MyClass.pdb
+D:\Documentss\CNPM\WEB\WebGiay\MyClass\bin\Debug\MyClass.dll.config
+D:\Documentss\CNPM\WEB\WebGiay\MyClass\bin\Debug\MyClass.dll
+D:\Documentss\CNPM\WEB\WebGiay\MyClass\bin\Debug\MyClass.pdb
+D:\Documentss\CNPM\WEB\WebGiay\MyClass\bin\Debug\EntityFramework.dll
+D:\Documentss\CNPM\WEB\WebGiay\MyClass\bin\Debug\EntityFramework.SqlServer.dll
+D:\Documentss\CNPM\WEB\WebGiay\MyClass\bin\Debug\EntityFramework.xml
+D:\Documentss\CNPM\WEB\WebGiay\MyClass\bin\Debug\EntityFramework.SqlServer.xml
+D:\Documentss\CNPM\WEB\WebGiay\MyClass\obj\Debug\MyClass.csprojAssemblyReference.cache
+D:\Documentss\CNPM\WEB\WebGiay\MyClass\obj\Debug\MyClass.csproj.CoreCompileInputs.cache
+D:\Documentss\CNPM\WEB\WebGiay\MyClass\obj\Debug\MyClass.csproj.CopyComplete
+D:\Documentss\CNPM\WEB\WebGiay\MyClass\obj\Debug\MyClass.dll
+D:\Documentss\CNPM\WEB\WebGiay\MyClass\obj\Debug\MyClass.pdb

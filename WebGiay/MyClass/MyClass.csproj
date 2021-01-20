@@ -50,6 +50,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="DAO\AccountDAO.cs" />
     <Compile Include="DAO\CategoryDAO.cs" />
     <Compile Include="DAO\LinkDAO.cs" />
     <Compile Include="DAO\PostDAO.cs" />
