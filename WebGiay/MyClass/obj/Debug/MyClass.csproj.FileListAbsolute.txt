@@ -45,3 +45,15 @@ D:\sourse\WebGiayKS\WebGiay\MyClass\obj\Debug\MyClass.csproj.CoreCompileInputs.c
 D:\sourse\WebGiayKS\WebGiay\MyClass\obj\Debug\MyClass.csproj.CopyComplete
 D:\sourse\WebGiayKS\WebGiay\MyClass\obj\Debug\MyClass.dll
 D:\sourse\WebGiayKS\WebGiay\MyClass\obj\Debug\MyClass.pdb
+F:\WebGiayKS\WebGiay\MyClass\bin\Debug\MyClass.dll.config
+F:\WebGiayKS\WebGiay\MyClass\bin\Debug\MyClass.dll
+F:\WebGiayKS\WebGiay\MyClass\bin\Debug\MyClass.pdb
+F:\WebGiayKS\WebGiay\MyClass\bin\Debug\EntityFramework.dll
+F:\WebGiayKS\WebGiay\MyClass\bin\Debug\EntityFramework.SqlServer.dll
+F:\WebGiayKS\WebGiay\MyClass\bin\Debug\EntityFramework.xml
+F:\WebGiayKS\WebGiay\MyClass\bin\Debug\EntityFramework.SqlServer.xml
+F:\WebGiayKS\WebGiay\MyClass\obj\Debug\MyClass.csprojAssemblyReference.cache
+F:\WebGiayKS\WebGiay\MyClass\obj\Debug\MyClass.csproj.CoreCompileInputs.cache
+F:\WebGiayKS\WebGiay\MyClass\obj\Debug\MyClass.csproj.CopyComplete
+F:\WebGiayKS\WebGiay\MyClass\obj\Debug\MyClass.dll
+F:\WebGiayKS\WebGiay\MyClass\obj\Debug\MyClass.pdb
