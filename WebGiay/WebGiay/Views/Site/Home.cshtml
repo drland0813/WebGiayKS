@@ -27,18 +27,21 @@
             </div>
             @foreach (var item in Model)
             {
-                <div class="col-xl-3 col-lg-3 col-md-4 col-sm-6 my-3">
-                    <div class="card my-card" style="width:100%;">
-                        <a href="~/@item.slug">
-                            <img class="card-img-top" src="~/public/images/product/@item.image" alt="Card image cap">
-                        </a>
-                        <div class="card-body my-card-body">
-                            <a href="~/@item.slug" class="card-title my-card-title">@item.tenGiay</a>
-                            <p class="card-text">Giá: @item.giaBan đ</p>
-                            <a href="#" class="btn btn-danger" style="float:right;">Mua</a>
+                if (item.trangThai == 1)
+                {
+                    <div class="col-xl-3 col-lg-3 col-md-4 col-sm-6 my-3">
+                        <div class="card my-card" style="width:100%;">
+                            <a href="~/@item.slug">
+                                <img class="card-img-top" src="~/public/images/product/@item.image" alt="Card image cap">
+                            </a>
+                            <div class="card-body my-card-body">
+                                <a href="~/@item.slug" class="card-title my-card-title">@item.tenGiay</a>
+                                <p class="card-text">Giá: @item.giaBan đ</p>
+                                <a href="#" class="btn btn-danger" style="float:right;">Mua</a>
+                            </div>
                         </div>
                     </div>
-                </div>
+                }
             }
 
 
@@ -92,18 +95,21 @@
                             {
 
 
-                                <div class="col-xl-3 col-lg-3 col-md-4 col-sm-6 my-3">
-                                    <div class="card my-card" style="width:100%;">
-                                        <a href="~/@item.slug">
-                                            <img class="card-img-top" src="~/public/images/product/@item.image" alt="Card image cap">
-                                        </a>
-                                        <div class="card-body my-card-body">
-                                            <a href="~/@item.slug" class="card-title my-card-title">@item.tenGiay</a>
-                                            <p class="card-text">Giá: @item.giaBan đ</p>
-                                            <a href="#" class="btn btn-danger" style="float:right;">Mua</a>
+                                if (item.trangThai == 1)
+                                {
+                                    <div class="col-xl-3 col-lg-3 col-md-4 col-sm-6 my-3">
+                                        <div class="card my-card" style="width:100%;">
+                                            <a href="~/@item.slug">
+                                                <img class="card-img-top" src="~/public/images/product/@item.image" alt="Card image cap">
+                                            </a>
+                                            <div class="card-body my-card-body">
+                                                <a href="~/@item.slug" class="card-title my-card-title">@item.tenGiay</a>
+                                                <p class="card-text">Giá: @item.giaBan đ</p>
+                                                <a href="#" class="btn btn-danger" style="float:right;">Mua</a>
+                                            </div>
                                         </div>
                                     </div>
-                                </div>
+                                }
 
 
                             }
@@ -114,18 +120,21 @@
                         <div class="row">
                             @foreach (var item in ListSPHot.Skip(4))
                             {
-                                <div class="col-xl-3 col-lg-3 col-md-4 col-sm-6 my-3">
-                                    <div class="card my-card" style="width:100%;">
-                                        <a href="~/@item.slug">
-                                            <img class="card-img-top" src="~/public/images/product/@item.image" alt="Card image cap">
-                                        </a>
-                                        <div class="card-body my-card-body">
-                                            <a href="~/@item.slug" class="card-title my-card-title">@item.tenGiay</a>
-                                            <p class="card-text">Giá: @item.giaBan đ</p>
-                                            <a href="#" class="btn btn-danger" style="float:right;">Mua</a>
+                                if (item.trangThai == 1)
+                                {
+                                    <div class="col-xl-3 col-lg-3 col-md-4 col-sm-6 my-3">
+                                        <div class="card my-card" style="width:100%;">
+                                            <a href="~/@item.slug">
+                                                <img class="card-img-top" src="~/public/images/product/@item.image" alt="Card image cap">
+                                            </a>
+                                            <div class="card-body my-card-body">
+                                                <a href="~/@item.slug" class="card-title my-card-title">@item.tenGiay</a>
+                                                <p class="card-text">Giá: @item.giaBan đ</p>
+                                                <a href="#" class="btn btn-danger" style="float:right;">Mua</a>
+                                            </div>
                                         </div>
                                     </div>
-                                </div>
+                                }
                             }
                         </div>
                     </div>
@@ -136,9 +145,7 @@
 
             </div>
             <!--/.Carousel Wrapper-->
-
-
-           <!--San pham Khuyen mai-->
+            <!--San pham Khuyen mai-->
             <div class="col-12 mt-5">
                 <h3 data-mask="DISCOUNT">- SẢN PHẨM KHUYẾN MÃI</h3>
             </div>
@@ -159,20 +166,23 @@
                     <!--First slide-->
                     <div class="carousel-item active">
                         <div class="row">
-                            @foreach (var item in giayKM.Take(giayKM.Count()/2) )
+                            @foreach (var item in giayKM.Take(giayKM.Count() / 2))
                             {
-                                <div class="col-xl-3 col-lg-3 col-md-4 col-sm-6 my-3">
-                                    <div class="card my-card" style="width:100%;">
-                                        <a href="~/@item.slug">
-                                            <img class="card-img-top" src="~/public/images/product/@item.image" alt="Card image cap">
-                                        </a>
-                                        <div class="card-body my-card-body">
-                                            <a href="~/@item.slug" class="card-title my-card-title">@item.tenGiay</a>
-                                            <p class="card-text">Giá: @item.giaBan đ</p>
-                                            <a href="#" class="btn btn-danger" style="float:right;">Mua</a>
+                                if (item.trangThai == 1)
+                                {
+                                    <div class="col-xl-3 col-lg-3 col-md-4 col-sm-6 my-3">
+                                        <div class="card my-card" style="width:100%;">
+                                            <a href="~/@item.slug">
+                                                <img class="card-img-top" src="~/public/images/product/@item.image" alt="Card image cap">
+                                            </a>
+                                            <div class="card-body my-card-body">
+                                                <a href="~/@item.slug" class="card-title my-card-title">@item.tenGiay</a>
+                                                <p class="card-text">Giá: @item.giaBan đ</p>
+                                                <a href="#" class="btn btn-danger" style="float:right;">Mua</a>
+                                            </div>
                                         </div>
                                     </div>
-                                </div>
+                                }
                             }
                         </div>
                     </div>
@@ -180,20 +190,23 @@
                     <!--Second slide-->
                     <div class="carousel-item">
                         <div class="row">
-                            @foreach (var item in giayKM.Skip(giayKM.Count()/2))
+                            @foreach (var item in giayKM.Skip(giayKM.Count() / 2))
                             {
-                                <div class="col-xl-3 col-lg-3 col-md-4 col-sm-6 my-3">
-                                    <div class="card my-card" style="width:100%;">
-                                        <a href="~/@item.slug">
-                                            <img class="card-img-top" src="~/public/images/product/@item.image" alt="Card image cap">
-                                        </a>
-                                        <div class="card-body my-card-body">
-                                            <a href="~/@item.slug" class="card-title my-card-title">@item.tenGiay</a>
-                                            <p class="card-text">Giá: @item.giaBan đ</p>
-                                            <a href="#" class="btn btn-danger" style="float:right;">Mua</a>
+                                if (item.trangThai == 1)
+                                {
+                                    <div class="col-xl-3 col-lg-3 col-md-4 col-sm-6 my-3">
+                                        <div class="card my-card" style="width:100%;">
+                                            <a href="~/@item.slug">
+                                                <img class="card-img-top" src="~/public/images/product/@item.image" alt="Card image cap">
+                                            </a>
+                                            <div class="card-body my-card-body">
+                                                <a href="~/@item.slug" class="card-title my-card-title">@item.tenGiay</a>
+                                                <p class="card-text">Giá: @item.giaBan đ</p>
+                                                <a href="#" class="btn btn-danger" style="float:right;">Mua</a>
+                                            </div>
                                         </div>
                                     </div>
-                                </div>
+                                }
                             }
                         </div>
 

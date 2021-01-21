@@ -19,6 +19,7 @@ namespace MyClass.Model
         [Key]
         public int maGiay { get; set; }
 
+        public int trangThai { get; set; }
         public int maLoai { get; set; }
 
         [Required]
