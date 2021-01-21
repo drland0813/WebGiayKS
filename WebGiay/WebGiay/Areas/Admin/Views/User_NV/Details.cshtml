@@ -1,0 +1,67 @@
+﻿@model MyClass.Model.User_NV
+
+@{
+    ViewBag.Title = "Details";
+    Layout = "~/Areas/Admin/Views/Shared/_LayoutAdmin.cshtml";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>User_NV</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Account.fullName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Account.fullName)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.LoaiNV.tenLoai)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.LoaiNV.tenLoai)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.ngayBDLam)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ngayBDLam)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.heSoLuong)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.heSoLuong)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.ngaySinh)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ngaySinh)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.soCMND)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.soCMND)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.id_NV }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

@@ -1,0 +1,43 @@
+﻿@model MyClass.Model.User_KH
+
+@{
+    ViewBag.Title = "Details";
+    Layout = "~/Views/Shared/_LayoutSite.cshtml";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>User_KH</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Account.fullName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Account.fullName)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.diem)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.diem)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.avatar)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.avatar)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.id_KH }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>
