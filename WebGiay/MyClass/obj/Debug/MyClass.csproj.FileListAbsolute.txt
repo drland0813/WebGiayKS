@@ -63,7 +63,6 @@ D:\WebGiayKS\WebGiay\MyClass\bin\Debug\EntityFramework.dll
 D:\WebGiayKS\WebGiay\MyClass\bin\Debug\EntityFramework.SqlServer.dll
 D:\WebGiayKS\WebGiay\MyClass\bin\Debug\EntityFramework.xml
 D:\WebGiayKS\WebGiay\MyClass\bin\Debug\EntityFramework.SqlServer.xml
-D:\WebGiayKS\WebGiay\MyClass\obj\Debug\MyClass.csprojAssemblyReference.cache
 D:\WebGiayKS\WebGiay\MyClass\obj\Debug\MyClass.csproj.CoreCompileInputs.cache
 D:\WebGiayKS\WebGiay\MyClass\obj\Debug\MyClass.csproj.CopyComplete
 D:\WebGiayKS\WebGiay\MyClass\obj\Debug\MyClass.dll
