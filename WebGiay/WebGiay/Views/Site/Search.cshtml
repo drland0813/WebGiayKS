@@ -1,0 +1,54 @@
+﻿@using MyClass.DAO;
+@using MyClass.Model;
+@{
+    ViewBag.Title = "Search";
+    Layout = "~/Views/Shared/_LayoutSite.cshtml";
+
+    string key = Request.QueryString["Key"];
+    List<Giay> result = new List<Giay>();
+}
+
+
+<div class="container">
+    <div class="row mt-4">
+         <div class="col-12 my-4">
+                    <h3 class="my-title" data-mask="SEARCH">- DANH MỤC TÌM KIẾM</h3>
+                </div>
+        @{
+            if (string.IsNullOrEmpty(key))
+            {
+                <h2>vui long nhap san pham muon tim</h2>
+
+            }
+            else
+            {
+
+                if (key == "")
+                {
+                    <h2>vui long nhap san pham muon tim</h2>
+                }
+                else
+                {
+                    result = new ProductDAO().Searchbykey(key);
+
+                    foreach (var item in result)
+                    {
+
+                        <div class="col-xl-3 col-lg-3 col-md-4 col-sm-6 my-3">
+                            <div class="card my-card" style="width:100%;">
+                                <a href="~/@item.slug">
+                                    <img class="card-img-top" src="~/public/images/product/@item.image" alt="Card image cap">
+                                </a>
+                                <div class="card-body my-card-body">
+                                    <a href="~/@item.slug" class="card-title my-card-title">@item.tenGiay</a>
+                                    <p class="card-text">Giá: @item.giaBan đ</p>
+                                    <a href="#" class="btn btn-danger" style="float:right;">Mua</a>
+                                </div>
+                            </div>
+                        </div>
+                    }
+
+                }
+            }
+        }
+

@@ -49,6 +49,11 @@ namespace WebGiay.Controllers
             }
             return Error404(); 
         }
+        public ActionResult Search()
+        {
+
+            return View("Search");
+        }
         public ActionResult DeitalProductCategory(int maloai)
         {
             ProductDAO productyDAO = new ProductDAO();

@@ -11,7 +11,12 @@ namespace MyClass.DAO
    public class ProductDAO
     {
         MyDBContext db = new MyDBContext();
-
+            
+        //tim kiem san pham
+        public List<Giay> Searchbykey(String key)
+        {
+            return db.Giays.SqlQuery("Select * from Giay where tenGiay like '%" + key + "%'").ToList();
+        }
         public Giay getRow(String slug)
         {
             Giay row = db.Giays.Where(m => m.slug == slug).FirstOrDefault();

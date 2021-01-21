@@ -8,26 +8,30 @@
     <div class="container container_login">
         <div class="row">
             <div class="col-md-4 col-xl-4 col-lg-4 col-sm-12 login-sec">
+               
                 <h2 class="text-center">Đăng Nhập</h2>
-                <form class="login-form">
+                <form class="login-form" method="post" action="/KhachHang/DangNhap">
                     <div class="form-group">
                         <label for="exampleInputEmail1" class="text-uppercase">Tên đăng nhập</label>
-                        <input type="text" class="form-control" placeholder="Email hoặc Số điện thoại">
+                        <input type="text" class="form-control" name="email" placeholder="Email hoặc Số điện thoại">
 
                     </div>
-              
+
                     <div class="form-group">
                         <label for="exampleInputPassword1" class="text-uppercase">Mật khẩu</label>
-                        <input type="password" class="form-control" placeholder="Mật khẩu">
+                        <input type="password" class="form-control" name="password" placeholder="Mật khẩu">
                     </div>
-                   
+
 
 
                     <div class="form-check">
 
                         <button type="submit" class="btn btn-login float-right">Đăng nhập</button>
                     </div>
-
+                    @if (ViewBag.Message != null)
+                    {
+                        @ViewBag.Message
+                    }
                 </form>
                 <div class="copy-text">Chưa có tài khoản? <a href="~/dang-ky">Đăng ký</a></div>
             </div>

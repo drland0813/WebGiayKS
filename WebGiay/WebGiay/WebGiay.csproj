@@ -118,6 +118,7 @@
     <Content Include="public\images\avartar\avatar_pic3.jpg" />
     <Content Include="public\images\avartar\avatar_pic4.jpg" />
     <Content Include="public\images\avartar\avatar_pic5.jpg" />
+    <Content Include="public\images\avatar.jpg" />
     <Content Include="public\images\logo.png" />
     <Content Include="public\images\logo2.png" />
     <Content Include="public\images\map.jpg" />
@@ -443,6 +444,7 @@
     <Content Include="Views\Module\ProductSide.cshtml" />
     <Content Include="Views\Site\DeitalProductCategory.cshtml" />
     <Content Include="Views\Module\ProductSize.cshtml" />
+    <Content Include="Views\Site\Search.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
