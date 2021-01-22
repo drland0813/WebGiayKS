@@ -1,0 +1,51 @@
+﻿@model MyClass.Model.LoaiNV
+
+@{
+    ViewBag.Title = "Details";
+    Layout = "~/Areas/Admin/Views/Shared/_LayoutAdmin.cshtml";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>LoaiNV</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.tenLoai)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.tenLoai)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.LuongCB)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.LuongCB)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.phuCap)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.phuCap)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.chucVu)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.chucVu)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.id_LoaiNV }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>
