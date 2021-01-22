@@ -308,13 +308,6 @@
     <Content Include="Areas\Admin\Views\User_KH\Details.cshtml" />
     <Content Include="Areas\Admin\Views\User_KH\Edit.cshtml" />
     <Content Include="Areas\Admin\Views\User_KH\Index.cshtml" />
-<<<<<<< HEAD
-    <Content Include="Areas\Admin\Views\Product\Create.cshtml" />
-    <Content Include="Areas\Admin\Views\Product\Delete.cshtml" />
-    <Content Include="Areas\Admin\Views\Product\Details.cshtml" />
-    <Content Include="Areas\Admin\Views\Product\Edit.cshtml" />
-    <Content Include="Areas\Admin\Views\Product\Index.cshtml" />
-=======
     <Content Include="Areas\Admin\Views\Slider\Create.cshtml" />
     <Content Include="Areas\Admin\Views\Slider\Delete.cshtml" />
     <Content Include="Areas\Admin\Views\Slider\Details.cshtml" />
@@ -325,7 +318,6 @@
     <Content Include="Areas\Admin\Views\DonHang\Details.cshtml" />
     <Content Include="Areas\Admin\Views\DonHang\Edit.cshtml" />
     <Content Include="Areas\Admin\Views\DonHang\Index.cshtml" />
->>>>>>> a093c28a22f9336abead1877ca6672c5f25456f2
     <None Include="Scripts\jquery-3.0.0-vsdoc.js" />
     <Content Include="Scripts\jquery-3.0.0.js" />
     <Content Include="Scripts\jquery-3.0.0.min.js" />
@@ -427,12 +419,8 @@
     <Compile Include="Areas\Admin\Controllers\AuthController.cs" />
     <Compile Include="Areas\Admin\Controllers\BaseController.cs" />
     <Compile Include="Areas\Admin\Controllers\DashboardController.cs" />
-<<<<<<< HEAD
-    <Compile Include="Areas\Admin\Controllers\ProductController.cs" />
-=======
     <Compile Include="Areas\Admin\Controllers\DonHangController.cs" />
     <Compile Include="Areas\Admin\Controllers\SliderController.cs" />
->>>>>>> a093c28a22f9336abead1877ca6672c5f25456f2
     <Compile Include="Areas\Admin\Controllers\User_KHController.cs" />
     <Compile Include="Areas\Admin\Controllers\User_NVController.cs" />
     <Compile Include="Controllers\ChiTietSanPham1Controller.cs" />
