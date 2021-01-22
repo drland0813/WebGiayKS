@@ -67,3 +67,4 @@ D:\WebGiayKS\WebGiay\MyClass\obj\Debug\MyClass.csproj.CoreCompileInputs.cache
 D:\WebGiayKS\WebGiay\MyClass\obj\Debug\MyClass.csproj.CopyComplete
 D:\WebGiayKS\WebGiay\MyClass\obj\Debug\MyClass.dll
 D:\WebGiayKS\WebGiay\MyClass\obj\Debug\MyClass.pdb
+D:\WebGiayKS\WebGiay\MyClass\obj\Debug\MyClass.csprojAssemblyReference.cache

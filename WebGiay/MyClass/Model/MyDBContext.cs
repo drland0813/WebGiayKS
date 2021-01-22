@@ -76,10 +76,10 @@ namespace MyClass.Model
                 .HasForeignKey(e => new { e.size, e.maGiay })
                 .WillCascadeOnDelete(false);
 
-            modelBuilder.Entity<ChiTietQuyen>()
-                .HasMany(e => e.Accounts)
-                .WithRequired(e => e.ChiTietQuyen)
-                .WillCascadeOnDelete(false);
+            //modelBuilder.Entity<ChiTietQuyen>()
+            //    .HasMany(e => e.Accounts)
+            //    .WithRequired(e => e.ChiTietQuyen)
+            //    .WillCascadeOnDelete(false);
 
             modelBuilder.Entity<ChuDeBV>()
                 .Property(e => e.slug)

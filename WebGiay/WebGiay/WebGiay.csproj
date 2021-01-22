@@ -308,6 +308,16 @@
     <Content Include="Areas\Admin\Views\User_KH\Details.cshtml" />
     <Content Include="Areas\Admin\Views\User_KH\Edit.cshtml" />
     <Content Include="Areas\Admin\Views\User_KH\Index.cshtml" />
+    <Content Include="Areas\Admin\Views\Slider\Create.cshtml" />
+    <Content Include="Areas\Admin\Views\Slider\Delete.cshtml" />
+    <Content Include="Areas\Admin\Views\Slider\Details.cshtml" />
+    <Content Include="Areas\Admin\Views\Slider\Edit.cshtml" />
+    <Content Include="Areas\Admin\Views\Slider\Index.cshtml" />
+    <Content Include="Areas\Admin\Views\DonHang\Create.cshtml" />
+    <Content Include="Areas\Admin\Views\DonHang\Delete.cshtml" />
+    <Content Include="Areas\Admin\Views\DonHang\Details.cshtml" />
+    <Content Include="Areas\Admin\Views\DonHang\Edit.cshtml" />
+    <Content Include="Areas\Admin\Views\DonHang\Index.cshtml" />
     <None Include="Scripts\jquery-3.0.0-vsdoc.js" />
     <Content Include="Scripts\jquery-3.0.0.js" />
     <Content Include="Scripts\jquery-3.0.0.min.js" />
@@ -409,6 +419,8 @@
     <Compile Include="Areas\Admin\Controllers\AuthController.cs" />
     <Compile Include="Areas\Admin\Controllers\BaseController.cs" />
     <Compile Include="Areas\Admin\Controllers\DashboardController.cs" />
+    <Compile Include="Areas\Admin\Controllers\DonHangController.cs" />
+    <Compile Include="Areas\Admin\Controllers\SliderController.cs" />
     <Compile Include="Areas\Admin\Controllers\User_KHController.cs" />
     <Compile Include="Areas\Admin\Controllers\User_NVController.cs" />
     <Compile Include="Controllers\ChiTietSanPham1Controller.cs" />

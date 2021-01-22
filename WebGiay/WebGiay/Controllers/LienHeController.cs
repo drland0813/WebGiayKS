@@ -24,7 +24,7 @@ namespace WebGiay.Controllers
             string phoneNumber = collection.Get("phonenumber");
             string address = collection.Get("address");
             string content = collection.Get("content");
-            
+
 
 
             LienHe lh = new LienHe()

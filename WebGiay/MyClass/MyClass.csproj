@@ -52,6 +52,7 @@
   <ItemGroup>
     <Compile Include="DAO\AccountDAO.cs" />
     <Compile Include="DAO\CategoryDAO.cs" />
+    <Compile Include="DAO\LienHeDAO.cs" />
     <Compile Include="DAO\LinkDAO.cs" />
     <Compile Include="DAO\PostDAO.cs" />
     <Compile Include="DAO\ProductDAO.cs" />
@@ -67,6 +68,7 @@
     <Compile Include="Model\DonHang.cs" />
     <Compile Include="Model\Giay.cs" />
     <Compile Include="Model\KhuyenMai.cs" />
+    <Compile Include="Model\LienHe.cs" />
     <Compile Include="Model\Link.cs" />
     <Compile Include="Model\LoaiGiay.cs" />
     <Compile Include="Model\LoaiNV.cs" />

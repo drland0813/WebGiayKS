@@ -1,15 +1,16 @@
-﻿@model IEnumerable<MyClass.Model.User_KH>
+﻿@model IEnumerable<MyClass.Model.DonHang>
 
 @{
     ViewBag.Title = "Index";
     Layout = "~/Areas/Admin/Views/Shared/_LayoutAdmin.cshtml";
 }
 
+
 <div class="card">
     <div class="card-header">
         <div class="row">
             <div class="col-md-6">
-                <strong class="text-danger text-uppercase">TẤT CẢ KHÁCH HÀNG</strong>
+                <strong class="text-danger text-uppercase">TẤT CẢ ĐƠN HÀNG</strong>
             </div>
             <div class="col-md-6 text-right">
                 <a href="Create" class="btn btn-success btn-sm"><i class="fas fa-plus"></i>Thêm</a>
@@ -21,13 +22,30 @@
         <table id="myTable" class="table table-bordered table-hover table-striped">
             <thead>
                 <tr>
-
                     <th style="width:20px;" class="text-center">#</th>
+
+
                     <th>
-                        @Html.DisplayNameFor(model => model.avatar)
+                       ID
                     </th>
-                    <th>Họ Và Tên</th>
-                    <th>Điểm</th>
+                    <th>
+                       Ngày Lập
+                    </th>
+                    <th>
+                        Ngày Giao Hàng
+                    </th>
+                    <th>
+                       Tổng Tiền
+                    </th>
+                    <th>
+                        Tình Trạng
+                    </th>
+                    <th>
+                        Tên NV Giao Hàng
+                    </th>
+
+
+
 
                     <th style="width:200px;" class="text-center">Chức năng</th>
                 </tr>
@@ -40,14 +58,24 @@
                         <input name="STT" type="checkbox" class="text-center" />
                     </td>
 
+
                     <td>
-                        @Html.DisplayFor(modelItem => item.avatar)
+                        @Html.DisplayFor(modelItem => item.User_KH.id_KH)
                     </td>
                     <td>
-                        @Html.DisplayFor(modelItem => item.Account.fullName)
+                        @Html.DisplayFor(modelItem => item.ngayLap)
                     </td>
                     <td>
-                        @Html.DisplayFor(modelItem => item.diem)
+                        @Html.DisplayFor(modelItem => item.ngayGiaoHang)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.tongTien)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.tinhTrang)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.tenNVGiaoHang)
                     </td>
 
 
@@ -76,9 +104,9 @@
             db.SaveChanges();
             return RedirectToAction("Index");
             }*@
-                        <a class="btn btn-info btn-sm" href="@Url.Action("Edit","User_KH",new { id = item.id_KH })"><i class="fas fa-edit"></i></a>
-                        <a class="btn btn-warning btn-sm" href="@Url.Action("Details","User_KH",new { id = item.id_KH })"><i class="fas fa-eye"></i></a>
-                        <a class="btn btn-danger btn-sm" href="@Url.Action("DelTrash","User_KH",new { id = item.id_KH })"><i class="fas fa-trash"></i></a>
+                        <a class="btn btn-info btn-sm" href="@Url.Action("Edit","DonHang",new { id = item.soDH })"><i class="fas fa-edit"></i></a>
+                        <a class="btn btn-warning btn-sm" href="@Url.Action("Details","DonHang",new { id = item.soDH })"><i class="fas fa-eye"></i></a>
+                        <a class="btn btn-danger btn-sm" href="@Url.Action("DelTrash","DonHang",new { id = item.soDH })"><i class="fas fa-trash"></i></a>
                     </td>
                 </tr>
                 }
@@ -97,39 +125,3 @@
         });
     </script>
 }
-
-
-@*<table class="table">
-    <tr>
-        <th>
-            @Html.DisplayNameFor(model => model.Account.fullName)
-        </th>
-        <th>
-            @Html.DisplayNameFor(model => model.diem)
-        </th>
-        <th>
-            @Html.DisplayNameFor(model => model.avatar)
-        </th>
-        <th></th>
-    </tr>
-
-    @foreach (var item in Model)
-    {
-        <tr>
-            <td>
-                @Html.DisplayFor(modelItem => item.Account.fullName)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.diem)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.avatar)
-            </td>
-            <td>
-                @Html.ActionLink("Edit", "Edit", new { id = item.id_KH }) |
-                @Html.ActionLink("Details", "Details", new { id = item.id_KH }) |
-                @Html.ActionLink("Delete", "Delete", new { id = item.id_KH })
-            </td>
-        </tr>
-    }
-</table>*@
