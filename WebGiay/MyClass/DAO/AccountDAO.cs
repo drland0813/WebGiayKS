@@ -22,5 +22,13 @@ namespace MyClass.DAO
             Account row = db.Accounts.Where(p => p.index_quyen == 0 && p.email == str).FirstOrDefault();
             return row;
         }
+
+        public void addAccount(Account ac)
+        {
+            db = new MyDBContext();
+            db.Accounts.Add(ac);
+            db.SaveChanges();
+
+        }
     }
 }

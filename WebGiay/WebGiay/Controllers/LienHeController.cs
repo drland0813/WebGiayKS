@@ -24,6 +24,8 @@ namespace WebGiay.Controllers
             string phoneNumber = collection.Get("phonenumber");
             string address = collection.Get("address");
             string content = collection.Get("content");
+            
+
 
             LienHe lh = new LienHe()
             {
@@ -37,7 +39,7 @@ namespace WebGiay.Controllers
             LienHeDAO lienHeDAO = new LienHeDAO();
             lienHeDAO.AddLH(lh);
 
-            ViewBag.Message = "Chào mừng bạn đến với shop giày " + fullname + "! Shop đã nhận được liên hệ của bạn.";
+            ViewBag.Message = "Chào mừng quý khách " + fullname + " đến với shop giày! Shop đã nhận được liên hệ của bạn.";
             return View();
         }
 

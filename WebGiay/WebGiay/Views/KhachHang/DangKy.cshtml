@@ -9,56 +9,114 @@
         <div class="row">
             <div class="col-md-6 col-lg-6 col-xl-6 col-sm-12 login-sec">
                 <h2 class="text-center">Đăng Ký</h2>
-                <form class="login-form">
+
+                <form class="login-form" method="post" action="/KhachHang/DangKy">
+
                     <div class="form-group">
-                        <label for="exampleInputEmail1" class="text-uppercase">Họ Tên</label>
-                        <input type="text" class="form-control" placeholder="VD: Nguyễn Văn A">
+                        <label for="fullName" class="text-uppercase">Họ Tên</label>
+                        <input type="text" name="fullName" required
+                               placeholder="VD: Lê Hữu Dũng"
+                               oninvalid="this.setCustomValidity('Không thể để trống họ tên')"
+                               oninput="this.setCustomValidity('')"
+                               class="form-control" />
 
                     </div>
                     <div class="form-group">
-                        <label for="exampleInputEmail1" class="text-uppercase">Email</label>
-                        <input type="email" class="form-control" placeholder="VD: nguyenvana@gmail.com">
+                        <label for="email" class="text-uppercase">Email</label>
+                        <input type="text" name="email" required
+                               placeholder="VD: hudung@gmail.com"
+                               oninvalid="this.setCustomValidity('Không thể bỏ trống email')"
+                               oninput="this.setCustomValidity('')"
+                               class="form-control" />
 
                     </div>
 
                     <div class="form-group">
-                        <label for="exampleInputEmail1" class="text-uppercase">Số điện thoại</label>
-                        <input type="tel" class="form-control" placeholder="VD: 0123456789">
+                        <label for="phone" class="text-uppercase">Số điện thoại</label>
+                        <input type="text" name="phone" required
+                               placeholder="VD: 0355669988"
+                               oninvalid="this.setCustomValidity('Bắt buộc nhập số điện thoại')"
+                               oninput="this.setCustomValidity('')"
+                               class="form-control" />
 
                     </div>
+
+                    <div class="form-group">
+                        <label for="diaChi" class="text-uppercase">Địa chỉ</label>
+                        <input type="text" name="diaChi" id="diaChi"
+                               placeholder="VD: Hồ Chí Minh Quận Gò Vấp Phường 4 Phạm Văn Chau 487"
+                               class="form-control" />
+
+                    </div>
+
                     <div class="form-group">
                         <label for="exampleInputEmail1" class="text-uppercase">Giới tính</label>
-                        <select class="form-control">
-                            <option value="0">Chọn Giới Tính </option>
-                            <option value="0">Nam </option>
-                            <option value="0">Nữ </option>
+                        <select class="form-control" name="gioitinh" required
+                                oninvalid="this.setCustomValidity('Xin hãy chọn giới tính')"
+                                oninput="this.setCustomValidity('')">
+                            <option value="" selected disabled hidden>Ấn vào đây để chọn</option>
+                            <option value="0"> Nam </option>
+                            <option value="1"> Nữ </option>
+                            <option value="2"> Khác</option>
                         </select>
-                    </div>
-                    <div class="form-group">
-                        <label for="exampleInputPassword1" class="text-uppercase">Password</label>
-                        <input type="password" class="form-control" placeholder="Mật khẩu">
                     </div>
 
                     <div class="form-group">
-                        <label for="exampleInputPassword1" class="text-uppercase">Xác Nhận Mật khẩu</label>
-                        <input type="password" class="form-control" placeholder="Xác Nhận Mật khẩu">
+                        <label for="passwords" class="text-uppercase">Password</label>
+                        <input type="password" name="passwords" id="passwords" required
+                               placeholder="Mật khẩu"
+                               oninvalid="this.setCustomValidity('Mật khẩu không thể bỏ trống')"
+                               oninput="this.setCustomValidity('')"
+                               class="form-control" />
+                    </div>
+
+                    <div class="form-group">
+                        <label for="confirmPasswords" class="text-uppercase">Xác Nhận Mật khẩu</label>
+                        <input type="password" name="confirmPasswords" id="confirmPasswords" required
+                               placeholder="Xác nhận lại mật khẩu"
+                               oninvalid="this.setCustomValidity('Mật khẩu không thể bỏ trống')"
+                               oninput="this.setCustomValidity('')"
+                               class="form-control" />
                     </div>
 
                     <div class="form-check">
                         <label class="form-check-label">
                             <input type="checkbox" class="form-check-input">
-                            <small>Tôi đồng ý với các điều khoản</small>
+                            @*<small>Tôi đồng ý với các điều khoản</small>*@
                         </label>
-                        <button type="submit" class="btn btn-login float-right">Đăng ký</button>
+                        <button type="submit" class="btn btn-login float-right" onclick="return Validate()">Đăng ký </button>
                     </div>
 
                 </form>
+
+                @if (TempData["msg"] != null)
+                {
+                    @Html.Raw(TempData["msg"])
+                }
+
+
+            <script type="text/javascript">
+                    function Validate() {
+                        var password = document.getElementById("passwords").value;
+                        var confirmPassword = document.getElementById("confirmPasswords").value;
+
+                        if (password != confirmPassword) {
+                            alert("Mật khẩu xác nhận không khớp");
+                            return false;
+                        }
+
+                        return true;
+                    }
+            </script>
+
+
                 <div class="copy-text">Bạn đã có tài khoản? <a href="~/dang-nhap">Đăng nhập</a></div>
             </div>
             <div class="col-md-6 col-lg-6 col-xl-6 col-sm-12" style="background-image: url('../../public/images/slider/slider_pic2.jpg');background-size:cover;background-repeat:no-repeat;background-position:-400px;">
             </div>
         
         </div>
+     </div>
 </section>
 
 
