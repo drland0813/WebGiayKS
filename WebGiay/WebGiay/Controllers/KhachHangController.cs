@@ -20,7 +20,10 @@ namespace WebGiay.Controllers
             string email = collection.Get("email");
             string password = collection.Get("password");
             MyDBContext context = new MyDBContext();
-            User_KH user = context.User_KH.Where(m => m.Account.email == email && m.Account.passwords == password).FirstOrDefault();
+            User_KH user = context.User_KH.
+                Where(m => m.Account.index_quyen == 1).
+                Where(m => m.Account.email == email && m.Account.passwords == password).
+                FirstOrDefault();
             if (user != null)
             {
                 Session.Add("userID", user.id_KH);
@@ -30,7 +33,7 @@ namespace WebGiay.Controllers
             }
             else
             {
-                ViewBag.Message = "User Not Found !";
+                ViewBag.Message = "SDT, email không tồn tại, hoặc mật khẩu của bạn không đúng";
                 return View("DangNhap");
             }
 
