@@ -23,7 +23,7 @@
             <thead>
                 <tr>
                     <th style="width: 20px;" class="text-center">#</th>
-                    <th style="width:100px;">Hình ảnh</th>
+                    <th style="width:50px;">Hình ảnh</th>
                     <th class="text-center">Tên Giày</th>
                     <th class="text-center">Loại Giày</th>
                     <th class="text-center">Ngày Nhập</th>
@@ -42,7 +42,7 @@
                         <td>
                             <img src="~/public/images/product/@item.image" class="img-fluid" alt="Alternate Text" />
                         </td>
-                        <td class="text-center">
+                        <td style="text-align:center">
                             @Html.DisplayFor(modelItem => item.tenGiay)
                         </td>
                         <td class="text-center">
@@ -60,12 +60,12 @@
                         <td class="text-center">
                             @if (item.trangThai == 1)
                             {
-                                <a class="btn btn-info btn-sm" href="@Url.Action("Edit","Product", new {id=item.maGiay })"><i class="fas fa-toggle-on"></i></a>
+                                <a class="btn btn-success btn-sm" href="@Url.Action("Status","Product", new {id=item.maGiay })"><i class="fas fa-toggle-on"></i></a>
 
                             }
                             else
                             {
-                                <a class="btn btn-info btn-sm" href="@Url.Action("Edit","Product", new {id=item.maGiay })"><i class="fas fa-toggle-off"></i></a>
+                                <a class="btn btn-danger btn-sm" href="@Url.Action("Status","Product", new {id=item.maGiay })"><i class="fas fa-toggle-off"></i></a>
 
                             }
                             <a class="btn btn-info btn-sm" href="@Url.Action("Edit","Product", new {id=item.maGiay })"><i class="fas fa-edit"></i></a>

@@ -48,7 +48,7 @@ namespace WebGiay.Areas.Admin.Controllers
         // more details see https://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Create([Bind(Include = "maGiay,maLoai,tenGiay,slug,giaBan,giaNhap,ngayTao,image,chiTiet")] Giay giay)
+        public ActionResult Create([Bind(Include = "maGiay,trangThai,maLoai,tenGiay,slug,giaBan,giaNhap,ngayTao,image,chiTiet")] Giay giay)
         {
             if (ModelState.IsValid)
             {
@@ -82,7 +82,7 @@ namespace WebGiay.Areas.Admin.Controllers
         // more details see https://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Edit([Bind(Include = "maGiay,maLoai,tenGiay,slug,giaBan,giaNhap,ngayTao,image,chiTiet")] Giay giay)
+        public ActionResult Edit([Bind(Include = "maGiay,trangThai,maLoai,tenGiay,slug,giaBan,giaNhap,ngayTao,image,chiTiet")] Giay giay)
         {
             if (ModelState.IsValid)
             {
@@ -127,6 +127,18 @@ namespace WebGiay.Areas.Admin.Controllers
                 db.Dispose();
             }
             base.Dispose(disposing);
+        }
+        public ActionResult Status(int? id)
+        {
+            if (id == null)
+            {
+                return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
+            }
+            Giay giay = db.Giays.Find(id);
+            giay.trangThai = (giay.trangThai == 1) ? 0 : 1;
+            db.Entry(giay).State = EntityState.Modified;
+            db.SaveChanges();
+            return RedirectToAction("Index");
         }
     }
 }
