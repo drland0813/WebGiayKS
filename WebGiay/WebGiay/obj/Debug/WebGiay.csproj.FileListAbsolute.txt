@@ -1,482 +1,55 @@
-F:\LapTrinhPhanMem\WebGiay\WebGiay\bin\WebGiay.dll.config
-F:\LapTrinhPhanMem\WebGiay\WebGiay\bin\WebGiay.dll
-F:\LapTrinhPhanMem\WebGiay\WebGiay\bin\WebGiay.pdb
-F:\LapTrinhPhanMem\WebGiay\WebGiay\bin\roslyn\csc.exe
-F:\LapTrinhPhanMem\WebGiay\WebGiay\bin\roslyn\csc.exe.config
-F:\LapTrinhPhanMem\WebGiay\WebGiay\bin\roslyn\csc.rsp
-F:\LapTrinhPhanMem\WebGiay\WebGiay\bin\roslyn\csi.exe
-F:\LapTrinhPhanMem\WebGiay\WebGiay\bin\roslyn\csi.exe.config
-F:\LapTrinhPhanMem\WebGiay\WebGiay\bin\roslyn\csi.rsp
-F:\LapTrinhPhanMem\WebGiay\WebGiay\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
-F:\LapTrinhPhanMem\WebGiay\WebGiay\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
-F:\LapTrinhPhanMem\WebGiay\WebGiay\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
-F:\LapTrinhPhanMem\WebGiay\WebGiay\bin\roslyn\Microsoft.CodeAnalysis.dll
-F:\LapTrinhPhanMem\WebGiay\WebGiay\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
-F:\LapTrinhPhanMem\WebGiay\WebGiay\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
-F:\LapTrinhPhanMem\WebGiay\WebGiay\bin\roslyn\Microsoft.CSharp.Core.targets
-F:\LapTrinhPhanMem\WebGiay\WebGiay\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
-F:\LapTrinhPhanMem\WebGiay\WebGiay\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
-F:\LapTrinhPhanMem\WebGiay\WebGiay\bin\roslyn\Microsoft.Managed.Core.targets
-F:\LapTrinhPhanMem\WebGiay\WebGiay\bin\roslyn\Microsoft.VisualBasic.Core.targets
-F:\LapTrinhPhanMem\WebGiay\WebGiay\bin\roslyn\Microsoft.Win32.Primitives.dll
-F:\LapTrinhPhanMem\WebGiay\WebGiay\bin\roslyn\System.AppContext.dll
-F:\LapTrinhPhanMem\WebGiay\WebGiay\bin\roslyn\System.Collections.Immutable.dll
-F:\LapTrinhPhanMem\WebGiay\WebGiay\bin\roslyn\System.Console.dll
-F:\LapTrinhPhanMem\WebGiay\WebGiay\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
-F:\LapTrinhPhanMem\WebGiay\WebGiay\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
-F:\LapTrinhPhanMem\WebGiay\WebGiay\bin\roslyn\System.Diagnostics.StackTrace.dll
-F:\LapTrinhPhanMem\WebGiay\WebGiay\bin\roslyn\System.Globalization.Calendars.dll
-F:\LapTrinhPhanMem\WebGiay\WebGiay\bin\roslyn\System.IO.Compression.dll
-F:\LapTrinhPhanMem\WebGiay\WebGiay\bin\roslyn\System.IO.Compression.ZipFile.dll
-F:\LapTrinhPhanMem\WebGiay\WebGiay\bin\roslyn\System.IO.FileSystem.dll
-F:\LapTrinhPhanMem\WebGiay\WebGiay\bin\roslyn\System.IO.FileSystem.Primitives.dll
-F:\LapTrinhPhanMem\WebGiay\WebGiay\bin\roslyn\System.Net.Http.dll
-F:\LapTrinhPhanMem\WebGiay\WebGiay\bin\roslyn\System.Net.Sockets.dll
-F:\LapTrinhPhanMem\WebGiay\WebGiay\bin\roslyn\System.Reflection.Metadata.dll
-F:\LapTrinhPhanMem\WebGiay\WebGiay\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
-F:\LapTrinhPhanMem\WebGiay\WebGiay\bin\roslyn\System.Security.Cryptography.Algorithms.dll
-F:\LapTrinhPhanMem\WebGiay\WebGiay\bin\roslyn\System.Security.Cryptography.Encoding.dll
-F:\LapTrinhPhanMem\WebGiay\WebGiay\bin\roslyn\System.Security.Cryptography.Primitives.dll
-F:\LapTrinhPhanMem\WebGiay\WebGiay\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
-F:\LapTrinhPhanMem\WebGiay\WebGiay\bin\roslyn\System.Text.Encoding.CodePages.dll
-F:\LapTrinhPhanMem\WebGiay\WebGiay\bin\roslyn\System.Threading.Tasks.Extensions.dll
-F:\LapTrinhPhanMem\WebGiay\WebGiay\bin\roslyn\System.ValueTuple.dll
-F:\LapTrinhPhanMem\WebGiay\WebGiay\bin\roslyn\System.Xml.ReaderWriter.dll
-F:\LapTrinhPhanMem\WebGiay\WebGiay\bin\roslyn\System.Xml.XmlDocument.dll
-F:\LapTrinhPhanMem\WebGiay\WebGiay\bin\roslyn\System.Xml.XPath.dll
-F:\LapTrinhPhanMem\WebGiay\WebGiay\bin\roslyn\System.Xml.XPath.XDocument.dll
-F:\LapTrinhPhanMem\WebGiay\WebGiay\bin\roslyn\vbc.exe
-F:\LapTrinhPhanMem\WebGiay\WebGiay\bin\roslyn\vbc.exe.config
-F:\LapTrinhPhanMem\WebGiay\WebGiay\bin\roslyn\vbc.rsp
-F:\LapTrinhPhanMem\WebGiay\WebGiay\bin\roslyn\VBCSCompiler.exe
-F:\LapTrinhPhanMem\WebGiay\WebGiay\bin\roslyn\VBCSCompiler.exe.config
-F:\LapTrinhPhanMem\WebGiay\WebGiay\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
-F:\LapTrinhPhanMem\WebGiay\WebGiay\bin\Microsoft.Web.Infrastructure.dll
-F:\LapTrinhPhanMem\WebGiay\WebGiay\bin\System.Web.Helpers.dll
-F:\LapTrinhPhanMem\WebGiay\WebGiay\bin\System.Web.Mvc.dll
-F:\LapTrinhPhanMem\WebGiay\WebGiay\bin\System.Web.Razor.dll
-F:\LapTrinhPhanMem\WebGiay\WebGiay\bin\System.Web.Webpages.Deployment.dll
-F:\LapTrinhPhanMem\WebGiay\WebGiay\bin\System.Web.Webpages.dll
-F:\LapTrinhPhanMem\WebGiay\WebGiay\bin\System.Web.Webpages.Razor.dll
-F:\LapTrinhPhanMem\WebGiay\WebGiay\bin\System.Web.Razor.xml
-F:\LapTrinhPhanMem\WebGiay\WebGiay\bin\System.Web.Webpages.xml
-F:\LapTrinhPhanMem\WebGiay\WebGiay\bin\System.Web.Webpages.Deployment.xml
-F:\LapTrinhPhanMem\WebGiay\WebGiay\bin\System.Web.Webpages.Razor.xml
-F:\LapTrinhPhanMem\WebGiay\WebGiay\bin\System.Web.Helpers.xml
-F:\LapTrinhPhanMem\WebGiay\WebGiay\bin\System.Web.Mvc.xml
-F:\LapTrinhPhanMem\WebGiay\WebGiay\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
-F:\LapTrinhPhanMem\WebGiay\WebGiay\obj\Debug\WebGiay.csprojAssemblyReference.cache
-F:\LapTrinhPhanMem\WebGiay\WebGiay\obj\Debug\WebGiay.csproj.CoreCompileInputs.cache
-F:\LapTrinhPhanMem\WebGiay\WebGiay\obj\Debug\WebGiay.csproj.CopyComplete
-F:\LapTrinhPhanMem\WebGiay\WebGiay\obj\Debug\WebGiay.dll
-F:\LapTrinhPhanMem\WebGiay\WebGiay\obj\Debug\WebGiay.pdb
-F:\LapTrinhPhanMem\WebGiay - Copy (3)\WebGiay\bin\WebGiay.dll.config
-F:\LapTrinhPhanMem\WebGiay - Copy (3)\WebGiay\bin\WebGiay.dll
-F:\LapTrinhPhanMem\WebGiay - Copy (3)\WebGiay\bin\WebGiay.pdb
-F:\LapTrinhPhanMem\WebGiay - Copy (3)\WebGiay\bin\roslyn\csc.exe
-F:\LapTrinhPhanMem\WebGiay - Copy (3)\WebGiay\bin\roslyn\csc.exe.config
-F:\LapTrinhPhanMem\WebGiay - Copy (3)\WebGiay\bin\roslyn\csc.rsp
-F:\LapTrinhPhanMem\WebGiay - Copy (3)\WebGiay\bin\roslyn\csi.exe
-F:\LapTrinhPhanMem\WebGiay - Copy (3)\WebGiay\bin\roslyn\csi.exe.config
-F:\LapTrinhPhanMem\WebGiay - Copy (3)\WebGiay\bin\roslyn\csi.rsp
-F:\LapTrinhPhanMem\WebGiay - Copy (3)\WebGiay\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
-F:\LapTrinhPhanMem\WebGiay - Copy (3)\WebGiay\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
-F:\LapTrinhPhanMem\WebGiay - Copy (3)\WebGiay\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
-F:\LapTrinhPhanMem\WebGiay - Copy (3)\WebGiay\bin\roslyn\Microsoft.CodeAnalysis.dll
-F:\LapTrinhPhanMem\WebGiay - Copy (3)\WebGiay\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
-F:\LapTrinhPhanMem\WebGiay - Copy (3)\WebGiay\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
-F:\LapTrinhPhanMem\WebGiay - Copy (3)\WebGiay\bin\roslyn\Microsoft.CSharp.Core.targets
-F:\LapTrinhPhanMem\WebGiay - Copy (3)\WebGiay\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
-F:\LapTrinhPhanMem\WebGiay - Copy (3)\WebGiay\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
-F:\LapTrinhPhanMem\WebGiay - Copy (3)\WebGiay\bin\roslyn\Microsoft.Managed.Core.targets
-F:\LapTrinhPhanMem\WebGiay - Copy (3)\WebGiay\bin\roslyn\Microsoft.VisualBasic.Core.targets
-F:\LapTrinhPhanMem\WebGiay - Copy (3)\WebGiay\bin\roslyn\Microsoft.Win32.Primitives.dll
-F:\LapTrinhPhanMem\WebGiay - Copy (3)\WebGiay\bin\roslyn\System.AppContext.dll
-F:\LapTrinhPhanMem\WebGiay - Copy (3)\WebGiay\bin\roslyn\System.Collections.Immutable.dll
-F:\LapTrinhPhanMem\WebGiay - Copy (3)\WebGiay\bin\roslyn\System.Console.dll
-F:\LapTrinhPhanMem\WebGiay - Copy (3)\WebGiay\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
-F:\LapTrinhPhanMem\WebGiay - Copy (3)\WebGiay\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
-F:\LapTrinhPhanMem\WebGiay - Copy (3)\WebGiay\bin\roslyn\System.Diagnostics.StackTrace.dll
-F:\LapTrinhPhanMem\WebGiay - Copy (3)\WebGiay\bin\roslyn\System.Globalization.Calendars.dll
-F:\LapTrinhPhanMem\WebGiay - Copy (3)\WebGiay\bin\roslyn\System.IO.Compression.dll
-F:\LapTrinhPhanMem\WebGiay - Copy (3)\WebGiay\bin\roslyn\System.IO.Compression.ZipFile.dll
-F:\LapTrinhPhanMem\WebGiay - Copy (3)\WebGiay\bin\roslyn\System.IO.FileSystem.dll
-F:\LapTrinhPhanMem\WebGiay - Copy (3)\WebGiay\bin\roslyn\System.IO.FileSystem.Primitives.dll
-F:\LapTrinhPhanMem\WebGiay - Copy (3)\WebGiay\bin\roslyn\System.Net.Http.dll
-F:\LapTrinhPhanMem\WebGiay - Copy (3)\WebGiay\bin\roslyn\System.Net.Sockets.dll
-F:\LapTrinhPhanMem\WebGiay - Copy (3)\WebGiay\bin\roslyn\System.Reflection.Metadata.dll
-F:\LapTrinhPhanMem\WebGiay - Copy (3)\WebGiay\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
-F:\LapTrinhPhanMem\WebGiay - Copy (3)\WebGiay\bin\roslyn\System.Security.Cryptography.Algorithms.dll
-F:\LapTrinhPhanMem\WebGiay - Copy (3)\WebGiay\bin\roslyn\System.Security.Cryptography.Encoding.dll
-F:\LapTrinhPhanMem\WebGiay - Copy (3)\WebGiay\bin\roslyn\System.Security.Cryptography.Primitives.dll
-F:\LapTrinhPhanMem\WebGiay - Copy (3)\WebGiay\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
-F:\LapTrinhPhanMem\WebGiay - Copy (3)\WebGiay\bin\roslyn\System.Text.Encoding.CodePages.dll
-F:\LapTrinhPhanMem\WebGiay - Copy (3)\WebGiay\bin\roslyn\System.Threading.Tasks.Extensions.dll
-F:\LapTrinhPhanMem\WebGiay - Copy (3)\WebGiay\bin\roslyn\System.ValueTuple.dll
-F:\LapTrinhPhanMem\WebGiay - Copy (3)\WebGiay\bin\roslyn\System.Xml.ReaderWriter.dll
-F:\LapTrinhPhanMem\WebGiay - Copy (3)\WebGiay\bin\roslyn\System.Xml.XmlDocument.dll
-F:\LapTrinhPhanMem\WebGiay - Copy (3)\WebGiay\bin\roslyn\System.Xml.XPath.dll
-F:\LapTrinhPhanMem\WebGiay - Copy (3)\WebGiay\bin\roslyn\System.Xml.XPath.XDocument.dll
-F:\LapTrinhPhanMem\WebGiay - Copy (3)\WebGiay\bin\roslyn\vbc.exe
-F:\LapTrinhPhanMem\WebGiay - Copy (3)\WebGiay\bin\roslyn\vbc.exe.config
-F:\LapTrinhPhanMem\WebGiay - Copy (3)\WebGiay\bin\roslyn\vbc.rsp
-F:\LapTrinhPhanMem\WebGiay - Copy (3)\WebGiay\bin\roslyn\VBCSCompiler.exe
-F:\LapTrinhPhanMem\WebGiay - Copy (3)\WebGiay\bin\roslyn\VBCSCompiler.exe.config
-F:\LapTrinhPhanMem\WebGiay - Copy (3)\WebGiay\bin\EntityFramework.dll
-F:\LapTrinhPhanMem\WebGiay - Copy (3)\WebGiay\bin\EntityFramework.SqlServer.dll
-F:\LapTrinhPhanMem\WebGiay - Copy (3)\WebGiay\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
-F:\LapTrinhPhanMem\WebGiay - Copy (3)\WebGiay\bin\Microsoft.Web.Infrastructure.dll
-F:\LapTrinhPhanMem\WebGiay - Copy (3)\WebGiay\bin\MyClass.dll
-F:\LapTrinhPhanMem\WebGiay - Copy (3)\WebGiay\bin\System.Web.Helpers.dll
-F:\LapTrinhPhanMem\WebGiay - Copy (3)\WebGiay\bin\System.Web.Mvc.dll
-F:\LapTrinhPhanMem\WebGiay - Copy (3)\WebGiay\bin\System.Web.Razor.dll
-F:\LapTrinhPhanMem\WebGiay - Copy (3)\WebGiay\bin\System.Web.Webpages.Deployment.dll
-F:\LapTrinhPhanMem\WebGiay - Copy (3)\WebGiay\bin\System.Web.Webpages.dll
-F:\LapTrinhPhanMem\WebGiay - Copy (3)\WebGiay\bin\System.Web.Webpages.Razor.dll
-F:\LapTrinhPhanMem\WebGiay - Copy (3)\WebGiay\bin\MyClass.pdb
-F:\LapTrinhPhanMem\WebGiay - Copy (3)\WebGiay\bin\MyClass.dll.config
-F:\LapTrinhPhanMem\WebGiay - Copy (3)\WebGiay\bin\EntityFramework.xml
-F:\LapTrinhPhanMem\WebGiay - Copy (3)\WebGiay\bin\EntityFramework.SqlServer.xml
-F:\LapTrinhPhanMem\WebGiay - Copy (3)\WebGiay\bin\System.Web.Razor.xml
-F:\LapTrinhPhanMem\WebGiay - Copy (3)\WebGiay\bin\System.Web.Webpages.xml
-F:\LapTrinhPhanMem\WebGiay - Copy (3)\WebGiay\bin\System.Web.Webpages.Deployment.xml
-F:\LapTrinhPhanMem\WebGiay - Copy (3)\WebGiay\bin\System.Web.Webpages.Razor.xml
-F:\LapTrinhPhanMem\WebGiay - Copy (3)\WebGiay\bin\System.Web.Helpers.xml
-F:\LapTrinhPhanMem\WebGiay - Copy (3)\WebGiay\bin\System.Web.Mvc.xml
-F:\LapTrinhPhanMem\WebGiay - Copy (3)\WebGiay\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
-F:\LapTrinhPhanMem\WebGiay - Copy (3)\WebGiay\obj\Debug\WebGiay.csprojAssemblyReference.cache
-F:\LapTrinhPhanMem\WebGiay - Copy (3)\WebGiay\obj\Debug\WebGiay.csproj.CoreCompileInputs.cache
-F:\LapTrinhPhanMem\WebGiay - Copy (3)\WebGiay\obj\Debug\WebGiay.csproj.CopyComplete
-F:\LapTrinhPhanMem\WebGiay - Copy (3)\WebGiay\obj\Debug\WebGiay.dll
-F:\LapTrinhPhanMem\WebGiay - Copy (3)\WebGiay\obj\Debug\WebGiay.pdb
-F:\LapTrinhPhanMem\WebGiay - Copy (4)\WebGiay\bin\WebGiay.dll.config
-F:\LapTrinhPhanMem\WebGiay - Copy (4)\WebGiay\bin\WebGiay.dll
-F:\LapTrinhPhanMem\WebGiay - Copy (4)\WebGiay\bin\WebGiay.pdb
-F:\LapTrinhPhanMem\WebGiay - Copy (4)\WebGiay\bin\roslyn\csc.exe
-F:\LapTrinhPhanMem\WebGiay - Copy (4)\WebGiay\bin\roslyn\csc.exe.config
-F:\LapTrinhPhanMem\WebGiay - Copy (4)\WebGiay\bin\roslyn\csc.rsp
-F:\LapTrinhPhanMem\WebGiay - Copy (4)\WebGiay\bin\roslyn\csi.exe
-F:\LapTrinhPhanMem\WebGiay - Copy (4)\WebGiay\bin\roslyn\csi.exe.config
-F:\LapTrinhPhanMem\WebGiay - Copy (4)\WebGiay\bin\roslyn\csi.rsp
-F:\LapTrinhPhanMem\WebGiay - Copy (4)\WebGiay\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
-F:\LapTrinhPhanMem\WebGiay - Copy (4)\WebGiay\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
-F:\LapTrinhPhanMem\WebGiay - Copy (4)\WebGiay\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
-F:\LapTrinhPhanMem\WebGiay - Copy (4)\WebGiay\bin\roslyn\Microsoft.CodeAnalysis.dll
-F:\LapTrinhPhanMem\WebGiay - Copy (4)\WebGiay\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
-F:\LapTrinhPhanMem\WebGiay - Copy (4)\WebGiay\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
-F:\LapTrinhPhanMem\WebGiay - Copy (4)\WebGiay\bin\roslyn\Microsoft.CSharp.Core.targets
-F:\LapTrinhPhanMem\WebGiay - Copy (4)\WebGiay\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
-F:\LapTrinhPhanMem\WebGiay - Copy (4)\WebGiay\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
-F:\LapTrinhPhanMem\WebGiay - Copy (4)\WebGiay\bin\roslyn\Microsoft.Managed.Core.targets
-F:\LapTrinhPhanMem\WebGiay - Copy (4)\WebGiay\bin\roslyn\Microsoft.VisualBasic.Core.targets
-F:\LapTrinhPhanMem\WebGiay - Copy (4)\WebGiay\bin\roslyn\Microsoft.Win32.Primitives.dll
-F:\LapTrinhPhanMem\WebGiay - Copy (4)\WebGiay\bin\roslyn\System.AppContext.dll
-F:\LapTrinhPhanMem\WebGiay - Copy (4)\WebGiay\bin\roslyn\System.Collections.Immutable.dll
-F:\LapTrinhPhanMem\WebGiay - Copy (4)\WebGiay\bin\roslyn\System.Console.dll
-F:\LapTrinhPhanMem\WebGiay - Copy (4)\WebGiay\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
-F:\LapTrinhPhanMem\WebGiay - Copy (4)\WebGiay\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
-F:\LapTrinhPhanMem\WebGiay - Copy (4)\WebGiay\bin\roslyn\System.Diagnostics.StackTrace.dll
-F:\LapTrinhPhanMem\WebGiay - Copy (4)\WebGiay\bin\roslyn\System.Globalization.Calendars.dll
-F:\LapTrinhPhanMem\WebGiay - Copy (4)\WebGiay\bin\roslyn\System.IO.Compression.dll
-F:\LapTrinhPhanMem\WebGiay - Copy (4)\WebGiay\bin\roslyn\System.IO.Compression.ZipFile.dll
-F:\LapTrinhPhanMem\WebGiay - Copy (4)\WebGiay\bin\roslyn\System.IO.FileSystem.dll
-F:\LapTrinhPhanMem\WebGiay - Copy (4)\WebGiay\bin\roslyn\System.IO.FileSystem.Primitives.dll
-F:\LapTrinhPhanMem\WebGiay - Copy (4)\WebGiay\bin\roslyn\System.Net.Http.dll
-F:\LapTrinhPhanMem\WebGiay - Copy (4)\WebGiay\bin\roslyn\System.Net.Sockets.dll
-F:\LapTrinhPhanMem\WebGiay - Copy (4)\WebGiay\bin\roslyn\System.Reflection.Metadata.dll
-F:\LapTrinhPhanMem\WebGiay - Copy (4)\WebGiay\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
-F:\LapTrinhPhanMem\WebGiay - Copy (4)\WebGiay\bin\roslyn\System.Security.Cryptography.Algorithms.dll
-F:\LapTrinhPhanMem\WebGiay - Copy (4)\WebGiay\bin\roslyn\System.Security.Cryptography.Encoding.dll
-F:\LapTrinhPhanMem\WebGiay - Copy (4)\WebGiay\bin\roslyn\System.Security.Cryptography.Primitives.dll
-F:\LapTrinhPhanMem\WebGiay - Copy (4)\WebGiay\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
-F:\LapTrinhPhanMem\WebGiay - Copy (4)\WebGiay\bin\roslyn\System.Text.Encoding.CodePages.dll
-F:\LapTrinhPhanMem\WebGiay - Copy (4)\WebGiay\bin\roslyn\System.Threading.Tasks.Extensions.dll
-F:\LapTrinhPhanMem\WebGiay - Copy (4)\WebGiay\bin\roslyn\System.ValueTuple.dll
-F:\LapTrinhPhanMem\WebGiay - Copy (4)\WebGiay\bin\roslyn\System.Xml.ReaderWriter.dll
-F:\LapTrinhPhanMem\WebGiay - Copy (4)\WebGiay\bin\roslyn\System.Xml.XmlDocument.dll
-F:\LapTrinhPhanMem\WebGiay - Copy (4)\WebGiay\bin\roslyn\System.Xml.XPath.dll
-F:\LapTrinhPhanMem\WebGiay - Copy (4)\WebGiay\bin\roslyn\System.Xml.XPath.XDocument.dll
-F:\LapTrinhPhanMem\WebGiay - Copy (4)\WebGiay\bin\roslyn\vbc.exe
-F:\LapTrinhPhanMem\WebGiay - Copy (4)\WebGiay\bin\roslyn\vbc.exe.config
-F:\LapTrinhPhanMem\WebGiay - Copy (4)\WebGiay\bin\roslyn\vbc.rsp
-F:\LapTrinhPhanMem\WebGiay - Copy (4)\WebGiay\bin\roslyn\VBCSCompiler.exe
-F:\LapTrinhPhanMem\WebGiay - Copy (4)\WebGiay\bin\roslyn\VBCSCompiler.exe.config
-F:\LapTrinhPhanMem\WebGiay - Copy (4)\WebGiay\bin\EntityFramework.dll
-F:\LapTrinhPhanMem\WebGiay - Copy (4)\WebGiay\bin\EntityFramework.SqlServer.dll
-F:\LapTrinhPhanMem\WebGiay - Copy (4)\WebGiay\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
-F:\LapTrinhPhanMem\WebGiay - Copy (4)\WebGiay\bin\Microsoft.Web.Infrastructure.dll
-F:\LapTrinhPhanMem\WebGiay - Copy (4)\WebGiay\bin\MyClass.dll
-F:\LapTrinhPhanMem\WebGiay - Copy (4)\WebGiay\bin\System.Web.Helpers.dll
-F:\LapTrinhPhanMem\WebGiay - Copy (4)\WebGiay\bin\System.Web.Mvc.dll
-F:\LapTrinhPhanMem\WebGiay - Copy (4)\WebGiay\bin\System.Web.Razor.dll
-F:\LapTrinhPhanMem\WebGiay - Copy (4)\WebGiay\bin\System.Web.Webpages.Deployment.dll
-F:\LapTrinhPhanMem\WebGiay - Copy (4)\WebGiay\bin\System.Web.Webpages.dll
-F:\LapTrinhPhanMem\WebGiay - Copy (4)\WebGiay\bin\System.Web.Webpages.Razor.dll
-F:\LapTrinhPhanMem\WebGiay - Copy (4)\WebGiay\bin\MyClass.pdb
-F:\LapTrinhPhanMem\WebGiay - Copy (4)\WebGiay\bin\MyClass.dll.config
-F:\LapTrinhPhanMem\WebGiay - Copy (4)\WebGiay\bin\EntityFramework.xml
-F:\LapTrinhPhanMem\WebGiay - Copy (4)\WebGiay\bin\EntityFramework.SqlServer.xml
-F:\LapTrinhPhanMem\WebGiay - Copy (4)\WebGiay\bin\System.Web.Razor.xml
-F:\LapTrinhPhanMem\WebGiay - Copy (4)\WebGiay\bin\System.Web.Webpages.xml
-F:\LapTrinhPhanMem\WebGiay - Copy (4)\WebGiay\bin\System.Web.Webpages.Deployment.xml
-F:\LapTrinhPhanMem\WebGiay - Copy (4)\WebGiay\bin\System.Web.Webpages.Razor.xml
-F:\LapTrinhPhanMem\WebGiay - Copy (4)\WebGiay\bin\System.Web.Helpers.xml
-F:\LapTrinhPhanMem\WebGiay - Copy (4)\WebGiay\bin\System.Web.Mvc.xml
-F:\LapTrinhPhanMem\WebGiay - Copy (4)\WebGiay\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
-F:\LapTrinhPhanMem\WebGiay - Copy (4)\WebGiay\obj\Debug\WebGiay.csprojAssemblyReference.cache
-F:\LapTrinhPhanMem\WebGiay - Copy (4)\WebGiay\obj\Debug\WebGiay.csproj.CoreCompileInputs.cache
-F:\LapTrinhPhanMem\WebGiay - Copy (4)\WebGiay\obj\Debug\WebGiay.csproj.CopyComplete
-F:\LapTrinhPhanMem\WebGiay - Copy (4)\WebGiay\obj\Debug\WebGiay.dll
-F:\LapTrinhPhanMem\WebGiay - Copy (4)\WebGiay\obj\Debug\WebGiay.pdb
-D:\Documentss\CNPM\WEB\WebGiay\WebGiay\bin\WebGiay.dll.config
-D:\Documentss\CNPM\WEB\WebGiay\WebGiay\bin\WebGiay.dll
-D:\Documentss\CNPM\WEB\WebGiay\WebGiay\bin\WebGiay.pdb
-D:\Documentss\CNPM\WEB\WebGiay\WebGiay\bin\roslyn\csc.exe
-D:\Documentss\CNPM\WEB\WebGiay\WebGiay\bin\roslyn\csc.exe.config
-D:\Documentss\CNPM\WEB\WebGiay\WebGiay\bin\roslyn\csc.rsp
-D:\Documentss\CNPM\WEB\WebGiay\WebGiay\bin\roslyn\csi.exe
-D:\Documentss\CNPM\WEB\WebGiay\WebGiay\bin\roslyn\csi.exe.config
-D:\Documentss\CNPM\WEB\WebGiay\WebGiay\bin\roslyn\csi.rsp
-D:\Documentss\CNPM\WEB\WebGiay\WebGiay\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
-D:\Documentss\CNPM\WEB\WebGiay\WebGiay\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
-D:\Documentss\CNPM\WEB\WebGiay\WebGiay\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
-D:\Documentss\CNPM\WEB\WebGiay\WebGiay\bin\roslyn\Microsoft.CodeAnalysis.dll
-D:\Documentss\CNPM\WEB\WebGiay\WebGiay\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
-D:\Documentss\CNPM\WEB\WebGiay\WebGiay\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
-D:\Documentss\CNPM\WEB\WebGiay\WebGiay\bin\roslyn\Microsoft.CSharp.Core.targets
-D:\Documentss\CNPM\WEB\WebGiay\WebGiay\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
-D:\Documentss\CNPM\WEB\WebGiay\WebGiay\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
-D:\Documentss\CNPM\WEB\WebGiay\WebGiay\bin\roslyn\Microsoft.Managed.Core.targets
-D:\Documentss\CNPM\WEB\WebGiay\WebGiay\bin\roslyn\Microsoft.VisualBasic.Core.targets
-D:\Documentss\CNPM\WEB\WebGiay\WebGiay\bin\roslyn\Microsoft.Win32.Primitives.dll
-D:\Documentss\CNPM\WEB\WebGiay\WebGiay\bin\roslyn\System.AppContext.dll
-D:\Documentss\CNPM\WEB\WebGiay\WebGiay\bin\roslyn\System.Collections.Immutable.dll
-D:\Documentss\CNPM\WEB\WebGiay\WebGiay\bin\roslyn\System.Console.dll
-D:\Documentss\CNPM\WEB\WebGiay\WebGiay\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
-D:\Documentss\CNPM\WEB\WebGiay\WebGiay\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
-D:\Documentss\CNPM\WEB\WebGiay\WebGiay\bin\roslyn\System.Diagnostics.StackTrace.dll
-D:\Documentss\CNPM\WEB\WebGiay\WebGiay\bin\roslyn\System.Globalization.Calendars.dll
-D:\Documentss\CNPM\WEB\WebGiay\WebGiay\bin\roslyn\System.IO.Compression.dll
-D:\Documentss\CNPM\WEB\WebGiay\WebGiay\bin\roslyn\System.IO.Compression.ZipFile.dll
-D:\Documentss\CNPM\WEB\WebGiay\WebGiay\bin\roslyn\System.IO.FileSystem.dll
-D:\Documentss\CNPM\WEB\WebGiay\WebGiay\bin\roslyn\System.IO.FileSystem.Primitives.dll
-D:\Documentss\CNPM\WEB\WebGiay\WebGiay\bin\roslyn\System.Net.Http.dll
-D:\Documentss\CNPM\WEB\WebGiay\WebGiay\bin\roslyn\System.Net.Sockets.dll
-D:\Documentss\CNPM\WEB\WebGiay\WebGiay\bin\roslyn\System.Reflection.Metadata.dll
-D:\Documentss\CNPM\WEB\WebGiay\WebGiay\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
-D:\Documentss\CNPM\WEB\WebGiay\WebGiay\bin\roslyn\System.Security.Cryptography.Algorithms.dll
-D:\Documentss\CNPM\WEB\WebGiay\WebGiay\bin\roslyn\System.Security.Cryptography.Encoding.dll
-D:\Documentss\CNPM\WEB\WebGiay\WebGiay\bin\roslyn\System.Security.Cryptography.Primitives.dll
-D:\Documentss\CNPM\WEB\WebGiay\WebGiay\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
-D:\Documentss\CNPM\WEB\WebGiay\WebGiay\bin\roslyn\System.Text.Encoding.CodePages.dll
-D:\Documentss\CNPM\WEB\WebGiay\WebGiay\bin\roslyn\System.Threading.Tasks.Extensions.dll
-D:\Documentss\CNPM\WEB\WebGiay\WebGiay\bin\roslyn\System.ValueTuple.dll
-D:\Documentss\CNPM\WEB\WebGiay\WebGiay\bin\roslyn\System.Xml.ReaderWriter.dll
-D:\Documentss\CNPM\WEB\WebGiay\WebGiay\bin\roslyn\System.Xml.XmlDocument.dll
-D:\Documentss\CNPM\WEB\WebGiay\WebGiay\bin\roslyn\System.Xml.XPath.dll
-D:\Documentss\CNPM\WEB\WebGiay\WebGiay\bin\roslyn\System.Xml.XPath.XDocument.dll
-D:\Documentss\CNPM\WEB\WebGiay\WebGiay\bin\roslyn\vbc.exe
-D:\Documentss\CNPM\WEB\WebGiay\WebGiay\bin\roslyn\vbc.exe.config
-D:\Documentss\CNPM\WEB\WebGiay\WebGiay\bin\roslyn\vbc.rsp
-D:\Documentss\CNPM\WEB\WebGiay\WebGiay\bin\roslyn\VBCSCompiler.exe
-D:\Documentss\CNPM\WEB\WebGiay\WebGiay\bin\roslyn\VBCSCompiler.exe.config
-D:\Documentss\CNPM\WEB\WebGiay\WebGiay\bin\EntityFramework.dll
-D:\Documentss\CNPM\WEB\WebGiay\WebGiay\bin\EntityFramework.SqlServer.dll
-D:\Documentss\CNPM\WEB\WebGiay\WebGiay\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
-D:\Documentss\CNPM\WEB\WebGiay\WebGiay\bin\Microsoft.Web.Infrastructure.dll
-D:\Documentss\CNPM\WEB\WebGiay\WebGiay\bin\MyClass.dll
-D:\Documentss\CNPM\WEB\WebGiay\WebGiay\bin\System.Web.Helpers.dll
-D:\Documentss\CNPM\WEB\WebGiay\WebGiay\bin\System.Web.Mvc.dll
-D:\Documentss\CNPM\WEB\WebGiay\WebGiay\bin\System.Web.Razor.dll
-D:\Documentss\CNPM\WEB\WebGiay\WebGiay\bin\System.Web.Webpages.Deployment.dll
-D:\Documentss\CNPM\WEB\WebGiay\WebGiay\bin\System.Web.Webpages.dll
-D:\Documentss\CNPM\WEB\WebGiay\WebGiay\bin\System.Web.Webpages.Razor.dll
-D:\Documentss\CNPM\WEB\WebGiay\WebGiay\bin\MyClass.pdb
-D:\Documentss\CNPM\WEB\WebGiay\WebGiay\bin\MyClass.dll.config
-D:\Documentss\CNPM\WEB\WebGiay\WebGiay\bin\EntityFramework.xml
-D:\Documentss\CNPM\WEB\WebGiay\WebGiay\bin\EntityFramework.SqlServer.xml
-D:\Documentss\CNPM\WEB\WebGiay\WebGiay\bin\System.Web.Razor.xml
-D:\Documentss\CNPM\WEB\WebGiay\WebGiay\bin\System.Web.Webpages.xml
-D:\Documentss\CNPM\WEB\WebGiay\WebGiay\bin\System.Web.Webpages.Deployment.xml
-D:\Documentss\CNPM\WEB\WebGiay\WebGiay\bin\System.Web.Webpages.Razor.xml
-D:\Documentss\CNPM\WEB\WebGiay\WebGiay\bin\System.Web.Helpers.xml
-D:\Documentss\CNPM\WEB\WebGiay\WebGiay\bin\System.Web.Mvc.xml
-D:\Documentss\CNPM\WEB\WebGiay\WebGiay\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
-D:\Documentss\CNPM\WEB\WebGiay\WebGiay\obj\Debug\WebGiay.csprojAssemblyReference.cache
-D:\Documentss\CNPM\WEB\WebGiay\WebGiay\obj\Debug\WebGiay.csproj.CoreCompileInputs.cache
-D:\Documentss\CNPM\WEB\WebGiay\WebGiay\obj\Debug\WebGiay.csproj.CopyComplete
-D:\Documentss\CNPM\WEB\WebGiay\WebGiay\obj\Debug\WebGiay.dll
-D:\Documentss\CNPM\WEB\WebGiay\WebGiay\obj\Debug\WebGiay.pdb
-D:\sourse\WebGiayKS\WebGiay\WebGiay\bin\WebGiay.dll.config
-D:\sourse\WebGiayKS\WebGiay\WebGiay\bin\WebGiay.dll
-D:\sourse\WebGiayKS\WebGiay\WebGiay\bin\WebGiay.pdb
-D:\sourse\WebGiayKS\WebGiay\WebGiay\bin\roslyn\csc.exe
-D:\sourse\WebGiayKS\WebGiay\WebGiay\bin\roslyn\csc.exe.config
-D:\sourse\WebGiayKS\WebGiay\WebGiay\bin\roslyn\csc.rsp
-D:\sourse\WebGiayKS\WebGiay\WebGiay\bin\roslyn\csi.exe
-D:\sourse\WebGiayKS\WebGiay\WebGiay\bin\roslyn\csi.exe.config
-D:\sourse\WebGiayKS\WebGiay\WebGiay\bin\roslyn\csi.rsp
-D:\sourse\WebGiayKS\WebGiay\WebGiay\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
-D:\sourse\WebGiayKS\WebGiay\WebGiay\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
-D:\sourse\WebGiayKS\WebGiay\WebGiay\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
-D:\sourse\WebGiayKS\WebGiay\WebGiay\bin\roslyn\Microsoft.CodeAnalysis.dll
-D:\sourse\WebGiayKS\WebGiay\WebGiay\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
-D:\sourse\WebGiayKS\WebGiay\WebGiay\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
-D:\sourse\WebGiayKS\WebGiay\WebGiay\bin\roslyn\Microsoft.CSharp.Core.targets
-D:\sourse\WebGiayKS\WebGiay\WebGiay\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
-D:\sourse\WebGiayKS\WebGiay\WebGiay\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
-D:\sourse\WebGiayKS\WebGiay\WebGiay\bin\roslyn\Microsoft.Managed.Core.targets
-D:\sourse\WebGiayKS\WebGiay\WebGiay\bin\roslyn\Microsoft.VisualBasic.Core.targets
-D:\sourse\WebGiayKS\WebGiay\WebGiay\bin\roslyn\Microsoft.Win32.Primitives.dll
-D:\sourse\WebGiayKS\WebGiay\WebGiay\bin\roslyn\System.AppContext.dll
-D:\sourse\WebGiayKS\WebGiay\WebGiay\bin\roslyn\System.Collections.Immutable.dll
-D:\sourse\WebGiayKS\WebGiay\WebGiay\bin\roslyn\System.Console.dll
-D:\sourse\WebGiayKS\WebGiay\WebGiay\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
-D:\sourse\WebGiayKS\WebGiay\WebGiay\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
-D:\sourse\WebGiayKS\WebGiay\WebGiay\bin\roslyn\System.Diagnostics.StackTrace.dll
-D:\sourse\WebGiayKS\WebGiay\WebGiay\bin\roslyn\System.Globalization.Calendars.dll
-D:\sourse\WebGiayKS\WebGiay\WebGiay\bin\roslyn\System.IO.Compression.dll
-D:\sourse\WebGiayKS\WebGiay\WebGiay\bin\roslyn\System.IO.Compression.ZipFile.dll
-D:\sourse\WebGiayKS\WebGiay\WebGiay\bin\roslyn\System.IO.FileSystem.dll
-D:\sourse\WebGiayKS\WebGiay\WebGiay\bin\roslyn\System.IO.FileSystem.Primitives.dll
-D:\sourse\WebGiayKS\WebGiay\WebGiay\bin\roslyn\System.Net.Http.dll
-D:\sourse\WebGiayKS\WebGiay\WebGiay\bin\roslyn\System.Net.Sockets.dll
-D:\sourse\WebGiayKS\WebGiay\WebGiay\bin\roslyn\System.Reflection.Metadata.dll
-D:\sourse\WebGiayKS\WebGiay\WebGiay\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
-D:\sourse\WebGiayKS\WebGiay\WebGiay\bin\roslyn\System.Security.Cryptography.Algorithms.dll
-D:\sourse\WebGiayKS\WebGiay\WebGiay\bin\roslyn\System.Security.Cryptography.Encoding.dll
-D:\sourse\WebGiayKS\WebGiay\WebGiay\bin\roslyn\System.Security.Cryptography.Primitives.dll
-D:\sourse\WebGiayKS\WebGiay\WebGiay\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
-D:\sourse\WebGiayKS\WebGiay\WebGiay\bin\roslyn\System.Text.Encoding.CodePages.dll
-D:\sourse\WebGiayKS\WebGiay\WebGiay\bin\roslyn\System.Threading.Tasks.Extensions.dll
-D:\sourse\WebGiayKS\WebGiay\WebGiay\bin\roslyn\System.ValueTuple.dll
-D:\sourse\WebGiayKS\WebGiay\WebGiay\bin\roslyn\System.Xml.ReaderWriter.dll
-D:\sourse\WebGiayKS\WebGiay\WebGiay\bin\roslyn\System.Xml.XmlDocument.dll
-D:\sourse\WebGiayKS\WebGiay\WebGiay\bin\roslyn\System.Xml.XPath.dll
-D:\sourse\WebGiayKS\WebGiay\WebGiay\bin\roslyn\System.Xml.XPath.XDocument.dll
-D:\sourse\WebGiayKS\WebGiay\WebGiay\bin\roslyn\vbc.exe
-D:\sourse\WebGiayKS\WebGiay\WebGiay\bin\roslyn\vbc.exe.config
-D:\sourse\WebGiayKS\WebGiay\WebGiay\bin\roslyn\vbc.rsp
-D:\sourse\WebGiayKS\WebGiay\WebGiay\bin\roslyn\VBCSCompiler.exe
-D:\sourse\WebGiayKS\WebGiay\WebGiay\bin\roslyn\VBCSCompiler.exe.config
-D:\sourse\WebGiayKS\WebGiay\WebGiay\bin\EntityFramework.dll
-D:\sourse\WebGiayKS\WebGiay\WebGiay\bin\EntityFramework.SqlServer.dll
-D:\sourse\WebGiayKS\WebGiay\WebGiay\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
-D:\sourse\WebGiayKS\WebGiay\WebGiay\bin\Microsoft.Web.Infrastructure.dll
-D:\sourse\WebGiayKS\WebGiay\WebGiay\bin\MyClass.dll
-D:\sourse\WebGiayKS\WebGiay\WebGiay\bin\System.Web.Helpers.dll
-D:\sourse\WebGiayKS\WebGiay\WebGiay\bin\System.Web.Mvc.dll
-D:\sourse\WebGiayKS\WebGiay\WebGiay\bin\System.Web.Razor.dll
-D:\sourse\WebGiayKS\WebGiay\WebGiay\bin\System.Web.Webpages.Deployment.dll
-D:\sourse\WebGiayKS\WebGiay\WebGiay\bin\System.Web.Webpages.dll
-D:\sourse\WebGiayKS\WebGiay\WebGiay\bin\System.Web.Webpages.Razor.dll
-D:\sourse\WebGiayKS\WebGiay\WebGiay\bin\MyClass.pdb
-D:\sourse\WebGiayKS\WebGiay\WebGiay\bin\MyClass.dll.config
-D:\sourse\WebGiayKS\WebGiay\WebGiay\bin\EntityFramework.xml
-D:\sourse\WebGiayKS\WebGiay\WebGiay\bin\EntityFramework.SqlServer.xml
-D:\sourse\WebGiayKS\WebGiay\WebGiay\bin\System.Web.Razor.xml
-D:\sourse\WebGiayKS\WebGiay\WebGiay\bin\System.Web.Webpages.xml
-D:\sourse\WebGiayKS\WebGiay\WebGiay\bin\System.Web.Webpages.Deployment.xml
-D:\sourse\WebGiayKS\WebGiay\WebGiay\bin\System.Web.Webpages.Razor.xml
-D:\sourse\WebGiayKS\WebGiay\WebGiay\bin\System.Web.Helpers.xml
-D:\sourse\WebGiayKS\WebGiay\WebGiay\bin\System.Web.Mvc.xml
-D:\sourse\WebGiayKS\WebGiay\WebGiay\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
-D:\sourse\WebGiayKS\WebGiay\WebGiay\obj\Debug\WebGiay.csprojAssemblyReference.cache
-D:\sourse\WebGiayKS\WebGiay\WebGiay\obj\Debug\WebGiay.csproj.CoreCompileInputs.cache
-D:\sourse\WebGiayKS\WebGiay\WebGiay\obj\Debug\WebGiay.csproj.CopyComplete
-D:\sourse\WebGiayKS\WebGiay\WebGiay\obj\Debug\WebGiay.dll
-D:\sourse\WebGiayKS\WebGiay\WebGiay\obj\Debug\WebGiay.pdb
-F:\WebGiayKS\WebGiay\WebGiay\bin\WebGiay.dll.config
-F:\WebGiayKS\WebGiay\WebGiay\bin\WebGiay.dll
-F:\WebGiayKS\WebGiay\WebGiay\bin\WebGiay.pdb
-F:\WebGiayKS\WebGiay\WebGiay\bin\roslyn\csc.exe
-F:\WebGiayKS\WebGiay\WebGiay\bin\roslyn\csc.exe.config
-F:\WebGiayKS\WebGiay\WebGiay\bin\roslyn\csc.rsp
-F:\WebGiayKS\WebGiay\WebGiay\bin\roslyn\csi.exe
-F:\WebGiayKS\WebGiay\WebGiay\bin\roslyn\csi.exe.config
-F:\WebGiayKS\WebGiay\WebGiay\bin\roslyn\csi.rsp
-F:\WebGiayKS\WebGiay\WebGiay\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
-F:\WebGiayKS\WebGiay\WebGiay\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
-F:\WebGiayKS\WebGiay\WebGiay\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
-F:\WebGiayKS\WebGiay\WebGiay\bin\roslyn\Microsoft.CodeAnalysis.dll
-F:\WebGiayKS\WebGiay\WebGiay\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
-F:\WebGiayKS\WebGiay\WebGiay\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
-F:\WebGiayKS\WebGiay\WebGiay\bin\roslyn\Microsoft.CSharp.Core.targets
-F:\WebGiayKS\WebGiay\WebGiay\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
-F:\WebGiayKS\WebGiay\WebGiay\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
-F:\WebGiayKS\WebGiay\WebGiay\bin\roslyn\Microsoft.Managed.Core.targets
-F:\WebGiayKS\WebGiay\WebGiay\bin\roslyn\Microsoft.VisualBasic.Core.targets
-F:\WebGiayKS\WebGiay\WebGiay\bin\roslyn\Microsoft.Win32.Primitives.dll
-F:\WebGiayKS\WebGiay\WebGiay\bin\roslyn\System.AppContext.dll
-F:\WebGiayKS\WebGiay\WebGiay\bin\roslyn\System.Collections.Immutable.dll
-F:\WebGiayKS\WebGiay\WebGiay\bin\roslyn\System.Console.dll
-F:\WebGiayKS\WebGiay\WebGiay\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
-F:\WebGiayKS\WebGiay\WebGiay\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
-F:\WebGiayKS\WebGiay\WebGiay\bin\roslyn\System.Diagnostics.StackTrace.dll
-F:\WebGiayKS\WebGiay\WebGiay\bin\roslyn\System.Globalization.Calendars.dll
-F:\WebGiayKS\WebGiay\WebGiay\bin\roslyn\System.IO.Compression.dll
-F:\WebGiayKS\WebGiay\WebGiay\bin\roslyn\System.IO.Compression.ZipFile.dll
-F:\WebGiayKS\WebGiay\WebGiay\bin\roslyn\System.IO.FileSystem.dll
-F:\WebGiayKS\WebGiay\WebGiay\bin\roslyn\System.IO.FileSystem.Primitives.dll
-F:\WebGiayKS\WebGiay\WebGiay\bin\roslyn\System.Net.Http.dll
-F:\WebGiayKS\WebGiay\WebGiay\bin\roslyn\System.Net.Sockets.dll
-F:\WebGiayKS\WebGiay\WebGiay\bin\roslyn\System.Reflection.Metadata.dll
-F:\WebGiayKS\WebGiay\WebGiay\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
-F:\WebGiayKS\WebGiay\WebGiay\bin\roslyn\System.Security.Cryptography.Algorithms.dll
-F:\WebGiayKS\WebGiay\WebGiay\bin\roslyn\System.Security.Cryptography.Encoding.dll
-F:\WebGiayKS\WebGiay\WebGiay\bin\roslyn\System.Security.Cryptography.Primitives.dll
-F:\WebGiayKS\WebGiay\WebGiay\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
-F:\WebGiayKS\WebGiay\WebGiay\bin\roslyn\System.Text.Encoding.CodePages.dll
-F:\WebGiayKS\WebGiay\WebGiay\bin\roslyn\System.Threading.Tasks.Extensions.dll
-F:\WebGiayKS\WebGiay\WebGiay\bin\roslyn\System.ValueTuple.dll
-F:\WebGiayKS\WebGiay\WebGiay\bin\roslyn\System.Xml.ReaderWriter.dll
-F:\WebGiayKS\WebGiay\WebGiay\bin\roslyn\System.Xml.XmlDocument.dll
-F:\WebGiayKS\WebGiay\WebGiay\bin\roslyn\System.Xml.XPath.dll
-F:\WebGiayKS\WebGiay\WebGiay\bin\roslyn\System.Xml.XPath.XDocument.dll
-F:\WebGiayKS\WebGiay\WebGiay\bin\roslyn\vbc.exe
-F:\WebGiayKS\WebGiay\WebGiay\bin\roslyn\vbc.exe.config
-F:\WebGiayKS\WebGiay\WebGiay\bin\roslyn\vbc.rsp
-F:\WebGiayKS\WebGiay\WebGiay\bin\roslyn\VBCSCompiler.exe
-F:\WebGiayKS\WebGiay\WebGiay\bin\roslyn\VBCSCompiler.exe.config
-F:\WebGiayKS\WebGiay\WebGiay\bin\EntityFramework.dll
-F:\WebGiayKS\WebGiay\WebGiay\bin\EntityFramework.SqlServer.dll
-F:\WebGiayKS\WebGiay\WebGiay\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
-F:\WebGiayKS\WebGiay\WebGiay\bin\Microsoft.Web.Infrastructure.dll
-F:\WebGiayKS\WebGiay\WebGiay\bin\MyClass.dll
-F:\WebGiayKS\WebGiay\WebGiay\bin\System.Web.Helpers.dll
-F:\WebGiayKS\WebGiay\WebGiay\bin\System.Web.Mvc.dll
-F:\WebGiayKS\WebGiay\WebGiay\bin\System.Web.Razor.dll
-F:\WebGiayKS\WebGiay\WebGiay\bin\System.Web.Webpages.Deployment.dll
-F:\WebGiayKS\WebGiay\WebGiay\bin\System.Web.Webpages.dll
-F:\WebGiayKS\WebGiay\WebGiay\bin\System.Web.Webpages.Razor.dll
-F:\WebGiayKS\WebGiay\WebGiay\bin\MyClass.pdb
-F:\WebGiayKS\WebGiay\WebGiay\bin\MyClass.dll.config
-F:\WebGiayKS\WebGiay\WebGiay\bin\EntityFramework.xml
-F:\WebGiayKS\WebGiay\WebGiay\bin\EntityFramework.SqlServer.xml
-F:\WebGiayKS\WebGiay\WebGiay\bin\System.Web.Razor.xml
-F:\WebGiayKS\WebGiay\WebGiay\bin\System.Web.Webpages.xml
-F:\WebGiayKS\WebGiay\WebGiay\bin\System.Web.Webpages.Deployment.xml
-F:\WebGiayKS\WebGiay\WebGiay\bin\System.Web.Webpages.Razor.xml
-F:\WebGiayKS\WebGiay\WebGiay\bin\System.Web.Helpers.xml
-F:\WebGiayKS\WebGiay\WebGiay\bin\System.Web.Mvc.xml
-F:\WebGiayKS\WebGiay\WebGiay\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
-F:\WebGiayKS\WebGiay\WebGiay\obj\Debug\WebGiay.csprojAssemblyReference.cache
-F:\WebGiayKS\WebGiay\WebGiay\obj\Debug\WebGiay.csproj.CoreCompileInputs.cache
-F:\WebGiayKS\WebGiay\WebGiay\obj\Debug\WebGiay.csproj.CopyComplete
-F:\WebGiayKS\WebGiay\WebGiay\obj\Debug\WebGiay.dll
-F:\WebGiayKS\WebGiay\WebGiay\obj\Debug\WebGiay.pdb
 D:\WebGiayKS\WebGiay\WebGiay\bin\WebGiay.dll.config
 D:\WebGiayKS\WebGiay\WebGiay\bin\WebGiay.dll
 D:\WebGiayKS\WebGiay\WebGiay\bin\WebGiay.pdb
 D:\WebGiayKS\WebGiay\WebGiay\bin\roslyn\csc.exe
+D:\WebGiayKS\WebGiay\WebGiay\bin\roslyn\csc.exe.config
+D:\WebGiayKS\WebGiay\WebGiay\bin\roslyn\csc.rsp
+D:\WebGiayKS\WebGiay\WebGiay\bin\roslyn\csi.exe
+D:\WebGiayKS\WebGiay\WebGiay\bin\roslyn\csi.exe.config
+D:\WebGiayKS\WebGiay\WebGiay\bin\roslyn\csi.rsp
+D:\WebGiayKS\WebGiay\WebGiay\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
 D:\WebGiayKS\WebGiay\WebGiay\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\WebGiayKS\WebGiay\WebGiay\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
 D:\WebGiayKS\WebGiay\WebGiay\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\WebGiayKS\WebGiay\WebGiay\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\WebGiayKS\WebGiay\WebGiay\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\WebGiayKS\WebGiay\WebGiay\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\WebGiayKS\WebGiay\WebGiay\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\WebGiayKS\WebGiay\WebGiay\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\WebGiayKS\WebGiay\WebGiay\bin\roslyn\Microsoft.Managed.Core.targets
+D:\WebGiayKS\WebGiay\WebGiay\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\WebGiayKS\WebGiay\WebGiay\bin\roslyn\Microsoft.Win32.Primitives.dll
+D:\WebGiayKS\WebGiay\WebGiay\bin\roslyn\System.AppContext.dll
 D:\WebGiayKS\WebGiay\WebGiay\bin\roslyn\System.Collections.Immutable.dll
+D:\WebGiayKS\WebGiay\WebGiay\bin\roslyn\System.Console.dll
+D:\WebGiayKS\WebGiay\WebGiay\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+D:\WebGiayKS\WebGiay\WebGiay\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\WebGiayKS\WebGiay\WebGiay\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\WebGiayKS\WebGiay\WebGiay\bin\roslyn\System.Globalization.Calendars.dll
+D:\WebGiayKS\WebGiay\WebGiay\bin\roslyn\System.IO.Compression.dll
+D:\WebGiayKS\WebGiay\WebGiay\bin\roslyn\System.IO.Compression.ZipFile.dll
 D:\WebGiayKS\WebGiay\WebGiay\bin\roslyn\System.IO.FileSystem.dll
 D:\WebGiayKS\WebGiay\WebGiay\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\WebGiayKS\WebGiay\WebGiay\bin\roslyn\System.Net.Http.dll
+D:\WebGiayKS\WebGiay\WebGiay\bin\roslyn\System.Net.Sockets.dll
 D:\WebGiayKS\WebGiay\WebGiay\bin\roslyn\System.Reflection.Metadata.dll
+D:\WebGiayKS\WebGiay\WebGiay\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+D:\WebGiayKS\WebGiay\WebGiay\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\WebGiayKS\WebGiay\WebGiay\bin\roslyn\System.Security.Cryptography.Encoding.dll
 D:\WebGiayKS\WebGiay\WebGiay\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\WebGiayKS\WebGiay\WebGiay\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
 D:\WebGiayKS\WebGiay\WebGiay\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\WebGiayKS\WebGiay\WebGiay\bin\roslyn\System.Threading.Tasks.Extensions.dll
+D:\WebGiayKS\WebGiay\WebGiay\bin\roslyn\System.ValueTuple.dll
+D:\WebGiayKS\WebGiay\WebGiay\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\WebGiayKS\WebGiay\WebGiay\bin\roslyn\System.Xml.XmlDocument.dll
+D:\WebGiayKS\WebGiay\WebGiay\bin\roslyn\System.Xml.XPath.dll
+D:\WebGiayKS\WebGiay\WebGiay\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\WebGiayKS\WebGiay\WebGiay\bin\roslyn\vbc.exe
+D:\WebGiayKS\WebGiay\WebGiay\bin\roslyn\vbc.exe.config
+D:\WebGiayKS\WebGiay\WebGiay\bin\roslyn\vbc.rsp
+D:\WebGiayKS\WebGiay\WebGiay\bin\roslyn\VBCSCompiler.exe
+D:\WebGiayKS\WebGiay\WebGiay\bin\roslyn\VBCSCompiler.exe.config
 D:\WebGiayKS\WebGiay\WebGiay\bin\EntityFramework.dll
 D:\WebGiayKS\WebGiay\WebGiay\bin\EntityFramework.SqlServer.dll
 D:\WebGiayKS\WebGiay\WebGiay\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
@@ -503,6 +76,7 @@ D:\WebGiayKS\WebGiay\WebGiay\obj\Debug\WebGiay.csproj.CoreCompileInputs.cache
 D:\WebGiayKS\WebGiay\WebGiay\obj\Debug\WebGiay.csproj.CopyComplete
 D:\WebGiayKS\WebGiay\WebGiay\obj\Debug\WebGiay.dll
 D:\WebGiayKS\WebGiay\WebGiay\obj\Debug\WebGiay.pdb
+D:\WebGiayKS\WebGiay\WebGiay\obj\Debug\WebGiay.csprojAssemblyReference.cache
 D:\Documentss\CNPM\WEB\WebGiayKS\WebGiay\WebGiay\bin\WebGiay.dll.config
 D:\Documentss\CNPM\WEB\WebGiayKS\WebGiay\WebGiay\bin\WebGiay.dll
 D:\Documentss\CNPM\WEB\WebGiayKS\WebGiay\WebGiay\bin\WebGiay.pdb
@@ -582,43 +156,3 @@ D:\Documentss\CNPM\WEB\WebGiayKS\WebGiay\WebGiay\obj\Debug\WebGiay.csproj.CoreCo
 D:\Documentss\CNPM\WEB\WebGiayKS\WebGiay\WebGiay\obj\Debug\WebGiay.csproj.CopyComplete
 D:\Documentss\CNPM\WEB\WebGiayKS\WebGiay\WebGiay\obj\Debug\WebGiay.dll
 D:\Documentss\CNPM\WEB\WebGiayKS\WebGiay\WebGiay\obj\Debug\WebGiay.pdb
-D:\WebGiayKS\WebGiay\WebGiay\bin\roslyn\csc.exe.config
-D:\WebGiayKS\WebGiay\WebGiay\bin\roslyn\csc.rsp
-D:\WebGiayKS\WebGiay\WebGiay\bin\roslyn\csi.exe
-D:\WebGiayKS\WebGiay\WebGiay\bin\roslyn\csi.exe.config
-D:\WebGiayKS\WebGiay\WebGiay\bin\roslyn\csi.rsp
-D:\WebGiayKS\WebGiay\WebGiay\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
-D:\WebGiayKS\WebGiay\WebGiay\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
-D:\WebGiayKS\WebGiay\WebGiay\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
-D:\WebGiayKS\WebGiay\WebGiay\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
-D:\WebGiayKS\WebGiay\WebGiay\bin\roslyn\Microsoft.CSharp.Core.targets
-D:\WebGiayKS\WebGiay\WebGiay\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
-D:\WebGiayKS\WebGiay\WebGiay\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
-D:\WebGiayKS\WebGiay\WebGiay\bin\roslyn\Microsoft.Managed.Core.targets
-D:\WebGiayKS\WebGiay\WebGiay\bin\roslyn\Microsoft.VisualBasic.Core.targets
-D:\WebGiayKS\WebGiay\WebGiay\bin\roslyn\Microsoft.Win32.Primitives.dll
-D:\WebGiayKS\WebGiay\WebGiay\bin\roslyn\System.AppContext.dll
-D:\WebGiayKS\WebGiay\WebGiay\bin\roslyn\System.Console.dll
-D:\WebGiayKS\WebGiay\WebGiay\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
-D:\WebGiayKS\WebGiay\WebGiay\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
-D:\WebGiayKS\WebGiay\WebGiay\bin\roslyn\System.Diagnostics.StackTrace.dll
-D:\WebGiayKS\WebGiay\WebGiay\bin\roslyn\System.Globalization.Calendars.dll
-D:\WebGiayKS\WebGiay\WebGiay\bin\roslyn\System.IO.Compression.dll
-D:\WebGiayKS\WebGiay\WebGiay\bin\roslyn\System.IO.Compression.ZipFile.dll
-D:\WebGiayKS\WebGiay\WebGiay\bin\roslyn\System.Net.Http.dll
-D:\WebGiayKS\WebGiay\WebGiay\bin\roslyn\System.Net.Sockets.dll
-D:\WebGiayKS\WebGiay\WebGiay\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
-D:\WebGiayKS\WebGiay\WebGiay\bin\roslyn\System.Security.Cryptography.Algorithms.dll
-D:\WebGiayKS\WebGiay\WebGiay\bin\roslyn\System.Security.Cryptography.Encoding.dll
-D:\WebGiayKS\WebGiay\WebGiay\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
-D:\WebGiayKS\WebGiay\WebGiay\bin\roslyn\System.Threading.Tasks.Extensions.dll
-D:\WebGiayKS\WebGiay\WebGiay\bin\roslyn\System.ValueTuple.dll
-D:\WebGiayKS\WebGiay\WebGiay\bin\roslyn\System.Xml.ReaderWriter.dll
-D:\WebGiayKS\WebGiay\WebGiay\bin\roslyn\System.Xml.XmlDocument.dll
-D:\WebGiayKS\WebGiay\WebGiay\bin\roslyn\System.Xml.XPath.dll
-D:\WebGiayKS\WebGiay\WebGiay\bin\roslyn\System.Xml.XPath.XDocument.dll
-D:\WebGiayKS\WebGiay\WebGiay\bin\roslyn\vbc.exe
-D:\WebGiayKS\WebGiay\WebGiay\bin\roslyn\vbc.exe.config
-D:\WebGiayKS\WebGiay\WebGiay\bin\roslyn\vbc.rsp
-D:\WebGiayKS\WebGiay\WebGiay\bin\roslyn\VBCSCompiler.exe
-D:\WebGiayKS\WebGiay\WebGiay\bin\roslyn\VBCSCompiler.exe.config

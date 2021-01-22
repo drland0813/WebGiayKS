@@ -1,61 +1,3 @@
-F:\LapTrinhPhanMem\WebGiay - Copy (3)\MyClass\bin\Debug\MyClass.dll.config
-F:\LapTrinhPhanMem\WebGiay - Copy (3)\MyClass\bin\Debug\MyClass.dll
-F:\LapTrinhPhanMem\WebGiay - Copy (3)\MyClass\bin\Debug\MyClass.pdb
-F:\LapTrinhPhanMem\WebGiay - Copy (3)\MyClass\bin\Debug\EntityFramework.dll
-F:\LapTrinhPhanMem\WebGiay - Copy (3)\MyClass\bin\Debug\EntityFramework.SqlServer.dll
-F:\LapTrinhPhanMem\WebGiay - Copy (3)\MyClass\bin\Debug\EntityFramework.xml
-F:\LapTrinhPhanMem\WebGiay - Copy (3)\MyClass\bin\Debug\EntityFramework.SqlServer.xml
-F:\LapTrinhPhanMem\WebGiay - Copy (3)\MyClass\obj\Debug\MyClass.csprojAssemblyReference.cache
-F:\LapTrinhPhanMem\WebGiay - Copy (3)\MyClass\obj\Debug\MyClass.csproj.CoreCompileInputs.cache
-F:\LapTrinhPhanMem\WebGiay - Copy (3)\MyClass\obj\Debug\MyClass.csproj.CopyComplete
-F:\LapTrinhPhanMem\WebGiay - Copy (3)\MyClass\obj\Debug\MyClass.dll
-F:\LapTrinhPhanMem\WebGiay - Copy (3)\MyClass\obj\Debug\MyClass.pdb
-F:\LapTrinhPhanMem\WebGiay - Copy (4)\MyClass\bin\Debug\MyClass.dll.config
-F:\LapTrinhPhanMem\WebGiay - Copy (4)\MyClass\bin\Debug\MyClass.dll
-F:\LapTrinhPhanMem\WebGiay - Copy (4)\MyClass\bin\Debug\MyClass.pdb
-F:\LapTrinhPhanMem\WebGiay - Copy (4)\MyClass\bin\Debug\EntityFramework.dll
-F:\LapTrinhPhanMem\WebGiay - Copy (4)\MyClass\bin\Debug\EntityFramework.SqlServer.dll
-F:\LapTrinhPhanMem\WebGiay - Copy (4)\MyClass\bin\Debug\EntityFramework.xml
-F:\LapTrinhPhanMem\WebGiay - Copy (4)\MyClass\bin\Debug\EntityFramework.SqlServer.xml
-F:\LapTrinhPhanMem\WebGiay - Copy (4)\MyClass\obj\Debug\MyClass.csprojAssemblyReference.cache
-F:\LapTrinhPhanMem\WebGiay - Copy (4)\MyClass\obj\Debug\MyClass.csproj.CoreCompileInputs.cache
-F:\LapTrinhPhanMem\WebGiay - Copy (4)\MyClass\obj\Debug\MyClass.csproj.CopyComplete
-F:\LapTrinhPhanMem\WebGiay - Copy (4)\MyClass\obj\Debug\MyClass.dll
-F:\LapTrinhPhanMem\WebGiay - Copy (4)\MyClass\obj\Debug\MyClass.pdb
-D:\Documentss\CNPM\WEB\WebGiay\MyClass\bin\Debug\MyClass.dll.config
-D:\Documentss\CNPM\WEB\WebGiay\MyClass\bin\Debug\MyClass.dll
-D:\Documentss\CNPM\WEB\WebGiay\MyClass\bin\Debug\MyClass.pdb
-D:\Documentss\CNPM\WEB\WebGiay\MyClass\bin\Debug\EntityFramework.dll
-D:\Documentss\CNPM\WEB\WebGiay\MyClass\bin\Debug\EntityFramework.SqlServer.dll
-D:\Documentss\CNPM\WEB\WebGiay\MyClass\bin\Debug\EntityFramework.xml
-D:\Documentss\CNPM\WEB\WebGiay\MyClass\bin\Debug\EntityFramework.SqlServer.xml
-D:\Documentss\CNPM\WEB\WebGiay\MyClass\obj\Debug\MyClass.csprojAssemblyReference.cache
-D:\Documentss\CNPM\WEB\WebGiay\MyClass\obj\Debug\MyClass.csproj.CoreCompileInputs.cache
-D:\Documentss\CNPM\WEB\WebGiay\MyClass\obj\Debug\MyClass.csproj.CopyComplete
-D:\Documentss\CNPM\WEB\WebGiay\MyClass\obj\Debug\MyClass.dll
-D:\Documentss\CNPM\WEB\WebGiay\MyClass\obj\Debug\MyClass.pdb
-D:\sourse\WebGiayKS\WebGiay\MyClass\bin\Debug\MyClass.dll.config
-D:\sourse\WebGiayKS\WebGiay\MyClass\bin\Debug\MyClass.dll
-D:\sourse\WebGiayKS\WebGiay\MyClass\bin\Debug\MyClass.pdb
-D:\sourse\WebGiayKS\WebGiay\MyClass\bin\Debug\EntityFramework.dll
-D:\sourse\WebGiayKS\WebGiay\MyClass\bin\Debug\EntityFramework.SqlServer.dll
-D:\sourse\WebGiayKS\WebGiay\MyClass\bin\Debug\EntityFramework.xml
-D:\sourse\WebGiayKS\WebGiay\MyClass\bin\Debug\EntityFramework.SqlServer.xml
-D:\sourse\WebGiayKS\WebGiay\MyClass\obj\Debug\MyClass.csproj.CoreCompileInputs.cache
-D:\sourse\WebGiayKS\WebGiay\MyClass\obj\Debug\MyClass.csproj.CopyComplete
-D:\sourse\WebGiayKS\WebGiay\MyClass\obj\Debug\MyClass.dll
-D:\sourse\WebGiayKS\WebGiay\MyClass\obj\Debug\MyClass.pdb
-F:\WebGiayKS\WebGiay\MyClass\bin\Debug\MyClass.dll.config
-F:\WebGiayKS\WebGiay\MyClass\bin\Debug\MyClass.dll
-F:\WebGiayKS\WebGiay\MyClass\bin\Debug\MyClass.pdb
-F:\WebGiayKS\WebGiay\MyClass\bin\Debug\EntityFramework.dll
-F:\WebGiayKS\WebGiay\MyClass\bin\Debug\EntityFramework.SqlServer.dll
-F:\WebGiayKS\WebGiay\MyClass\bin\Debug\EntityFramework.xml
-F:\WebGiayKS\WebGiay\MyClass\bin\Debug\EntityFramework.SqlServer.xml
-F:\WebGiayKS\WebGiay\MyClass\obj\Debug\MyClass.csproj.CoreCompileInputs.cache
-F:\WebGiayKS\WebGiay\MyClass\obj\Debug\MyClass.csproj.CopyComplete
-F:\WebGiayKS\WebGiay\MyClass\obj\Debug\MyClass.dll
-F:\WebGiayKS\WebGiay\MyClass\obj\Debug\MyClass.pdb
 D:\WebGiayKS\WebGiay\MyClass\bin\Debug\MyClass.dll.config
 D:\WebGiayKS\WebGiay\MyClass\bin\Debug\MyClass.dll
 D:\WebGiayKS\WebGiay\MyClass\bin\Debug\MyClass.pdb
@@ -67,7 +9,6 @@ D:\WebGiayKS\WebGiay\MyClass\obj\Debug\MyClass.csproj.CoreCompileInputs.cache
 D:\WebGiayKS\WebGiay\MyClass\obj\Debug\MyClass.csproj.CopyComplete
 D:\WebGiayKS\WebGiay\MyClass\obj\Debug\MyClass.dll
 D:\WebGiayKS\WebGiay\MyClass\obj\Debug\MyClass.pdb
-<<<<<<< HEAD
 D:\Documentss\CNPM\WEB\WebGiayKS\WebGiay\MyClass\bin\Debug\MyClass.dll.config
 D:\Documentss\CNPM\WEB\WebGiayKS\WebGiay\MyClass\bin\Debug\MyClass.dll
 D:\Documentss\CNPM\WEB\WebGiayKS\WebGiay\MyClass\bin\Debug\MyClass.pdb
@@ -80,6 +21,3 @@ D:\Documentss\CNPM\WEB\WebGiayKS\WebGiay\MyClass\obj\Debug\MyClass.csproj.CoreCo
 D:\Documentss\CNPM\WEB\WebGiayKS\WebGiay\MyClass\obj\Debug\MyClass.csproj.CopyComplete
 D:\Documentss\CNPM\WEB\WebGiayKS\WebGiay\MyClass\obj\Debug\MyClass.dll
 D:\Documentss\CNPM\WEB\WebGiayKS\WebGiay\MyClass\obj\Debug\MyClass.pdb
-=======
-D:\WebGiayKS\WebGiay\MyClass\obj\Debug\MyClass.csprojAssemblyReference.cache
->>>>>>> a093c28a22f9336abead1877ca6672c5f25456f2
