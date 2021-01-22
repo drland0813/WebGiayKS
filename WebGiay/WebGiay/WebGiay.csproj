@@ -318,6 +318,16 @@
     <Content Include="Areas\Admin\Views\DonHang\Details.cshtml" />
     <Content Include="Areas\Admin\Views\DonHang\Edit.cshtml" />
     <Content Include="Areas\Admin\Views\DonHang\Index.cshtml" />
+    <Content Include="Areas\Admin\Views\Giay\Create.cshtml" />
+    <Content Include="Areas\Admin\Views\Giay\Delete.cshtml" />
+    <Content Include="Areas\Admin\Views\Giay\Details.cshtml" />
+    <Content Include="Areas\Admin\Views\Giay\Edit.cshtml" />
+    <Content Include="Areas\Admin\Views\Giay\Index.cshtml" />
+    <Content Include="Areas\Admin\Views\Product\Create.cshtml" />
+    <Content Include="Areas\Admin\Views\Product\Delete.cshtml" />
+    <Content Include="Areas\Admin\Views\Product\Details.cshtml" />
+    <Content Include="Areas\Admin\Views\Product\Edit.cshtml" />
+    <Content Include="Areas\Admin\Views\Product\Index.cshtml" />
     <None Include="Scripts\jquery-3.0.0-vsdoc.js" />
     <Content Include="Scripts\jquery-3.0.0.js" />
     <Content Include="Scripts\jquery-3.0.0.min.js" />
@@ -420,6 +430,8 @@
     <Compile Include="Areas\Admin\Controllers\BaseController.cs" />
     <Compile Include="Areas\Admin\Controllers\DashboardController.cs" />
     <Compile Include="Areas\Admin\Controllers\DonHangController.cs" />
+    <Compile Include="Areas\Admin\Controllers\GiayController.cs" />
+    <Compile Include="Areas\Admin\Controllers\ProductController.cs" />
     <Compile Include="Areas\Admin\Controllers\SliderController.cs" />
     <Compile Include="Areas\Admin\Controllers\User_KHController.cs" />
     <Compile Include="Areas\Admin\Controllers\User_NVController.cs" />

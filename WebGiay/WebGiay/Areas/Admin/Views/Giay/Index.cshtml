@@ -1,0 +1,141 @@
+﻿@model IEnumerable<MyClass.Model.Giay>
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Areas/Admin/Views/Shared/_LayoutAdmin.cshtml";
+}
+
+<div class="card">
+    <div class="card-header">
+        <div class="row">
+            <div class="col-md-6">
+                <strong class="text-danger text-uppercase">TẤT CẢ GIÀY</strong>
+            </div>
+            <div class="col-md-6 text-right">
+                <a href="Create" class="btn btn-success btn-sm"><i class="fas fa-plus"></i>Thêm</a>
+                <a href="Detrash" class="btn btn-danger btn-sm"><i class="fas fa-trash"></i>Thùng rác</a>
+            </div>
+        </div>
+    </div>
+    <div class="card-body">
+        <table id="myTable" class="table table-bordered table-hover table-striped">
+            <thead>
+                <tr>
+                    <th style="width:20px;" class="text-center">#</th>
+
+
+                    <th style="width:80px;">
+                        Hình Ảnh
+                    </th>
+                    <th>
+                        Loại Giày
+                    </th>
+
+                    <th>
+                        Tên Giày
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.slug)
+                    </th>
+                    <th>
+                        Giá Bán
+                    </th>
+                    <th>
+                        Giá Nhập
+                    </th>
+                    <th>
+                        Ngày Tạo
+                    </th>
+                    <th>
+                       Chi Tiết
+                    </th>
+
+
+
+                    <th style="width:200px;" class="text-center">Chức năng</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model)
+                {
+                <tr>
+                    <td class="text-center">
+                        <input name="STT" type="checkbox" class="text-center" />
+                    </td>
+
+                    <td>
+                        <img src="~/public/images/product/@item.image" class="img-fluid" alt="Alternate Text" />
+                        
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.LoaiGiay.tenLoai)
+                    </td>
+
+                    <td>
+                        @Html.DisplayFor(modelItem => item.tenGiay)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.slug)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.giaBan)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.giaNhap)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.ngayTao)
+                    </td>
+
+                    <td>
+                        @Html.DisplayFor(modelItem => item.chiTiet)
+                    </td>
+
+
+
+                    <td class="text-center">
+                         
+                @if (item.trangThai == 1)
+            {
+                <a class="btn btn-success btn-sm" href="@Url.Action("Status","Giay",new { id = item.maGiay })"><i class="fas fa-toggle-on"></i></a>
+            }
+            else
+            {
+                <a class="btn btn-danger btn-sm" href="@Url.Action("Status","Giay",new { id = item.maGiay })"><i class="fas fa-toggle-off"></i></a>
+            }
+
+            @*public ActionResult Status(int? id)
+            {
+            if (id == null)
+            {
+            return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
+            }
+            Product product=db.Product.Find(id)
+            product.Status=(product.Status==1)?2:1;
+            if(product.Status==1)
+            db.Entry(product).State = EntityState.Modified;
+            db.SaveChanges();
+            return RedirectToAction("Index");
+            }*@
+                        <a class="btn btn-info btn-sm" href="@Url.Action("Edit","Giay",new { id = item.maGiay })"><i class="fas fa-edit"></i></a>
+                        <a class="btn btn-warning btn-sm" href="@Url.Action("Details","Giay",new { id = item.maGiay })"><i class="fas fa-eye"></i></a>
+                        <a class="btn btn-danger btn-sm" href="@Url.Action("DelTrash","Giay",new { id = item.maGiay })"><i class="fas fa-trash"></i></a>
+                    </td>
+                </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</div>
+@section header{
+    <link href="~/public/css/jquery.dataTables.min.css" rel="stylesheet" />
+}
+@section footer{
+    <script src="~/public/js/jquery.dataTables.min.js"></script>
+    <script>
+        jQuery(document).ready(function () {
+            jQuery('#myTable').DataTable();
+        });
+    </script>
+}
+
