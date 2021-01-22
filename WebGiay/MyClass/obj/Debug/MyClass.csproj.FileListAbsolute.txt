@@ -68,3 +68,4 @@ D:\WebGiayKS\WebGiay\MyClass\obj\Debug\MyClass.csproj.CopyComplete
 D:\WebGiayKS\WebGiay\MyClass\obj\Debug\MyClass.dll
 D:\WebGiayKS\WebGiay\MyClass\obj\Debug\MyClass.pdb
 D:\WebGiayKS\WebGiay\MyClass\obj\Debug\MyClass.csprojAssemblyReference.cache
+F:\WebGiayKS\WebGiay\MyClass\obj\Debug\MyClass.csprojAssemblyReference.cache

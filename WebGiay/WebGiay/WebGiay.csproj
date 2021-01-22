@@ -119,6 +119,7 @@
     <Content Include="public\images\avartar\avatar_pic4.jpg" />
     <Content Include="public\images\avartar\avatar_pic5.jpg" />
     <Content Include="public\images\avatar.jpg" />
+    <Content Include="public\images\eror.jpg" />
     <Content Include="public\images\logo.png" />
     <Content Include="public\images\logo2.png" />
     <Content Include="public\images\map.jpg" />

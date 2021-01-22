@@ -85,5 +85,33 @@ namespace MyClass.DAO
             }
             return rs;
         }
+        //lay giay theo trang
+        public List<Giay> getListAll(/*string ltPhantrang,*/ int pagesize, int pagefirst)
+        {
+            //int total = db.Giays.Count();
+            //int pageNumber = total / pagesize;
+            //pageNumber = (total % pagesize != 0) ? (pageNumber++) : (pageNumber);
+            //string strpageLink = "<ul>";
+            //for (int i = 0; i < pageNumber; i++)
+            //{
+            //    strpageLink += "<li>" +
+            //             "<a href='Default.aspx?option=sanpham?page="+i.ToString()+"'>" + i.ToString()+ 
+
+
+            //             "</a>" +
+            //        "</li>";
+            //}
+            //strpageLink += "</ul>";
+            //ltPhantrang = strpageLink;
+            List<Giay> list = db.Giays.Take(pagesize).OrderByDescending(m => m.ngayTao).Skip(pagefirst).ToList();
+            return list;
+        }
+        //dem tong sp
+        public int getCount()
+        {
+            int total = db.Giays.Count();
+            return total;
+
+        }
     }
 }

@@ -1,18 +1,15 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Web;
-using System.Web.Mvc;
-using MyClass;
-using MyClass.DAO;
+﻿using MyClass.DAO;
 using MyClass.Model;
+using System;
+using System.Collections.Generic;
+using System.Web.Mvc;
 namespace WebGiay.Controllers
 {
     public class SiteController : Controller
     {
         ProductDAO productDAO = new ProductDAO();
         // GET: Site
-        public ActionResult Index(String slug=null)
+        public ActionResult Index(String slug = null)
         {
             LinkDAO LinkDAO = new LinkDAO();
 
@@ -23,7 +20,7 @@ namespace WebGiay.Controllers
             else
             {
                 Link row_link = LinkDAO.getRow(slug);
-                if(row_link != null)
+                if (row_link != null)
                 {
                     String linktype = row_link.table_name;
                     switch (linktype)
@@ -47,7 +44,7 @@ namespace WebGiay.Controllers
                     }
                 }
             }
-            return Error404(); 
+            return Error404();
         }
         public ActionResult Search()
         {
@@ -58,7 +55,7 @@ namespace WebGiay.Controllers
         {
             ProductDAO productyDAO = new ProductDAO();
             List<Giay> list = productyDAO.getList2(maloai);
-            return View("DeitalProductCategory",list);
+            return View("DeitalProductCategory", list);
         }
         public ActionResult PostDetail(String slug)
         {
@@ -68,8 +65,32 @@ namespace WebGiay.Controllers
         public ActionResult Product()
         {
             ProductDAO productyDAO = new ProductDAO();
-            List<Giay> list = productyDAO.getList();
-            return View("Product",list);
+            int pageSize = 21;
+            var pagecurrent = 1;
+            if (!string.IsNullOrEmpty(Request.QueryString["page"]))
+            {
+                pagecurrent = int.Parse(Request.QueryString["page"].ToString());
+            }
+            int pageFirst = (pagecurrent - 1) * pageSize;
+            int total = productDAO.getCount();
+            int num = (total / pageSize);
+            if ((total / pageSize) % 2 != 0)
+            {
+                num++;
+            }
+            float num2 = total / pageSize;
+            if (num < num2)
+            {
+                num++;
+            }
+            List<int> pageCount = new List<int>();
+            for (int i = 1; i <= num; i++)
+            {
+                pageCount.Add(i);
+            }
+            ViewBag.pageCount = pageCount;
+            List<Giay> list = productyDAO.getListAll(pageSize, pageFirst);
+            return View("Product", list);
         }
         public ActionResult Error404()
         {
@@ -95,7 +116,7 @@ namespace WebGiay.Controllers
                 }
             }
             listcatid.Add(catid);
-            List<Giay> listorder = productDAO.getList(listcatid, 8,row.maGiay);
+            List<Giay> listorder = productDAO.getList(listcatid, 8, row.maGiay);
 
             ViewData["GiayLienQuan"] = listorder;
             return View("ProductDetail", row);
@@ -104,7 +125,7 @@ namespace WebGiay.Controllers
         {
             CategoryDAO categoryDAO = new CategoryDAO();
             List<LoaiGiay> list = categoryDAO.getList(slug);
-            return View("ProductCategory",list);
+            return View("ProductCategory", list);
         }
         public ActionResult Home()
         {

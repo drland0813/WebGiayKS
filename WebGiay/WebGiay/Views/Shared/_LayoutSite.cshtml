@@ -14,6 +14,9 @@
     @RenderSection("header", required: false)
 </head>
 <body>
+    <div class="loader-wrapper">
+        <span class="loader"><span class="loader-inner"></span></span>
+    </div>
     <section id="header" class="bg-primary-color">
         <div class="my__header-top py-1">
             <div class="container">
@@ -78,7 +81,7 @@
                                 <a class="nav-link" href="~/gioi-thieu">Giới Thiệu</a>
                             </li>
                             <a class="navbar-brand  mx-4" href="https://localhost:44375/">
-                                <img src="~/public/images/logo.png" alt="Alternate Text" />
+                                <img src="~/public/images/logo2.png" style="width:156px; height: 55px; margin-top:10px;" alt="Alternate Text" />
                             </a>
 
                             <li class="nav-item  mx-2">
@@ -110,7 +113,7 @@
         <!--end navbar-->
     </section>
     <section id="mainmenu" style="height:32px;">
-        @Html.Action("MainMenu", "Module");
+        @Html.Action("MainMenu", "Module")
     </section>
     <section id="maincontent">@RenderBody()</section>
     <section id="support" class="bg-support py-4 mt-4">
@@ -202,6 +205,11 @@
     <script src="~/Scripts/popper.min.js"></script>
     <script src="~/Scripts/bootstrap.min.js"></script>
     <script src="~/public/js/myjs.js"></script>
+    <script>
+        $(window).on("load", function () {
+            $(".loader-wrapper").fadeOut("slow");
+        });
+    </script>
     @RenderSection("footer", required: false)
 </body>
 </html>
