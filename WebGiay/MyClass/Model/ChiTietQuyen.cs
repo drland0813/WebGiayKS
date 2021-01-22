@@ -7,10 +7,10 @@ namespace MyClass.Model
     using System.Data.Entity.Spatial;
 
     [Table("ChiTietQuyen")]
-    public partial class id_KM
+    public partial class ChiTietQuyen
     {
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2214:DoNotCallOverridableMethodsInConstructors")]
-        public id_KM()
+        public ChiTietQuyen()
         {
             Accounts = new HashSet<Account>();
         }

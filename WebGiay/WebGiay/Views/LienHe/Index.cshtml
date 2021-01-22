@@ -48,48 +48,82 @@
             <img src="~/public/images/map.jpg" class="mx-auto" style="width:50%;" alt="Alternate Text" />
         </div>
         <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12">
-            <div class="row">
-                <div class="col-12 mb-2">
-                    <h3 class="my-title" data-mask="LIÊN HỆ">- VỚI CHÚNG TÔI</h3>
-                </div>
-                <div class="col-lg-6 col-xl-6 col-md-6 col-sm-12">
-                    <div class="form-group">
-                        <label>Họ Tên <sub class="text-danger">*</sub></label>
-                        <input type="text" name="fullName" value="" class="form-control" />
+            <form class="login-form" method="post" action="/LienHe/Index">
+                <div class="row">
+                    <div class="col-12 mb-2">
+                        <h3 class="my-title" data-mask="LIÊN HỆ">- VỚI CHÚNG TÔI</h3>
                     </div>
-                </div>
-                <div class="col-lg-6 col-xl-6 col-md-6 col-sm-12">
-                    <div class="form-group">
-                        <label>EMAIL <sub class="text-danger">*</sub></label>
-                        <input type="email" name="email" value="" class="form-control" />
+
+
+                    <div class="col-lg-6 col-xl-6 col-md-6 col-sm-12">
+                        <div class="form-group">
+                            <label>Họ Tên <sub class="text-danger">*</sub></label>
+                            <input type="text" name="fullName" required
+                                   placeholder="VD: Lê Hữu Dũng" 
+                                   oninvalid="this.setCustomValidity('Không thể để trống họ tên')"
+                                   oninput="this.setCustomValidity('')" 
+                                   class="form-control" />
+                        </div>
                     </div>
-                </div>
-                <div class="col-lg-6 col-xl-6 col-md-6 col-sm-12">
-                    <div class="form-group">
-                        <label>Số Điện Thoại <sub class="text-danger">*</sub></label>
-                        <input type="tel" name="phonenumber" value="" class="form-control" />
+
+                    <div class="col-lg-6 col-xl-6 col-md-6 col-sm-12">
+                        <div class="form-group">
+                            <label>EMAIL <sub class="text-danger">*</sub></label>
+                            <input type="text" name="email" required
+                                   placeholder="VD: huadung299@gmail.com"
+                                   oninvalid="this.setCustomValidity('Không thể để trống email')"
+                                   oninput="this.setCustomValidity('')"
+                                   class="form-control" />
+                        </div>
                     </div>
-                </div>
-                <div class="col-lg-6 col-xl-6 col-md-6 col-sm-12">
-                    <div class="form-group">
-                        <label>Địa chỉ <sub class="text-danger">*</sub></label>
-                        <input type="text" name="address" value="" class="form-control" />
+
+                    <div class="col-lg-6 col-xl-6 col-md-6 col-sm-12">
+                        <div class="form-group">
+                            <label>Số Điện Thoại <sub class="text-danger">*</sub></label>
+                            <input type="text" name="phonenumber" required
+                                   placeholder="VD: 0389782654"
+                                   oninvalid="this.setCustomValidity('Không thể để trống số điện thoại')"
+                                   oninput="this.setCustomValidity('')"
+                                   class="form-control" />
+                        </div>
                     </div>
-                </div>
-                <div class="col-12">
-                    <label>Nội dung</label>
-                    <textarea name="content" rows="6" class="form-control"></textarea>
-                </div>
-                <div class="col-12">
-                    <p class="text-danger my-note"><sub class="text-danger">*</sub> Bắt buộc điền</p>
-                </div>
-                <div class="col-12">
-                    <div class="form-group">
-                        <button class="btn btn-danger my-btn">GỬI</button>
-                        <button class="btn btn-danger my-btn ml-3">NHẬP LẠI</button>
+
+                    <div class="col-lg-6 col-xl-6 col-md-6 col-sm-12">
+                        <div class="form-group">
+                            <label>Địa chỉ <sub class="text-danger">*</sub></label>
+                            <input type="text" name="address" required
+                                   placeholder="VD: Hồ Chí Minh - Quận Gò Vấp - Phường 4 - Phạm Văn Đồng 87"
+                                   oninvalid="this.setCustomValidity('Không thể để trống địa chỉ')"
+                                   oninput="this.setCustomValidity('')"
+                                   class="form-control" />
+                        </div>
                     </div>
+
+                    <div class="col-12">
+                        <label>Nội dung</label>
+                        <textarea name="content" rows="6" class="form-control"></textarea>
+                    </div>
+
+                    <div class="col-12">
+                        <p class="text-danger my-note"><sub class="text-danger">*</sub> Bắt buộc điền</p>
+                    </div>
+
+
+                    <div class="form-check">
+                        <button type="submit" class="btn btn-danger my-btn">GỬI</button>
+                    </div>
+
+                    @if (ViewBag.Message != null)
+                    {
+                        @ViewBag.Message
+                    }
+
                 </div>
-            </div>
+            </form>
         </div>
+
     </div>
 </div>
+
+
+

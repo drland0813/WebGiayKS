@@ -62,7 +62,13 @@ namespace MyClass.DAO
                 .Take(8)
                 .ToList();
 
-            List<Giay> rs = db.Giays.Where(g => hotSP.Contains(g.maGiay)).ToList();
+            var query = from hs in hotSP
+                            join g in db.Giays
+                            on hs equals g.maGiay
+                            select new { giay = g }.giay;
+
+            List<Giay> rs = new List<Giay>(query);
+
             return rs;
         }
 

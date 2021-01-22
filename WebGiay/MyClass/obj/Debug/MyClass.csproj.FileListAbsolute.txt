@@ -67,6 +67,7 @@ D:\WebGiayKS\WebGiay\MyClass\obj\Debug\MyClass.csproj.CoreCompileInputs.cache
 D:\WebGiayKS\WebGiay\MyClass\obj\Debug\MyClass.csproj.CopyComplete
 D:\WebGiayKS\WebGiay\MyClass\obj\Debug\MyClass.dll
 D:\WebGiayKS\WebGiay\MyClass\obj\Debug\MyClass.pdb
+<<<<<<< HEAD
 D:\Documentss\CNPM\WEB\WebGiayKS\WebGiay\MyClass\bin\Debug\MyClass.dll.config
 D:\Documentss\CNPM\WEB\WebGiayKS\WebGiay\MyClass\bin\Debug\MyClass.dll
 D:\Documentss\CNPM\WEB\WebGiayKS\WebGiay\MyClass\bin\Debug\MyClass.pdb
@@ -79,3 +80,6 @@ D:\Documentss\CNPM\WEB\WebGiayKS\WebGiay\MyClass\obj\Debug\MyClass.csproj.CoreCo
 D:\Documentss\CNPM\WEB\WebGiayKS\WebGiay\MyClass\obj\Debug\MyClass.csproj.CopyComplete
 D:\Documentss\CNPM\WEB\WebGiayKS\WebGiay\MyClass\obj\Debug\MyClass.dll
 D:\Documentss\CNPM\WEB\WebGiayKS\WebGiay\MyClass\obj\Debug\MyClass.pdb
+=======
+D:\WebGiayKS\WebGiay\MyClass\obj\Debug\MyClass.csprojAssemblyReference.cache
+>>>>>>> a093c28a22f9336abead1877ca6672c5f25456f2

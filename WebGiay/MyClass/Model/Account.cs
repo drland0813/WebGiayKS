@@ -39,7 +39,7 @@ namespace MyClass.Model
         [StringLength(70)]
         public string passwords { get; set; }
 
-        public virtual id_KM ChiTietQuyen { get; set; }
+        public virtual ChiTietQuyen ChiTietQuyen { get; set; }
 
         public virtual User_KH User_KH { get; set; }
 
