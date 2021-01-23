@@ -120,9 +120,9 @@
         @Html.Action("MainMenu", "Module")
     </section>
     <section id="maincontent">@RenderBody()</section>
-    <section id="support" data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine" class="bg-support py-4 mt-4">
+    <section id="support" class="bg-support py-4 mt-4">
         <div class="container">
-            <div class="row">
+            <div data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine" class="row">
                 <div class="col-lg-4 col-xl-4 col-md-4 col-sm-6 my-support">
                     <i class="fas fa-wallet"></i>
                     <h3>Cam kết chính hãng</h3>
@@ -144,8 +144,8 @@
             </div>
         </div>
     </section>
-    <section data-aos="fade-up" id="footer" class="footer bg-primary-color py-5">
-        <div class="container text-white">
+    <section id="footer" class="footer bg-primary-color py-5">
+        <div  data-aos="fade-up" class="container text-white">
             <div class="row">
                 <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12 text-center">
                     <h3>Chăm sóc khách hàng</h3>
