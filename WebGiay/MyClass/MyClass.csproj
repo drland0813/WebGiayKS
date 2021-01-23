@@ -61,6 +61,7 @@
     <Compile Include="DAO\SlideDAO.cs" />
     <Compile Include="Model\Account.cs" />
     <Compile Include="Model\BaiViet.cs" />
+    <Compile Include="Model\Cart.cs" />
     <Compile Include="Model\ChiTietDH.cs" />
     <Compile Include="Model\ChiTietGiay.cs" />
     <Compile Include="Model\ChiTietQuyen.cs" />

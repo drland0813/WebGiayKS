@@ -32,19 +32,45 @@
             <h3>@Model.tenGiay</h3>
             <p>Mã SP: <span>@Model.maGiay</span></p>
             <p class="price">@Model.giaBan VNĐ</p>
-            <input type="number" name="name" value="1" min="1" style="padding:10px 0;text-align:center;font-size:20px;
-            font-weight:700;border:1px solid rgba(0,0,0,.3);width:200px;margin-bottom:20px;" />
-            <select class="form-select form-control" style="width:200px;" aria-label="Default select example">
-                <option selected>Mời chọn size</option>
-                <option value="1">35</option>
-                <option value="2">40</option>
-                <option value="3">41</option>
-                <option value="4">44</option>
-                <option value="5">45</option>
-            </select>
-            <a href="#" class="btn btn-danger mt-4" style="display:block;max-width:150px;border-radius:20px;padding:8px 0;">Mua</a>
-            <p class="mt-2">Hoặc đặt mua: <span style="color:red;">090xxxxxxxx</span> ( Tư vấn Miễn phí )</p>
-            <p class="free_ship"><b>Free Ship</b> tại khu vực Hồ Chí Minh</p>
+
+
+            <form class="login-form" method="post" action="/Site/ProductDetail">
+
+                <div name="maGiay" style="display : none;"> @Html.TextBoxFor(g => g.maGiay) </div>
+                <input type="number" name="number" value="1" min="1" style="padding:10px 0;text-align:center;font-size:20px;
+                    font-weight:700;border:1px solid rgba(0,0,0,.3);width:200px;margin-bottom:20px;" />
+
+                <select class="form-select form-control" name="size" style="width:200px;" 
+                        aria-label="Default select example" required 
+                        oninvalid="this.setCustomValidity('Xin hãy chọn size')"
+                        oninput="this.setCustomValidity('')">
+
+                    <option selected value="" disabled>Mời chọn size</option>
+                    @foreach (var item in Model.ChiTietGiays)
+                    {
+                        if (item.soLuongTon > 2)
+                        {
+                            <option value=@item.size> @item.size </option>
+                        }
+                        else
+                        {
+                            <option value="" disabled> @item.size - Đã hết hàng </option>
+                        }
+                    }
+                </select>
+
+                <div class="form-check">
+
+                    <button type="submit" class="btn btn-danger mt-4"
+                            style="display:block;width:150px;border-radius:20px;padding:8px 0;"> Mua
+                    </button>
+                </div>
+
+            </form>
+
+
+                <p class="mt-2">Hoặc đặt mua: <span style="color:red;">090xxxxxxxx</span> ( Tư vấn Miễn phí )</p>
+                <p class="free_ship"><b>Free Ship</b> tại khu vực Hồ Chí Minh</p>
 
         </div>
         <!--comment-->
@@ -153,146 +179,9 @@
     </div>
                 
 
-        @*
-                <!--Carousel Wrapper-->
-                <div id="multi-item-example2" class="carousel slide carousel-multi-item container" data-ride="carousel">
-
-                    <!--Controls-->
-                    <div class="controls-top" style="float:right">
-                        <a class="btn-floating" href="#multi-item-example2" data-slide="prev"><i class="fas fa-chevron-left"></i></a>
-                        <a class="btn-floating" href="#multi-item-example2" data-slide="next">
-                            <i class="fas fa-chevron-right"></i>
-                        </a>
-                    </div>
-                    <!--/.Controls-->
-                    <!--Slides-->
-                    <div class="carousel-inner" role="listbox">
-
-                        <!--First slide-->
-                        <div class="carousel-item active">
-
-                            <div class="col-xl-3 col-lg-3 col-md-4 col-sm-6 my-3" style="float:left">
-                                <div class="card my-card" style="width:100%;">
-                                    <a href="~/ChiTietSanPham1">
-                                        <img class="card-img-top" src="~/public/images/product/product_pic_2.jpg" alt="Card image cap">
-                                    </a>
-                                    <div class="card-body my-card-body">
-                                        <a href="~/ChiTietSanPham1" class="card-title my-card-title">JORDAN 1 LOW GREY CAMO</a>
-                                        <p class="card-text">Giá: 4.500.000đ</p>
-                                        <a href="#" class="btn btn-danger" style="float:right;">Mua</a>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="col-xl-3 col-lg-3 col-md-4 col-sm-6 my-3" style="float:left">
-                                <div class="card my-card" style="width:100%;">
-                                    <a href="~/ChiTietSanPham1">
-                                        <img class="card-img-top" src="~/public/images/product/product_pic_3.jpg" alt="Card image cap">
-                                    </a>
-                                    <div class="card-body my-card-body">
-                                        <a href="~/ChiTietSanPham1" class="card-title my-card-title">JORDAN 1 LOW GREY CAMO</a>
-                                        <p class="card-text">Giá: 4.500.000đ</p>
-                                        <a href="#" class="btn btn-danger" style="float:right;">Mua</a>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="col-xl-3 col-lg-3 col-md-4 col-sm-6 my-3" style="float:left">
-                                <div class="card my-card" style="width:100%;">
-                                    <a href="~/ChiTietSanPham1">
-                                        <img class="card-img-top" src="~/public/images/product/product_pic_4.jpg" alt="Card image cap">
-                                    </a>
-                                    <div class="card-body my-card-body">
-                                        <a href="~/ChiTietSanPham1" class="card-title my-card-title">JORDAN 1 LOW GREY CAMO</a>
-                                        <p class="card-text">Giá: 4.500.000đ</p>
-                                        <a href="#" class="btn btn-danger" style="float:right;">Mua</a>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="col-xl-3 col-lg-3 col-md-4 col-sm-6 my-3" style="float:left">
-                                <div class="card my-card" style="width:100%;">
-                                    <a href="~/ChiTietSanPham1">
-                                        <img class="card-img-top" src="~/public/images/product/product_pic_5.jpg" alt="Card image cap">
-                                    </a>
-                                    <div class="card-body my-card-body">
-                                        <a href="~/ChiTietSanPham1" class="card-title my-card-title">JORDAN 1 LOW GREY CAMO</a>
-                                        <p class="card-text">Giá: 4.500.000đ</p>
-                                        <a href="#" class="btn btn-danger" style="float:right;">Mua</a>
-                                    </div>
-                                </div>
-                            </div>
-
-                        </div>
-                        <!--/.First slide-->
-                        <!--Second slide-->
-                        <div class="carousel-item">
-
-                            <div class="col-xl-3 col-lg-3 col-md-4 col-sm-6 my-3" style="float:left">
-                                <div class="card my-card" style="width:100%;">
-                                    <a href="~/ChiTietSanPham1">
-                                        <img class="card-img-top" src="~/public/images/product/product_pic_1.jpg" alt="Card image cap">
-                                    </a>
-                                    <div class="card-body my-card-body">
-                                        <a href="~/ChiTietSanPham1" class="card-title my-card-title">JORDAN 1 LOW GREY CAMO</a>
-                                        <p class="card-text">Giá: 4.500.000đ</p>
-                                        <a href="#" class="btn btn-danger" style="float:right;">Mua</a>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="col-xl-3 col-lg-3 col-md-4 col-sm-6 my-3" style="float:left">
-                                <div class="card my-card" style="width:100%;">
-                                    <a href="~/ChiTietSanPham1">
-                                        <img class="card-img-top" src="~/public/images/product/product_pic_6.jpg" alt="Card image cap">
-                                    </a>
-                                    <div class="card-body my-card-body">
-                                        <a href="~/ChiTietSanPham1" class="card-title my-card-title">JORDAN 1 LOW GREY CAMO</a>
-                                        <p class="card-text">Giá: 4.500.000đ</p>
-                                        <a href="#" class="btn btn-danger" style="float:right;">Mua</a>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="col-xl-3 col-lg-3 col-md-4 col-sm-6 my-3" style="float:left">
-                                <div class="card my-card" style="width:100%;">
-                                    <a href="~/ChiTietSanPham1">
-                                        <img class="card-img-top" src="~/public/images/product/product_pic_7.jpg" alt="Card image cap">
-                                    </a>
-                                    <div class="card-body my-card-body">
-                                        <a href="~/ChiTietSanPham1" class="card-title my-card-title">JORDAN 1 LOW GREY CAMO</a>
-                                        <p class="card-text">Giá: 4.500.000đ</p>
-                                        <a href="#" class="btn btn-danger" style="float:right;">Mua</a>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="col-xl-3 col-lg-3 col-md-4 col-sm-6 my-3" style="float:left">
-                                <div class="card my-card" style="width:100%;">
-                                    <a href="~/ChiTietSanPham1">
-                                        <img class="card-img-top" src="~/public/images/product/product_pic_8.jpg" alt="Card image cap">
-                                    </a>
-                                    <div class="card-body my-card-body">
-                                        <a href="~/ChiTietSanPham1" class="card-title my-card-title">JORDAN 1 LOW GREY CAMO</a>
-                                        <p class="card-text">Giá: 4.500.000đ</p>
-                                        <a href="#" class="btn btn-danger" style="float:right;">Mua</a>
-                                    </div>
-                                </div>
-                            </div>
-
-                        </div>
-                        <!--/.Second slide-->
-
-
-
-                    </div>
-                    <!--/.Slides-->
-
-                </div>
-                <!--/.Carousel Wrapper-->
-                *@
-            </div>
-        </div>
+ 
+    </div>
+</div>
 <!-- Load Facebook SDK for JavaScript -->
 <div id="fb-root"></div>
 <script>

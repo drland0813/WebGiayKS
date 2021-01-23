@@ -19,7 +19,7 @@ namespace MyClass.DAO
         public Account getRow(string str)
         {
 
-            Account row = db.Accounts.Where(p => p.index_quyen == 0 && p.email == str).FirstOrDefault();
+            Account row = db.Accounts.Where(p => p.index_quyen != 0 && p.email == str).FirstOrDefault();
             return row;
         }
 
