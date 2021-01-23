@@ -9,6 +9,10 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    @*scroll animation*@
+    <link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <link href="~/public/css/LayoutSite.css" rel="stylesheet" />
     <link href="~/public/css/LayouSiteReponsive.css" rel="stylesheet" />
     @RenderSection("header", required: false)
@@ -116,7 +120,7 @@
         @Html.Action("MainMenu", "Module")
     </section>
     <section id="maincontent">@RenderBody()</section>
-    <section id="support" class="bg-support py-4 mt-4">
+    <section id="support" data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine" class="bg-support py-4 mt-4">
         <div class="container">
             <div class="row">
                 <div class="col-lg-4 col-xl-4 col-md-4 col-sm-6 my-support">
@@ -140,7 +144,7 @@
             </div>
         </div>
     </section>
-    <section id="footer" class="footer bg-primary-color py-5">
+    <section data-aos="fade-up" id="footer" class="footer bg-primary-color py-5">
         <div class="container text-white">
             <div class="row">
                 <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12 text-center">
@@ -209,6 +213,9 @@
         $(window).on("load", function () {
             $(".loader-wrapper").fadeOut("slow");
         });
+    </script>
+    <script>
+        AOS.init();
     </script>
     @RenderSection("footer", required: false)
 </body>

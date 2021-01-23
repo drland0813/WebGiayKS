@@ -21,13 +21,13 @@
     <div class="container">
         <div class="row">
             <div class="col-12">
-                <h3 data-mask="PRODUCT">- SẢN PHẨM MỚI</h3>
+                <h3 data-aos="fade-up" data-aos-duration="800" data-mask="PRODUCT">- SẢN PHẨM MỚI</h3>
             </div>
             @foreach (var item in Model)
             {
                 if (item.trangThai == 1)
                 {
-                    <div class="col-xl-3 col-lg-3 col-md-4 col-sm-6 my-3">
+                    <div data-aos="fade-up" data-aos-duration="300" class="col-xl-3 col-lg-3 col-md-4 col-sm-6 my-3">
                         <div class="card my-card" style="width:100%;">
                             <a href="~/@item.slug">
                                 <img class="card-img-top" src="~/public/images/product/@item.image" alt="Card image cap">
@@ -71,10 +71,10 @@
 
             @*pagination*@
             <div class="col-12 mt-4">
-                <h3 data-mask="HOT">- SẢN PHẨM HOT</h3>
+                <h3 data-aos="fade-left" data-aos-duration="800" data-mask="HOT">- SẢN PHẨM HOT</h3>
             </div>
             <!--Carousel Wrapper-->
-            <div id="multi-item-example" class="carousel slide carousel-multi-item container" data-ride="carousel">
+            <div data-aos="fade-right" data-aos-duration="800" id="multi-item-example" class="carousel slide carousel-multi-item container" data-ride="carousel">
 
                 <!--Controls-->
                 <div class="controls-top" style="float:right">
@@ -145,10 +145,10 @@
             <!--/.Carousel Wrapper-->
             <!--San pham Khuyen mai-->
             <div class="col-12 mt-5">
-                <h3 data-mask="DISCOUNT">- SẢN PHẨM KHUYẾN MÃI</h3>
+                <h3  data-aos="fade-right" data-aos-duration="800" data-mask="DISCOUNT">- SẢN PHẨM KHUYẾN MÃI</h3>
             </div>
             <!--Carousel Wrapper-->
-            <div id="multi-item-example2" class="carousel slide carousel-multi-item container" data-ride="carousel">
+            <div  data-aos="fade-left" data-aos-duration="800" id="multi-item-example2" class="carousel slide carousel-multi-item container" data-ride="carousel">
 
                 <!--Controls-->
                 <div class="controls-top" style="float:right">
