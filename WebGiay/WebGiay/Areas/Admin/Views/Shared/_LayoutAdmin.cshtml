@@ -27,17 +27,14 @@
 <body class="nav-md">
     <div class="container body">
         <div class="main_container">
-            <div class="col-md-3 left_col">
-                <div class="left_col scroll-view">
-                    <div class="navbar nav_title" style="border: 0;">
-                        <a href="https://localhost:44375/" class="site_title"> <span>THỨ 6 NGÀY 13</span></a>
-                    </div>
-                    <div class="clearfix"></div>
-                    <!-- menu profile quick info -->
-                    <div class="profile clearfix">
-                        <div class="profile_pic" href="https://localhost:44375/">           
-                            <img  src="~/public/4Admin/Admin/images/logo.PNG" alt="..." >
+          
+
+                <div class="col-md-3 left_col">
+                    <div class="left_col scroll-view">
+                        <div class="navbar nav_title" style="border: 0;">
+                            <a href="https://localhost:44375/" class="site_title text-center"> <span>THỨ 6 NGÀY 13</span></a>
                         </div>
+<<<<<<< HEAD
                     </div>
                     <!-- /menu profile quick info -->
                     <br />
@@ -70,18 +67,61 @@
                                     </ul>
                                 </li>
                             </ul>
+=======
+                        <div class="clearfix"></div>
+                        <!-- menu profile quick info -->
+                        <div class="profile clearfix">
+                            <div class="profile_pic" href="https://localhost:44375/">
+                                <img src="~/public/images/logo2.png" style="width:212px; height:90px; margin-left:10px;" alt="...">
+                            </div>
+                        </div>
+                        <!-- /menu profile quick info -->
+                        <br />
+                        <!-- sidebar menu -->
+                        <div id="sidebar-menu" class="main_menu_side hidden-print main_menu">
+                            <div class="menu_section">
+                                <h3>CHỨC NĂNG</h3>
+                                <ul class="nav side-menu">
+                                    <li>
+                                        <a><i class="fa fa-edit"></i> QUẢN LÝ <span class="fa fa-chevron-down"></span></a>
+                                        <ul class="nav child_menu">
+                                            <li><a href="@Url.Action("Index","Giay")">Quản Lý Sản Phẩm</a></li>
+                                            <li><a href="@Url.Action("Index","LoaiGiay")">Quản Lý Loại</a></li>
+                                            <li><a href="@Url.Action("Index","KhuyenMai")">Quản lý Khuyến Mãi</a></li>
+                                            <li><a href="@Url.Action("Index","DonHang")">Quản lý Đơn Hàng</a></li>
+                                            <li><a href="@Url.Action("Index","BaiViet")">Quản lý Bài Viết</a></li>
+                                            <li><a href="@Url.Action("Index","Slider")">Quản lý Slider</a></li>
+                                            <li><a href="@Url.Action("Index","Link")">Quản lý Links</a></li>
+                                            <li><a href="@Url.Action("Index","LienHe")">Quản lý Liên Hệ</a></li>
+                                            <li><a href="@Url.Action("Index","LoaiNVs")">Quản lý Loại Nhân Viên</a></li>
+                                            <li><a href="@Url.Action("Index","User_NV")">Quản lý Tài Khoản Nhân Viên</a></li>
+                                            <li><a href="@Url.Action("Index","User_KH")">Quản lý Tài Khoản Khách Hàng</a></li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        @*<a><i class="fa fa-user"></i> Tài Khoản<span class="fa fa-chevron-down"></span></a>
+                                <ul class="nav child_menu">
+                                    <li><a href="tables.html">Thay đổi thông tin tài khoản</a></li>
+                                    <li><a href="tables_dynamic.html">Thoát</a></li>
+                                </ul>*@
+                                    </li>
+                                </ul>
+                            </div>
+>>>>>>> 38d0798a5899388da60f2f6aa22bfc5f2aa8a766
                         </div>
                     </div>
                 </div>
-            </div>
 
-            <div class="right_col" role="main">
-                <div class="">
-                    <div class="row" style="display: inline-block;">
-                        @RenderBody()
+                <div class="col-md-9 right_col" role="main">
+                    <div class="">
+                        <div class="row" style="display: inline-block;">
+                            @RenderBody()
+                        </div>
                     </div>
                 </div>
-            </div>
+          
+
+         
             <footer>
                 <div class="pull-right">
                     Thiết kế bởi Nhóm Thứ 6 Ngày 13
