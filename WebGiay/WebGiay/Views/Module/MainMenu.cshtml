@@ -1,12 +1,12 @@
 ﻿@model IEnumerable<MyClass.Model.LoaiGiay>
 
 
-<div class="category bg-danger hide-on-mobile-tablet" style="height:32px;">
+<div class="category bg-danger" style="height:32px;">
     <div class="container">
         <div class="row py-1">
             @foreach(var item in Model)
             {
-                <div class="col-lg-2 col-md-2 col-sm-2 text-center">
+                <div class="col-lg-2 col-md-2 col-xl-2 col-sm-12 text-center">
                     <a href="~/@item.slug">
                         @item.tenLoai
                     </a>

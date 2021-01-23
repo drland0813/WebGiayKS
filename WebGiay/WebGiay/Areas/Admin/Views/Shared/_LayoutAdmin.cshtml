@@ -8,64 +8,120 @@
     <script src="~/Scripts/jquery-3.0.0.min.js"></script>
     <script src="~/Scripts/popper.js"></script>
     <script src="~/Scripts/bootstrap.js"></script>
+
+    <!-- Bootstrap -->
+    <link href="~/public/4Admin/vendors/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link href="~/public/4Admin/vendors/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+    <!-- NProgress -->
+    <link href="~/public/4Admin/vendors/nprogress/nprogress.css" rel="stylesheet">
+    <!-- bootstrap-daterangepicker -->
+    <link href="~/public/4Admin/vendors/bootstrap-daterangepicker/daterangepicker.css" rel="stylesheet">
+
+    <!-- Custom Theme Style -->
+    <link href="~/public/4Admin/build/css/custom.min.css" rel="stylesheet">
+
+
     @RenderSection("header", required: false)
 </head>
-<body>
-   
-    <section class="header">
-            <div class="container-fluid">
-                <nav class="navbar navbar-expand-lg navbar-light bg-light">
-                    <div class="container-fluid">
-                        <a class="navbar-brand" href="#">Navbar</a>
-                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                            <span class="navbar-toggler-icon"></span>
-                        </button>
-                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                                <li class="nav-item">
-                                    <a class="nav-link active" aria-current="page" href="#">Home</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="#">Link</a>
-                                </li>
-                                <li class="nav-item dropdown">
-                                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                        Dropdown
-                                    </a>
-                                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                        <li><a class="dropdown-item" href="#">Action</a></li>
-                                        <li><a class="dropdown-item" href="#">Another action</a></li>
-                                        <li><hr class="dropdown-divider"></li>
-                                        <li><a class="dropdown-item" href="#">Something else here</a></li>
-                                    </ul>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-                                </li>
-                            </ul>
-                            <form class="d-flex">
-                                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                                <button class="btn btn-outline-success" type="submit">Search</button>
-                            </form>
+<body class="nav-md">
+    <div class="container body">
+        <div class="main_container">
+            <div class="col-md-3 left_col">
+                <div class="left_col scroll-view">
+                    <div class="navbar nav_title" style="border: 0;">
+                        <a href="https://localhost:44375/" class="site_title"> <span>THỨ 6 NGÀY 13</span></a>
+                    </div>
+                    <div class="clearfix"></div>
+                    <!-- menu profile quick info -->
+                    <div class="profile clearfix">
+                        <div class="profile_pic" href="https://localhost:44375/">           
+                            <img  src="~/public/4Admin/Admin/images/logo.PNG" alt="..." >
                         </div>
                     </div>
-                </nav>
+                    <!-- /menu profile quick info -->
+                    <br />
+                    <!-- sidebar menu -->
+                    <div id="sidebar-menu" class="main_menu_side hidden-print main_menu">
+                        <div class="menu_section">
+                            <h3>CHỨC NĂNG</h3>
+                            <ul class="nav side-menu">
+                                <li>
+                                    <a><i class="fa fa-edit"></i> QUẢN LÝ <span class="fa fa-chevron-down"></span></a>
+                                    <ul class="nav child_menu">
+                                        <li><a href="@Url.Action("Index","Giay")">Quản Lý Sản Phẩm</a></li>
+                                        <li><a href="@Url.Action("Index","LoaiGiay")">Quản Lý Loại</a></li>
+                                        <li><a href="@Url.Action("Index","KhuyenMai")">Quản lý Khuyến Mãi</a></li>
+                                        <li><a href="@Url.Action("Index","DonHang")">Quản lý Đơn Hàng</a></li>
+                                        <li><a href="@Url.Action("Index","BaiViet")">Quản lý Bài Viết</a></li>
+                                        <li><a href="@Url.Action("Index","Slider")">Quản lý Slider</a></li>
+                                        <li><a href="@Url.Action("Index","Link")">Quản lý Links</a></li>
+                                        <li><a href="@Url.Action("Index","LienHe_ql")">Quản lý Liên Hệ</a></li>
+                                        <li><a href="@Url.Action("Index","LoaiNVs")">Quản lý Loại Nhân Viên</a></li>
+                                        <li><a href="@Url.Action("Index","User_NV")">Quản lý Tài Khoản Nhân Viên</a></li>
+                                        <li><a href="@Url.Action("Index","User_KH")">Quản lý Tài Khoản Khách Hàng</a></li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a><i class="fa fa-user"></i> Tài Khoản<span class="fa fa-chevron-down"></span></a>
+                                    <ul class="nav child_menu">
+                                        <li><a href="tables.html">Thay đổi thông tin tài khoản</a></li>
+                                        <li><a href="tables_dynamic.html">Thoát</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
             </div>
-        </section>
-        <section class="maincontent">
-            <div class="container-fluid">
-                @RenderBody()
+
+            <div class="right_col" role="main">
+                <div class="">
+                    <div class="row" style="display: inline-block;">
+                        @RenderBody()
+                    </div>
+                </div>
             </div>
-        </section>
-        <section class="footer">
-            <div class="container-fluid">
+            <footer>
+                <div class="pull-right">
+                    Thiết kế bởi Nhóm Thứ 6 Ngày 13
+                </div>
+                <div class="clearfix"></div>
+            </footer>
+            <!-- /footer content -->
+        </div>
+    </div>
+    @*vendors/jquery/dist/jquery.min.js*@
+    <!-- jQuery -->
+    <script src="~/public/4Admin/vendors/jquery/dist/jquery.min.js"></script>
+    <!-- Bootstrap -->
+    <script src="~/public/4Admin/vendors/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- FastClick -->
+    <script src="~/public/4Admin/vendors/fastclick/lib/fastclick.js"></script>
+    <!-- NProgress -->
+    <script src="~/public/4Admin/vendors/nprogress/nprogress.js"></script>
+    <!-- Chart.js -->
+    <script src="~/public/4Admin/vendors/Chart.js/dist/Chart.min.js"></script>
+    <!-- jQuery Sparklines -->
+    <script src="~/public/4Admin/vendors/jquery-sparkline/dist/jquery.sparkline.min.js"></script>
+    <!-- Flot -->
+    <script src="~/public/4Admin/vendors/Flot/jquery.flot.js"></script>
+    <script src="~/public/4Admin/vendors/Flot/jquery.flot.pie.js"></script>
+    <script src="~/public/4Admin/vendors/Flot/jquery.flot.time.js"></script>
+    <script src="~/public/4Admin/vendors/Flot/jquery.flot.stack.js"></script>
+    <script src="~/public/4Admin/vendors/Flot/jquery.flot.resize.js"></script>
+    <!-- Flot plugins -->
+    <script src="~/public/4Admin/vendors/flot.orderbars/js/jquery.flot.orderBars.js"></script>
+    <script src="~/public/4Admin/vendors/flot-spline/js/jquery.flot.spline.min.js"></script>
+    <script src="~/public/4Admin/vendors/flot.curvedlines/curvedLines.js"></script>
+    <!-- DateJS -->
+    <script src="~/public/4Admin/vendors/DateJS/build/date.js"></script>
+    <!-- bootstrap-daterangepicker -->
+    <script src="~/public/4Admin/vendors/moment/min/moment.min.js"></script>
+    <script src="~/public/4Admin/vendors/bootstrap-daterangepicker/daterangepicker.js"></script>
 
-            </div>
-        </section>
-
-
-
-
+    <!-- Custom Theme Scripts -->
+    <script src="~/public/4Admin/build/js/custom.min.js"></script>
     @RenderSection("footer", required: false)
 </body>
 </html>

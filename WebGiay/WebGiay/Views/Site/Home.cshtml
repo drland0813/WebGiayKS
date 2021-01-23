@@ -8,13 +8,11 @@
 }
 
 @{
-
     IEnumerable<Giay> Model = ViewData["ListSP"] as IEnumerable<Giay>;
     IEnumerable<Giay> ListSPHot = ViewData["ListSPHot"] as IEnumerable<Giay>;
     IEnumerable<Giay> giayKM = ViewData["GiayKM"] as IEnumerable<Giay>;
 }
-
-@Html.Action("SlideShow", "Module");
+@Html.Action("SlideShow", "Module")
 <div class="famous-say">
     <p>"A journey of a thousand miles begin with a fabulous pair of shoes"</p>
     <h3>-Hudson + Bleecker</h3>
@@ -224,7 +222,7 @@
             @Html.Action("HomePost", "Module")
         </div>
     </div>
- </div>
+</div>
 
 
 

@@ -9,3 +9,31 @@ D:\WebGiayKS\WebGiay\MyClass\obj\Debug\MyClass.csproj.CoreCompileInputs.cache
 D:\WebGiayKS\WebGiay\MyClass\obj\Debug\MyClass.csproj.CopyComplete
 D:\WebGiayKS\WebGiay\MyClass\obj\Debug\MyClass.dll
 D:\WebGiayKS\WebGiay\MyClass\obj\Debug\MyClass.pdb
+<<<<<<< HEAD
+D:\WebGiayKS\WebGiay\MyClass\obj\Debug\MyClass.csprojAssemblyReference.cache
+F:\WebGiayKS\WebGiay\MyClass\obj\Debug\MyClass.csprojAssemblyReference.cache
+=======
+D:\Documentss\CNPM\WEB\WebGiayKS\WebGiay\MyClass\bin\Debug\MyClass.dll.config
+D:\Documentss\CNPM\WEB\WebGiayKS\WebGiay\MyClass\bin\Debug\MyClass.dll
+D:\Documentss\CNPM\WEB\WebGiayKS\WebGiay\MyClass\bin\Debug\MyClass.pdb
+D:\Documentss\CNPM\WEB\WebGiayKS\WebGiay\MyClass\bin\Debug\EntityFramework.dll
+D:\Documentss\CNPM\WEB\WebGiayKS\WebGiay\MyClass\bin\Debug\EntityFramework.SqlServer.dll
+D:\Documentss\CNPM\WEB\WebGiayKS\WebGiay\MyClass\bin\Debug\EntityFramework.xml
+D:\Documentss\CNPM\WEB\WebGiayKS\WebGiay\MyClass\bin\Debug\EntityFramework.SqlServer.xml
+D:\Documentss\CNPM\WEB\WebGiayKS\WebGiay\MyClass\obj\Debug\MyClass.csprojAssemblyReference.cache
+D:\Documentss\CNPM\WEB\WebGiayKS\WebGiay\MyClass\obj\Debug\MyClass.csproj.CoreCompileInputs.cache
+D:\Documentss\CNPM\WEB\WebGiayKS\WebGiay\MyClass\obj\Debug\MyClass.csproj.CopyComplete
+D:\Documentss\CNPM\WEB\WebGiayKS\WebGiay\MyClass\obj\Debug\MyClass.dll
+D:\Documentss\CNPM\WEB\WebGiayKS\WebGiay\MyClass\obj\Debug\MyClass.pdb
+>>>>>>> e2e644ec772f0d33882b1fdc24378020516b2e93
+F:\WebGiayKS\WebGiay\MyClass\bin\Debug\MyClass.dll.config
+F:\WebGiayKS\WebGiay\MyClass\bin\Debug\MyClass.dll
+F:\WebGiayKS\WebGiay\MyClass\bin\Debug\MyClass.pdb
+F:\WebGiayKS\WebGiay\MyClass\bin\Debug\EntityFramework.dll
+F:\WebGiayKS\WebGiay\MyClass\bin\Debug\EntityFramework.SqlServer.dll
+F:\WebGiayKS\WebGiay\MyClass\bin\Debug\EntityFramework.xml
+F:\WebGiayKS\WebGiay\MyClass\bin\Debug\EntityFramework.SqlServer.xml
+F:\WebGiayKS\WebGiay\MyClass\obj\Debug\MyClass.csproj.CoreCompileInputs.cache
+F:\WebGiayKS\WebGiay\MyClass\obj\Debug\MyClass.csproj.CopyComplete
+F:\WebGiayKS\WebGiay\MyClass\obj\Debug\MyClass.dll
+F:\WebGiayKS\WebGiay\MyClass\obj\Debug\MyClass.pdb

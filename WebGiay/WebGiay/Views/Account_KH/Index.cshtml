@@ -1,0 +1,139 @@
+﻿@model IEnumerable<MyClass.Model.Account>
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_LayoutSite.cshtml";
+}
+
+<div class="card">
+    <div class="card-header">
+        <div class="row">
+            <div class="col-md-6">
+                <strong class="text-danger text-uppercase">THÔNG TIN TÀI KHOẢN</strong>
+            </div>
+            @*<div class="col-md-6 text-right">
+                <a href="Create" class="btn btn-success btn-sm"><i class="fas fa-plus"></i>Thêm</a>
+                <a href="Detrash" class="btn btn-danger btn-sm"><i class="fas fa-trash"></i>Thùng rác</a>
+            </div>*@
+        </div>
+    </div>
+    <div class="card-body">
+        <table class="table table-bordered table-hover table-striped">
+            <thead>
+                <tr>
+                    <th style="width:20px;" class="text-center">#</th>
+
+
+
+                    <th>
+                        @Html.DisplayNameFor(model => model.ChiTietQuyen.tenQuyen)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.User_NV.soCMND)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.fullName)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.ngayTao)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.gioiTinh)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.diaChi)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.sdt)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.email)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.passwords)
+                    </th>
+
+
+
+                    <th style="width:200px;" class="text-center">Chức năng</th>
+                </tr>
+            </thead>
+            <tbody>
+                
+                
+                @foreach (var item in Model)
+                    {
+                        string s = "";
+                        s = (@Session["userID"]).ToString();
+                        if (item.id_account.ToString()==s)
+                        {
+                <tr>
+                        <td>
+                            <input name="STT" type="checkbox" class="text-center" />
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.ChiTietQuyen.tenQuyen)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.User_NV.soCMND)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.fullName)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.ngayTao)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.gioiTinh)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.diaChi)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.sdt)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.email)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.passwords)
+                        </td>
+
+
+
+                        <td class="text-center">
+                            @* buttun trang thai(de day t dung copy neu can)
+                    @if (item.status == 1)
+                {
+                    <a class="btn btn-success btn-sm" href="@Url.Action("Status","User_NV",new { id = item.id_NV })"><i class="fas fa-toggle-on"></i></a>
+                }
+                else
+                {
+                    <a class="btn btn-danger btn-sm" href="@Url.Action("Status","User_NV",new { id = item.id_NV })"><i class="fas fa-toggle-off"></i></a>
+                }
+
+                public ActionResult Status(int? id)
+                {
+                if (id == null)
+                {
+                return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
+                }
+                Product product=db.Product.Find(id)
+                product.Status=(product.Status==1)?2:1;
+                if(product.Status==1)
+                db.Entry(product).State = EntityState.Modified;
+                db.SaveChanges();
+                return RedirectToAction("Index");
+                }*@
+                            <a class="btn btn-info btn-sm" href="@Url.Action("Edit", "Account_KH", new { id = item.id_account })"><i class="fas fa-edit"></i></a>
+                            <a class="btn btn-warning btn-sm" href="@Url.Action("Details", "Account_KH", new { id = item.id_account })"><i class="fas fa-eye"></i></a>
+                        </td>
+                </tr>
+                    }
+                }
+            </tbody>
+        </table>
+    </div>
+</div>
+
+
