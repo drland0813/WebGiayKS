@@ -10,12 +10,11 @@ namespace MyClass.Model
     public partial class ChiTietDH
     {
         [Key]
-        [Column(Order = 0)]
         public int STT { get; set; }
 
-        [Key]
-        [Column(Order = 1)]
-        [DatabaseGenerated(DatabaseGeneratedOption.None)]
+        //[Key]
+        //[Column(Order = 1)]
+        //[DatabaseGenerated(DatabaseGeneratedOption.None)]
         public int soDH { get; set; }
 
         public int maGiay { get; set; }

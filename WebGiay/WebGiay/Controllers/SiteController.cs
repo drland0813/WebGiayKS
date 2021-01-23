@@ -96,6 +96,8 @@ namespace WebGiay.Controllers
         {
             return View("Error404");
         }
+
+        [HttpGet]
         public ActionResult ProductDetail(String slug)
         {
             //khong hieu lam
@@ -103,6 +105,10 @@ namespace WebGiay.Controllers
             ProductDAO productDAO = new ProductDAO();
             //List<Giay> list = productDAO.getList(slug);
             Giay row = productDAO.getRow(slug);
+            if (row == null)
+            {
+                return RedirectToAction("Home", "Site");
+            }
             int catid = row.maLoai;
 
             List<LoaiGiay> listcat = categoryDAO.getList2(catid);
@@ -121,6 +127,30 @@ namespace WebGiay.Controllers
             ViewData["GiayLienQuan"] = listorder;
             return View("ProductDetail", row);
         }
+
+
+        [HttpPost]
+        public ActionResult ProductDetail(FormCollection colection)
+        {
+            int maGiay = int.Parse(colection.Get("maGiay"));
+            double size = double.Parse(colection.Get("size"));
+            int sl = int.Parse(colection.Get("number"));
+
+            ChiTietDH chiTietDH = new ChiTietDH()
+            {
+                maGiay = maGiay,
+                size = size,
+                soLuongMua = sl,
+            };
+
+            Session["chiTietDH"] = chiTietDH;
+
+            return RedirectToAction("Index", "GioHang");
+        }
+
+
+
+
         public ActionResult ProductCategory(String slug)
         {
             CategoryDAO categoryDAO = new CategoryDAO();

@@ -39,7 +39,8 @@ namespace WebGiay.Controllers
             LienHeDAO lienHeDAO = new LienHeDAO();
             lienHeDAO.AddLH(lh);
 
-            ViewBag.Message = "Chào mừng quý khách " + fullname + " đến với shop giày! Shop đã nhận được liên hệ của bạn.";
+            TempData["msg"] = "<script>alert('Shop đã nhận liên hệ của quý khách');</script>";
+
             return View();
         }
 

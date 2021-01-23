@@ -22,7 +22,7 @@ namespace WebGiay.Controllers
             string password = collection.Get("password");
             MyDBContext context = new MyDBContext();
             User_KH user = context.User_KH.
-                Where(m => m.Account.index_quyen == 1).
+                Where(m => m.Account.index_quyen == 0).
                 Where(m => m.Account.email == email && m.Account.passwords == password).
                 FirstOrDefault();
             if (user != null)

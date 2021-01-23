@@ -24,6 +24,15 @@ namespace WebGiay.Areas.Admin
                "Admin/logout",
                new { Controller = "Auth", action = "Logout", id = UrlParameter.Optional }
            );
+
+
+            context.MapRoute(
+               name: "AdminLienHe",
+               url: "Admin/lien-he",
+               defaults: new { controller = "LienHe", action = "Index", id = UrlParameter.Optional },
+               namespaces: new string[] { "WebGiay.Areas.Admin.Controllers" }
+           );
+
             context.MapRoute(
                 "Admin_default",
                 "Admin/{controller}/{action}/{id}",

@@ -113,9 +113,9 @@
                         <button type="submit" class="btn btn-danger my-btn">GỬI</button>
                     </div>
 
-                    @if (ViewBag.Message != null)
+                    @if (TempData["msg"] != null)
                     {
-                        @ViewBag.Message
+                        @Html.Raw(TempData["msg"]);
                     }
 
                 </div>

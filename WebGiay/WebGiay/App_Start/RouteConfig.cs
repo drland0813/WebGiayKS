@@ -15,14 +15,18 @@ namespace WebGiay
             routes.MapRoute(
               name: "GioiThieu",
               url: "gioi-thieu",
-              defaults: new { controller = "GioiThieu", action = "Index", id = UrlParameter.Optional }
+              defaults: new { controller = "GioiThieu", action = "Index", id = UrlParameter.Optional },
+              namespaces: new string[] { "WebGiay.Controllers" }
           );
 
             routes.MapRoute(
                 name: "LienHe",
                 url: "lien-he",
-                defaults: new { controller = "LienHe", action = "Index", id = UrlParameter.Optional }
+                defaults: new { controller = "LienHe", action = "Index", id = UrlParameter.Optional },
+                namespaces: new string[] { "WebGiay.Controllers" }
             );
+
+
 
             routes.MapRoute(
                        name: "XacDinhSize",
@@ -68,14 +72,16 @@ namespace WebGiay
             routes.MapRoute(
     name: "SiteSlug",
      url: "{slug}",
-     defaults: new { controller = "Site", action = "Index", id = UrlParameter.Optional }
+     defaults: new { controller = "Site", action = "Index", id = UrlParameter.Optional },
+     namespaces: new string[] { "WebGiay.Controllers" }
     );
 
 
             routes.MapRoute(
                 name: "Default",
                 url: "{controller}/{action}/{id}",
-                defaults: new { controller = "Site", action = "Index", id = UrlParameter.Optional }
+                defaults: new { controller = "Site", action = "Index", id = UrlParameter.Optional },
+                namespaces: new string[] { "WebGiay.Controllers" }
             );
         }
     }
