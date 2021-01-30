@@ -5,14 +5,13 @@
     Layout = "~/Areas/Admin/Views/Shared/_LayoutAdmin.cshtml";
 }
 
-<h2>Details</h2>
 
 <div>
-    <h4>Slider</h4>
+    <h4>THÔNG TIN SLIDER</h4>
     <hr />
     <dl class="dl-horizontal">
         <dt>
-            @Html.DisplayNameFor(model => model.viTri)
+            VỊ TRÍ
         </dt>
 
         <dd>
@@ -20,7 +19,7 @@
         </dd>
 
         <dt>
-            @Html.DisplayNameFor(model => model.trangThai)
+            TRẠNG THÁI
         </dt>
 
         <dd>
@@ -28,7 +27,7 @@
         </dd>
 
         <dt>
-            @Html.DisplayNameFor(model => model.image)
+            HÌNH ẢNH
         </dt>
 
         <dd>
@@ -36,8 +35,11 @@
         </dd>
 
     </dl>
+    <div class="form-group">
+        <div class="col-md-offset-2 col-md-10 my-3">
+            <p class="btn btn-primary"> @Html.ActionLink("Chỉnh Sửa", "Edit", new { id = Model.maSlide})</p>
+            <a href="@Url.Action("Index","Slider")" class="btn btn-success">Quay lại</a>
+        </div>
+    </div>
 </div>
-<p>
-    @Html.ActionLink("Edit", "Edit", new { id = Model.maSlide }) |
-    @Html.ActionLink("Back to List", "Index")
-</p>
+

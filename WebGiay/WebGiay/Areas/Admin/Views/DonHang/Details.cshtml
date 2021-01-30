@@ -12,7 +12,7 @@
     <hr />
     <dl class="dl-horizontal">
         <dt>
-            @Html.DisplayNameFor(model => model.User_KH.id_KH)
+            MÃ KHÁCH HÀNG
         </dt>
 
         <dd>
@@ -20,7 +20,7 @@
         </dd>
 
         <dt>
-            @Html.DisplayNameFor(model => model.ngayLap)
+            NGÀY LẬP
         </dt>
 
         <dd>
@@ -28,7 +28,7 @@
         </dd>
 
         <dt>
-            @Html.DisplayNameFor(model => model.ngayGiaoHang)
+            NGÀY GIAO HÀNG
         </dt>
 
         <dd>
@@ -36,7 +36,7 @@
         </dd>
 
         <dt>
-            @Html.DisplayNameFor(model => model.tongTien)
+            TỔNG TIỀN
         </dt>
 
         <dd>
@@ -44,7 +44,7 @@
         </dd>
 
         <dt>
-            @Html.DisplayNameFor(model => model.tinhTrang)
+            TÌNH TRẠNG
         </dt>
 
         <dd>
@@ -52,7 +52,7 @@
         </dd>
 
         <dt>
-            @Html.DisplayNameFor(model => model.tenNVGiaoHang)
+            TÊN NHÂN VIÊN GIAO HÀNG
         </dt>
 
         <dd>
@@ -60,8 +60,10 @@
         </dd>
 
     </dl>
+    <div class="form-group">
+        <div class="col-md-offset-2 col-md-10 my-3">
+            <p class="btn btn-primary"> @Html.ActionLink("Chỉnh Sửa", "Edit", new { id = Model.soDH })</p>
+            <a href="@Url.Action("Index","DonHang")" class="btn btn-success">Quay lại</a>
+        </div>
+    </div>
 </div>
-<p>
-    @Html.ActionLink("Edit", "Edit", new { id = Model.soDH }) |
-    @Html.ActionLink("Back to List", "Index")
-</p>

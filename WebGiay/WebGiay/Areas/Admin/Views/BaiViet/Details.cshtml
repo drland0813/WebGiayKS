@@ -5,14 +5,14 @@
     Layout = "~/Areas/Admin/Views/Shared/_LayoutAdmin.cshtml";
 }
 
-<h2>Details</h2>
+
 
 <div>
-    <h4>BaiViet</h4>
+    <h4>THÔNG TIN BÀI VIẾT</h4>
     <hr />
     <dl class="dl-horizontal">
         <dt>
-            @Html.DisplayNameFor(model => model.ChuDeBV.tenCD)
+            TÊN CHỦ ĐỀ
         </dt>
 
         <dd>
@@ -20,7 +20,7 @@
         </dd>
 
         <dt>
-            @Html.DisplayNameFor(model => model.User_NV.soCMND)
+            MÃ NHÂN VIÊN
         </dt>
 
         <dd>
@@ -28,7 +28,7 @@
         </dd>
 
         <dt>
-            @Html.DisplayNameFor(model => model.slug)
+            SLUG
         </dt>
 
         <dd>
@@ -36,7 +36,7 @@
         </dd>
 
         <dt>
-            @Html.DisplayNameFor(model => model.noiDung)
+            NỘI DUNG
         </dt>
 
         <dd>
@@ -44,7 +44,7 @@
         </dd>
 
         <dt>
-            @Html.DisplayNameFor(model => model.trangThai)
+            TRẠNG THÁI
         </dt>
 
         <dd>
@@ -52,7 +52,7 @@
         </dd>
 
         <dt>
-            @Html.DisplayNameFor(model => model.ngayTao)
+            NGÀY TẠO
         </dt>
 
         <dd>
@@ -60,7 +60,7 @@
         </dd>
 
         <dt>
-            @Html.DisplayNameFor(model => model.ngayDang)
+            NGÀY ĐĂNG
         </dt>
 
         <dd>
@@ -68,7 +68,7 @@
         </dd>
 
         <dt>
-            @Html.DisplayNameFor(model => model.image)
+            HÌNH ẢNH
         </dt>
 
         <dd>
@@ -76,7 +76,7 @@
         </dd>
 
         <dt>
-            @Html.DisplayNameFor(model => model.tenCD)
+            TÊN CHỦ ĐỀ
         </dt>
 
         <dd>
@@ -84,8 +84,11 @@
         </dd>
 
     </dl>
+    <div class="form-group">
+        <div class="col-md-offset-2 col-md-10 my-3">
+            <p class="btn btn-primary"> @Html.ActionLink("Chỉnh Sửa", "Edit", new { id = Model.maBV })</p>
+            <a href="@Url.Action("Index","BaiViet")" class="btn btn-success">Quay lại</a>
+        </div>
+    </div>
 </div>
-<p>
-    @Html.ActionLink("Edit", "Edit", new { id = Model.maBV }) |
-    @Html.ActionLink("Back to List", "Index")
-</p>
+

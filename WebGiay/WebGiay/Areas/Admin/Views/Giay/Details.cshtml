@@ -5,30 +5,13 @@
     Layout = "~/Areas/Admin/Views/Shared/_LayoutAdmin.cshtml";
 }
 
-<h2>Details</h2>
 
 <div>
-    <h4>Giay</h4>
+    <h4>Thông tin chi tiết</h4>
     <hr />
     <dl class="dl-horizontal">
         <dt>
-            @Html.DisplayNameFor(model => model.LoaiGiay.tenLoai)
-        </dt>
-
-        <dd>
-            @Html.DisplayFor(model => model.LoaiGiay.tenLoai)
-        </dd>
-
-        <dt>
-            @Html.DisplayNameFor(model => model.trangThai)
-        </dt>
-
-        <dd>
-            @Html.DisplayFor(model => model.trangThai)
-        </dd>
-
-        <dt>
-            @Html.DisplayNameFor(model => model.tenGiay)
+            Tên Giày
         </dt>
 
         <dd>
@@ -36,7 +19,23 @@
         </dd>
 
         <dt>
-            @Html.DisplayNameFor(model => model.slug)
+            Loại Giày
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.LoaiGiay.tenLoai)
+        </dd>
+
+        <dt>
+            Trạng Thái
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.trangThai)
+        </dd>
+
+        <dt>
+            Slug
         </dt>
 
         <dd>
@@ -44,7 +43,7 @@
         </dd>
 
         <dt>
-            @Html.DisplayNameFor(model => model.giaBan)
+            Giá Bán
         </dt>
 
         <dd>
@@ -52,7 +51,7 @@
         </dd>
 
         <dt>
-            @Html.DisplayNameFor(model => model.giaNhap)
+            Giá Nhập
         </dt>
 
         <dd>
@@ -60,7 +59,7 @@
         </dd>
 
         <dt>
-            @Html.DisplayNameFor(model => model.ngayTao)
+            Ngày Tạo
         </dt>
 
         <dd>
@@ -68,7 +67,7 @@
         </dd>
 
         <dt>
-            @Html.DisplayNameFor(model => model.image)
+            Hình ảnh
         </dt>
 
         <dd>
@@ -76,7 +75,7 @@
         </dd>
 
         <dt>
-            @Html.DisplayNameFor(model => model.chiTiet)
+            Chi Tiết
         </dt>
 
         <dd>
@@ -84,8 +83,14 @@
         </dd>
 
     </dl>
+    <div class="form-group">
+        <div class="col-md-offset-2 col-md-10 my-3">
+            <p class="btn btn-primary"> @Html.ActionLink("Chỉnh Sửa", "Edit", new { id = Model.maGiay })</p>
+            <a href="@Url.Action("Index","Giay")" class="btn btn-success">Quay lại</a>
+        </div>
+    </div>
 </div>
-<p>
-    @Html.ActionLink("Edit", "Edit", new { id = Model.maGiay }) |
-    @Html.ActionLink("Back to List", "Index")
-</p>
+
+@*<p>
+    @Html.ActionLink("Chỉnh Sửa", "Edit", new { id = Model.maGiay }) |
+</p>*@

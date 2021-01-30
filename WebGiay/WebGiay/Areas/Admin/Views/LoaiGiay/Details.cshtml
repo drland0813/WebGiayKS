@@ -5,14 +5,14 @@
     Layout = "~/Areas/Admin/Views/Shared/_LayoutAdmin.cshtml";
 }
 
-<h2>Details</h2>
+
 
 <div>
-    <h4>LoaiGiay</h4>
+    <h4>CHI TIẾT LOẠI GIÀY</h4>
     <hr />
     <dl class="dl-horizontal">
         <dt>
-            @Html.DisplayNameFor(model => model.tenLoai)
+            TÊN LOẠI GIÀY
         </dt>
 
         <dd>
@@ -20,7 +20,7 @@
         </dd>
 
         <dt>
-            @Html.DisplayNameFor(model => model.xuatXu)
+            XUẤT XỨ
         </dt>
 
         <dd>
@@ -28,7 +28,7 @@
         </dd>
 
         <dt>
-            @Html.DisplayNameFor(model => model.slug)
+            SLUG
         </dt>
 
         <dd>
@@ -36,8 +36,10 @@
         </dd>
 
     </dl>
+    <div class="form-group">
+        <div class="col-md-offset-2 col-md-10 my-3">
+            <p class="btn btn-primary"> @Html.ActionLink("Chỉnh Sửa", "Edit", new { id = Model.maLoai })</p>
+            <a href="@Url.Action("Index","LoaiGiay")" class="btn btn-success">Quay lại</a>
+        </div>
+    </div>
 </div>
-<p>
-    @Html.ActionLink("Edit", "Edit", new { id = Model.maLoai }) |
-    @Html.ActionLink("Back to List", "Index")
-</p>

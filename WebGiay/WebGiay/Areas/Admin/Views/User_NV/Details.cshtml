@@ -5,14 +5,13 @@
     Layout = "~/Areas/Admin/Views/Shared/_LayoutAdmin.cshtml";
 }
 
-<h2>Details</h2>
 
 <div>
-    <h4>User_NV</h4>
+    <h4>THÔNG TIN NHÂN VIÊN</h4>
     <hr />
     <dl class="dl-horizontal">
         <dt>
-            @Html.DisplayNameFor(model => model.Account.fullName)
+            HỌ TÊN
         </dt>
 
         <dd>
@@ -20,7 +19,7 @@
         </dd>
 
         <dt>
-            @Html.DisplayNameFor(model => model.LoaiNV.tenLoai)
+            LOẠI NHÂN VIÊN
         </dt>
 
         <dd>
@@ -28,7 +27,7 @@
         </dd>
 
         <dt>
-            @Html.DisplayNameFor(model => model.ngayBDLam)
+            NGÀY BẮT ĐẦU LÀM
         </dt>
 
         <dd>
@@ -36,7 +35,7 @@
         </dd>
 
         <dt>
-            @Html.DisplayNameFor(model => model.heSoLuong)
+            HỆ SỐ LƯƠNG
         </dt>
 
         <dd>
@@ -44,7 +43,7 @@
         </dd>
 
         <dt>
-            @Html.DisplayNameFor(model => model.ngaySinh)
+            NGÀY SINH
         </dt>
 
         <dd>
@@ -52,7 +51,7 @@
         </dd>
 
         <dt>
-            @Html.DisplayNameFor(model => model.soCMND)
+            SỐ CMND
         </dt>
 
         <dd>
@@ -60,8 +59,11 @@
         </dd>
 
     </dl>
+    <div class="form-group">
+        <div class="col-md-offset-2 col-md-10 my-3">
+            <p class="btn btn-primary"> @Html.ActionLink("Chỉnh Sửa", "Edit", new { id = Model.id_NV })</p>
+            <a href="@Url.Action("Index","User_NV")" class="btn btn-success">Quay lại</a>
+        </div>
+    </div>
 </div>
-<p>
-    @Html.ActionLink("Edit", "Edit", new { id = Model.id_NV }) |
-    @Html.ActionLink("Back to List", "Index")
-</p>
+

@@ -5,35 +5,34 @@
     Layout = "~/Areas/Admin/Views/Shared/_LayoutAdmin.cshtml";
 }
 
-<h2>Create</h2>
 
 @using (Html.BeginForm()) 
 {
     @Html.AntiForgeryToken()
     
     <div class="form-horizontal">
-        <h4>Slider</h4>
+        <h4>THÊM SLIDE</h4>
         <hr />
         @Html.ValidationSummary(true, "", new { @class = "text-danger" })
         <div class="form-group">
-            @Html.LabelFor(model => model.viTri, htmlAttributes: new { @class = "control-label col-md-2" })
             <div class="col-md-10">
+                VỊ TRÍ
                 @Html.EditorFor(model => model.viTri, new { htmlAttributes = new { @class = "form-control" } })
                 @Html.ValidationMessageFor(model => model.viTri, "", new { @class = "text-danger" })
             </div>
         </div>
 
         <div class="form-group">
-            @Html.LabelFor(model => model.trangThai, htmlAttributes: new { @class = "control-label col-md-2" })
             <div class="col-md-10">
+                TRẠNG THÁI
                 @Html.EditorFor(model => model.trangThai, new { htmlAttributes = new { @class = "form-control" } })
                 @Html.ValidationMessageFor(model => model.trangThai, "", new { @class = "text-danger" })
             </div>
         </div>
 
         <div class="form-group">
-            @Html.LabelFor(model => model.image, htmlAttributes: new { @class = "control-label col-md-2" })
             <div class="col-md-10">
+                HÌNH ẢNH
                 @Html.EditorFor(model => model.image, new { htmlAttributes = new { @class = "form-control" } })
                 @Html.ValidationMessageFor(model => model.image, "", new { @class = "text-danger" })
             </div>
@@ -41,12 +40,11 @@
 
         <div class="form-group">
             <div class="col-md-offset-2 col-md-10 my-3">
-                <input type="submit" value="Create" class="btn btn-primary" />
+                <input type="submit" value="Thêm" class="btn btn-primary" />
+                <a href="@Url.Action("Index","Slider")" class="btn btn-success">Quay lại</a>
+
             </div>
         </div>
     </div>
 }
 
-<div>
-    @Html.ActionLink("Back to List", "Index")
-</div>
